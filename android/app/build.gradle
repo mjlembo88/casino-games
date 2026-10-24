@@ -1,0 +1,28 @@
+plugins { id 'com.android.application' }
+// Release signing reads a keystore OUTSIDE the repo. Never commit keys.
+def ksFile = file(System.getenv('CASINO_KEYSTORE') ?: '/home/box/android/keys/casino-release.jks')
+def ksProps = new Properties()
+def ksPropsFile = file('/home/box/android/keys/casino-release.properties')
+if (ksPropsFile.exists()) ksPropsFile.withInputStream { ksProps.load(it) }
+android {
+    namespace 'com.marcus.blackjack'
+    compileSdk 34
+    defaultConfig {
+        applicationId 'com.marcus.blackjack'
+        minSdk 26          // Android 8.0+
+        targetSdk 34
+        versionCode 1
+        versionName '0.1.0'
+    }
+    signingConfigs {
+        release {
+            if (ksFile.exists() && ksProps['storePassword']) {
+                storeFile ksFile; storePassword ksProps['storePassword']; keyAlias ksProps['keyAlias']; keyPassword ksProps['keyPassword']
+            }
+        }
+    }
+    buildTypes {
+        release { minifyEnabled false; signingConfig ksFile.exists() && ksProps['storePassword'] ? signingConfigs.release : null }
+    }
+    compileOptions { sourceCompatibility JavaVersion.VERSION_17; targetCompatibility JavaVersion.VERSION_17 }
+}

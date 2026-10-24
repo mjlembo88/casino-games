@@ -1,0 +1,8 @@
+<resources>
+    <style name="Fullscreen" parent="android:Theme.Material.NoActionBar.Fullscreen">
+        <item name="android:windowBackground">@color/felt</item>
+        <item name="android:statusBarColor">@color/felt</item>
+        <item name="android:navigationBarColor">@color/felt</item>
+    </style>
+    <color name="felt">#0B3D23</color>
+</resources>

@@ -1,0 +1,389 @@
+{
+ "model": "hexgrad/Kokoro-82M (v1.0, ONNX via kokoro-onnx)",
+ "license": "Apache-2.0",
+ "voice": "am_michael",
+ "format": "mp3",
+ "lines": [
+  {
+   "key": "place_bets",
+   "text": "Place your bets.",
+   "file": "place_bets.mp3",
+   "duration_s": 1.17
+  },
+  {
+   "key": "no_more_bets",
+   "text": "No more bets.",
+   "file": "no_more_bets.mp3",
+   "duration_s": 1.15
+  },
+  {
+   "key": "good_luck",
+   "text": "Good luck, everyone.",
+   "file": "good_luck.mp3",
+   "duration_s": 1.34
+  },
+  {
+   "key": "blackjack",
+   "text": "Blackjack!",
+   "file": "blackjack.mp3",
+   "duration_s": 0.98
+  },
+  {
+   "key": "player_blackjack",
+   "text": "Blackjack! Pays three to two.",
+   "file": "player_blackjack.mp3",
+   "duration_s": 1.79
+  },
+  {
+   "key": "blackjack_6to5",
+   "text": "Blackjack. Pays six to five.",
+   "file": "blackjack_6to5.mp3",
+   "duration_s": 2.01
+  },
+  {
+   "key": "insurance",
+   "text": "Insurance?",
+   "file": "insurance.mp3",
+   "duration_s": 1.05
+  },
+  {
+   "key": "insurance_open",
+   "text": "Insurance is open. Insurance, anyone?",
+   "file": "insurance_open.mp3",
+   "duration_s": 3.05
+  },
+  {
+   "key": "even_money",
+   "text": "Even money?",
+   "file": "even_money.mp3",
+   "duration_s": 1.07
+  },
+  {
+   "key": "insurance_closed",
+   "text": "Insurance is closed.",
+   "file": "insurance_closed.mp3",
+   "duration_s": 1.64
+  },
+  {
+   "key": "dealer_peek",
+   "text": "Dealer checks for blackjack.",
+   "file": "dealer_peek.mp3",
+   "duration_s": 1.83
+  },
+  {
+   "key": "no_dealer_bj",
+   "text": "Nobody home. Play on.",
+   "file": "no_dealer_bj.mp3",
+   "duration_s": 1.58
+  },
+  {
+   "key": "dealer_bj",
+   "text": "Dealer has blackjack.",
+   "file": "dealer_bj.mp3",
+   "duration_s": 1.51
+  },
+  {
+   "key": "dealer_busts",
+   "text": "Dealer busts!",
+   "file": "dealer_busts.mp3",
+   "duration_s": 1.07
+  },
+  {
+   "key": "bust",
+   "text": "Too many. Bust.",
+   "file": "bust.mp3",
+   "duration_s": 1.19
+  },
+  {
+   "key": "push",
+   "text": "Push.",
+   "file": "push.mp3",
+   "duration_s": 0.64
+  },
+  {
+   "key": "winner",
+   "text": "Winner!",
+   "file": "winner.mp3",
+   "duration_s": 0.75
+  },
+  {
+   "key": "you_win",
+   "text": "You win.",
+   "file": "you_win.mp3",
+   "duration_s": 0.92
+  },
+  {
+   "key": "dealer_wins",
+   "text": "Dealer wins.",
+   "file": "dealer_wins.mp3",
+   "duration_s": 1.15
+  },
+  {
+   "key": "shuffling",
+   "text": "Shuffling.",
+   "file": "shuffling.mp3",
+   "duration_s": 0.85
+  },
+  {
+   "key": "cut_card",
+   "text": "There's the cut card. Last hand before the shuffle.",
+   "file": "cut_card.mp3",
+   "duration_s": 3.18
+  },
+  {
+   "key": "burn",
+   "text": "Burn one.",
+   "file": "burn.mp3",
+   "duration_s": 0.96
+  },
+  {
+   "key": "double",
+   "text": "Double down. One card.",
+   "file": "double.mp3",
+   "duration_s": 1.69
+  },
+  {
+   "key": "split",
+   "text": "Splitting. Two hands.",
+   "file": "split.mp3",
+   "duration_s": 1.32
+  },
+  {
+   "key": "split_aces",
+   "text": "Split aces get one card each.",
+   "file": "split_aces.mp3",
+   "duration_s": 2.07
+  },
+  {
+   "key": "surrender",
+   "text": "Surrender. Half your bet back.",
+   "file": "surrender.mp3",
+   "duration_s": 2.01
+  },
+  {
+   "key": "hit_or_stand",
+   "text": "Hit or stand?",
+   "file": "hit_or_stand.mp3",
+   "duration_s": 1.28
+  },
+  {
+   "key": "your_turn",
+   "text": "Your turn.",
+   "file": "your_turn.mp3",
+   "duration_s": 1.05
+  },
+  {
+   "key": "dealer_stands",
+   "text": "Dealer stands.",
+   "file": "dealer_stands.mp3",
+   "duration_s": 1.24
+  },
+  {
+   "key": "dealer_hits",
+   "text": "Dealer hits.",
+   "file": "dealer_hits.mp3",
+   "duration_s": 1.13
+  },
+  {
+   "key": "side_bet_win",
+   "text": "Side bet winner!",
+   "file": "side_bet_win.mp3",
+   "duration_s": 1.26
+  },
+  {
+   "key": "perfect_pair",
+   "text": "Perfect pair!",
+   "file": "perfect_pair.mp3",
+   "duration_s": 1.09
+  },
+  {
+   "key": "royal_match",
+   "text": "Royal match!",
+   "file": "royal_match.mp3",
+   "duration_s": 1.05
+  },
+  {
+   "key": "lucky_ladies",
+   "text": "Lucky ladies!",
+   "file": "lucky_ladies.mp3",
+   "duration_s": 1.09
+  },
+  {
+   "key": "twentyone_plus_three",
+   "text": "Twenty one plus three, winner!",
+   "file": "twentyone_plus_three.mp3",
+   "duration_s": 1.86
+  },
+  {
+   "key": "table_min",
+   "text": "Table minimum, please.",
+   "file": "table_min.mp3",
+   "duration_s": 1.64
+  },
+  {
+   "key": "table_max",
+   "text": "That's over the table limit.",
+   "file": "table_max.mp3",
+   "duration_s": 1.69
+  },
+  {
+   "key": "welcome",
+   "text": "Welcome to the table, Marcus.",
+   "file": "welcome.mp3",
+   "duration_s": 1.86
+  },
+  {
+   "key": "thanks",
+   "text": "Thank you for playing.",
+   "file": "thanks.mp3",
+   "duration_s": 1.43
+  },
+  {
+   "key": "bankroll_reset",
+   "text": "Fresh chips. Good luck.",
+   "file": "bankroll_reset.mp3",
+   "duration_s": 1.69
+  },
+  {
+   "key": "dealer_17",
+   "text": "Dealer has 17.",
+   "file": "dealer_17.mp3",
+   "duration_s": 1.54
+  },
+  {
+   "key": "dealer_18",
+   "text": "Dealer has 18.",
+   "file": "dealer_18.mp3",
+   "duration_s": 1.34
+  },
+  {
+   "key": "dealer_19",
+   "text": "Dealer has 19.",
+   "file": "dealer_19.mp3",
+   "duration_s": 1.45
+  },
+  {
+   "key": "dealer_20",
+   "text": "Dealer has 20.",
+   "file": "dealer_20.mp3",
+   "duration_s": 1.47
+  },
+  {
+   "key": "dealer_21",
+   "text": "Dealer has 21.",
+   "file": "dealer_21.mp3",
+   "duration_s": 1.62
+  },
+  {
+   "key": "total_4",
+   "text": "4.",
+   "file": "total_4.mp3",
+   "duration_s": 0.79
+  },
+  {
+   "key": "total_5",
+   "text": "5.",
+   "file": "total_5.mp3",
+   "duration_s": 0.83
+  },
+  {
+   "key": "total_6",
+   "text": "6.",
+   "file": "total_6.mp3",
+   "duration_s": 0.73
+  },
+  {
+   "key": "total_7",
+   "text": "7.",
+   "file": "total_7.mp3",
+   "duration_s": 0.79
+  },
+  {
+   "key": "total_8",
+   "text": "8.",
+   "file": "total_8.mp3",
+   "duration_s": 0.7
+  },
+  {
+   "key": "total_9",
+   "text": "9.",
+   "file": "total_9.mp3",
+   "duration_s": 0.81
+  },
+  {
+   "key": "total_10",
+   "text": "10.",
+   "file": "total_10.mp3",
+   "duration_s": 0.73
+  },
+  {
+   "key": "total_11",
+   "text": "11.",
+   "file": "total_11.mp3",
+   "duration_s": 0.85
+  },
+  {
+   "key": "total_12",
+   "text": "12.",
+   "file": "total_12.mp3",
+   "duration_s": 0.79
+  },
+  {
+   "key": "total_13",
+   "text": "13.",
+   "file": "total_13.mp3",
+   "duration_s": 0.9
+  },
+  {
+   "key": "total_14",
+   "text": "14.",
+   "file": "total_14.mp3",
+   "duration_s": 0.98
+  },
+  {
+   "key": "total_15",
+   "text": "15.",
+   "file": "total_15.mp3",
+   "duration_s": 0.92
+  },
+  {
+   "key": "total_16",
+   "text": "16.",
+   "file": "total_16.mp3",
+   "duration_s": 0.98
+  },
+  {
+   "key": "total_17",
+   "text": "17.",
+   "file": "total_17.mp3",
+   "duration_s": 1.05
+  },
+  {
+   "key": "total_18",
+   "text": "18.",
+   "file": "total_18.mp3",
+   "duration_s": 0.92
+  },
+  {
+   "key": "total_19",
+   "text": "19.",
+   "file": "total_19.mp3",
+   "duration_s": 0.98
+  },
+  {
+   "key": "total_20",
+   "text": "20.",
+   "file": "total_20.mp3",
+   "duration_s": 0.81
+  },
+  {
+   "key": "total_21",
+   "text": "21.",
+   "file": "total_21.mp3",
+   "duration_s": 1.07
+  }
+ ],
+ "base": "https://mjlembo88.github.io/casino-games/voice/",
+ "source": "https://huggingface.co/hexgrad/Kokoro-82M",
+ "generated": "2026-10-23 with kokoro-onnx (CPU) on the build box; see tts/gen.py"
+}
