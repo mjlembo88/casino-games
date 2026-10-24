@@ -1,0 +1,840 @@
+{
+ "videoStart": 1792813033633,
+ "rounds": [
+  {
+   "r": 0,
+   "big": false,
+   "goBust": false,
+   "hits": 1,
+   "pt": 11,
+   "up": 10,
+   "player": "8,3",
+   "dealerUp": "10",
+   "toast": {
+    "cls": "cel-toast cel-win",
+    "text": "YOU WIN"
+   },
+   "kind": "win",
+   "wallStart": 1792813051013,
+   "videoOffset": 17.38,
+   "celLog": [
+    {
+     "ev": "toast+",
+     "t": 17286.39999999851,
+     "wall": 1792813051013,
+     "cls": "cel-toast cel-win",
+     "text": "YOU WIN"
+    }
+   ],
+   "frameMs": {
+    "avg": 16.7,
+    "max": 16.8
+   }
+  },
+  {
+   "r": 1,
+   "big": false,
+   "goBust": false,
+   "hits": 0,
+   "toast": null,
+   "kind": null,
+   "videoOffset": null,
+   "celLog": [
+    {
+     "ev": "sample",
+     "t": 17323.39999999851,
+     "toast": {
+      "text": "YOU WIN",
+      "op": "0.0769841",
+      "tf": "translate(-50%, -50%) scale(0.678566)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 17373,
+     "toast": {
+      "text": "YOU WIN",
+      "op": "0.263889",
+      "tf": "translate(-50%, -50%) scale(0.83628)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 17434.29999999702,
+     "toast": {
+      "text": "YOU WIN",
+      "op": "0.494048",
+      "tf": "translate(-50%, -50%) scale(0.973414)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 17473.099999997765,
+     "toast": {
+      "text": "YOU WIN",
+      "op": "0.618254",
+      "tf": "translate(-50%, -50%) scale(1.02487)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 17532.29999999702,
+     "toast": {
+      "text": "YOU WIN",
+      "op": "0.869841",
+      "tf": "translate(-50%, -50%) scale(1.08936)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 17585.599999997765,
+     "toast": {
+      "text": "YOU WIN",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.11004)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 17622.89999999851,
+     "toast": {
+      "text": "YOU WIN",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.11385)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 17673,
+     "toast": {
+      "text": "YOU WIN",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.10924)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 17723,
+     "toast": {
+      "text": "YOU WIN",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.0979)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 17772.89999999851,
+     "toast": {
+      "text": "YOU WIN",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.08618)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 17831.699999999255,
+     "toast": {
+      "text": "YOU WIN",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.07999)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 17873.099999997765,
+     "toast": {
+      "text": "YOU WIN",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.0796)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 17922.89999999851,
+     "toast": {
+      "text": "YOU WIN",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.07636)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 17983.099999997765,
+     "toast": {
+      "text": "YOU WIN",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.06196)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 18032.599999997765,
+     "toast": {
+      "text": "YOU WIN",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.03929)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 18073,
+     "toast": {
+      "text": "YOU WIN",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.02329)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 18132,
+     "toast": {
+      "text": "YOU WIN",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.00554)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 18182.699999999255,
+     "toast": {
+      "text": "YOU WIN",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.00087)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 18222.89999999851,
+     "toast": {
+      "text": "YOU WIN",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.00007)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 18273,
+     "toast": {
+      "text": "YOU WIN",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 18332.599999997765,
+     "toast": {
+      "text": "YOU WIN",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 18382.5,
+     "toast": {
+      "text": "YOU WIN",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 18424,
+     "toast": {
+      "text": "YOU WIN",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 18472.89999999851,
+     "toast": {
+      "text": "YOU WIN",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 18533,
+     "toast": {
+      "text": "YOU WIN",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 18573,
+     "toast": {
+      "text": "YOU WIN",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 18631.599999997765,
+     "toast": {
+      "text": "YOU WIN",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 18672.89999999851,
+     "toast": {
+      "text": "YOU WIN",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 18732.89999999851,
+     "toast": {
+      "text": "YOU WIN",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 18773,
+     "toast": {
+      "text": "YOU WIN",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 18831.89999999851,
+     "toast": {
+      "text": "YOU WIN",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 18873,
+     "toast": {
+      "text": "YOU WIN",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 18933,
+     "toast": {
+      "text": "YOU WIN",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 18972.89999999851,
+     "toast": {
+      "text": "YOU WIN",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 19031.199999999255,
+     "toast": {
+      "text": "YOU WIN",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 19081,
+     "toast": {
+      "text": "YOU WIN",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 19123,
+     "toast": {
+      "text": "YOU WIN",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 19173,
+     "toast": {
+      "text": "YOU WIN",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 19231.099999997765,
+     "toast": {
+      "text": "YOU WIN",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 19273.199999999255,
+     "toast": {
+      "text": "YOU WIN",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 19332.79999999702,
+     "toast": {
+      "text": "YOU WIN",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 19384.099999997765,
+     "toast": {
+      "text": "YOU WIN",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 19435.199999999255,
+     "toast": {
+      "text": "YOU WIN",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 19484.199999999255,
+     "toast": {
+      "text": "YOU WIN",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 19532.599999997765,
+     "toast": {
+      "text": "YOU WIN",
+      "op": "0.8564",
+      "tf": "translate(-50%, -50%) scale(1.00574)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 19573,
+     "toast": {
+      "text": "YOU WIN",
+      "op": "0.7288",
+      "tf": "translate(-50%, -50%) scale(1.01085)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 19631.199999999255,
+     "toast": {
+      "text": "YOU WIN",
+      "op": "0.4724",
+      "tf": "translate(-50%, -50%) scale(1.0211)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 19684.599999997765,
+     "toast": {
+      "text": "YOU WIN",
+      "op": "0.2792",
+      "tf": "translate(-50%, -50%) scale(1.02883)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 19731.79999999702,
+     "toast": {
+      "text": "YOU WIN",
+      "op": "0.086",
+      "tf": "translate(-50%, -50%) scale(1.03656)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "toast-",
+     "t": 19756.699999999255,
+     "cls": "cel-toast cel-win"
+    }
+   ],
+   "frameMs": {
+    "avg": 16.7,
+    "max": 16.8
+   }
+  }
+ ],
+ "console": []
+}

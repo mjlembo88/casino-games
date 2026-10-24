@@ -1,0 +1,1943 @@
+{
+ "videoStart": 1792812252782,
+ "rounds": [
+  {
+   "r": 0,
+   "big": false,
+   "goBust": false,
+   "hits": 0,
+   "toast": {
+    "cls": "cel-toast cel-bj",
+    "text": "BLACKJACK!"
+   },
+   "kind": "bj",
+   "wallStart": 1792812264980,
+   "videoOffset": 12.198,
+   "celLog": [
+    {
+     "ev": "toast+",
+     "t": 12099.599999997765,
+     "wall": 1792812264980,
+     "cls": "cel-toast cel-bj",
+     "text": "BLACKJACK!"
+    },
+    {
+     "ev": "sample",
+     "t": 12151.29999999702,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "0.105159",
+      "tf": "translate(-50%, -50%) scale(0.394234)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 147,
+      "gold": 147,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 12176.699999999255,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "0.210317",
+      "tf": "translate(-50%, -50%) scale(0.444748)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 171,
+      "gold": 171,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 12228.5,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "0.399206",
+      "tf": "translate(-50%, -50%) scale(0.516453)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 173,
+      "gold": 173,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 12278.699999999255,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "0.587302",
+      "tf": "translate(-50%, -50%) scale(0.566468)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 350,
+      "gold": 321,
+      "red": 0,
+      "cream": 9
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 12330.5,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "0.77619",
+      "tf": "translate(-50%, -50%) scale(0.598638)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 381,
+      "gold": 318,
+      "red": 16,
+      "cream": 15
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 12380.29999999702,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "0.965873",
+      "tf": "translate(-50%, -50%) scale(0.616192)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 380,
+      "gold": 297,
+      "red": 21,
+      "cream": 9
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 12429.199999999255,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.622447)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 344,
+      "gold": 264,
+      "red": 15,
+      "cream": 4
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 12478.79999999702,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.62085)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 345,
+      "gold": 262,
+      "red": 11,
+      "cream": 5
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 12529.599999997765,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.614943)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 355,
+      "gold": 269,
+      "red": 11,
+      "cream": 4
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 12583.89999999851,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.608193)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 249,
+      "gold": 166,
+      "red": 10,
+      "cream": 7
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 12629.5,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.604213)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 227,
+      "gold": 139,
+      "red": 10,
+      "cream": 9
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 12678.29999999702,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.603639)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 213,
+      "gold": 124,
+      "red": 7,
+      "cream": 14
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 12728.199999999255,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.602458)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 192,
+      "gold": 107,
+      "red": 5,
+      "cream": 20
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 12777.5,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.598447)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 168,
+      "gold": 93,
+      "red": 5,
+      "cream": 18
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 12828.39999999851,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.589788)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 161,
+      "gold": 80,
+      "red": 14,
+      "cream": 17
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 12879.29999999702,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.575926)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 106,
+      "gold": 36,
+      "red": 13,
+      "cream": 10
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 12927.39999999851,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.565821)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 116,
+      "gold": 36,
+      "red": 18,
+      "cream": 7
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 12977.699999999255,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.560854)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 144,
+      "gold": 45,
+      "red": 18,
+      "cream": 9
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 13025.29999999702,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.55917)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 141,
+      "gold": 47,
+      "red": 11,
+      "cream": 6
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 13077.099999997765,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.558987)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 152,
+      "gold": 50,
+      "red": 14,
+      "cream": 8
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 13124.89999999851,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.558987)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 139,
+      "gold": 46,
+      "red": 13,
+      "cream": 10
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 13175.099999997765,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.558987)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 97,
+      "gold": 34,
+      "red": 9,
+      "cream": 10
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 13225.199999999255,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.558987)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 100,
+      "gold": 27,
+      "red": 8,
+      "cream": 16
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 13278,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.558987)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 121,
+      "gold": 30,
+      "red": 12,
+      "cream": 25
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 13325,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.558987)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 128,
+      "gold": 35,
+      "red": 15,
+      "cream": 13
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 13375.29999999702,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.558987)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 129,
+      "gold": 37,
+      "red": 10,
+      "cream": 11
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 13425.89999999851,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.558987)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 116,
+      "gold": 28,
+      "red": 13,
+      "cream": 7
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 13475.39999999851,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.558987)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 92,
+      "gold": 23,
+      "red": 7,
+      "cream": 6
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 13525.099999997765,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.558987)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 73,
+      "gold": 25,
+      "red": 3,
+      "cream": 4
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 13575,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.558987)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 54,
+      "gold": 17,
+      "red": 0,
+      "cream": 5
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 13625.29999999702,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.558987)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 44,
+      "gold": 17,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 13675,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.558987)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 43,
+      "gold": 19,
+      "red": 2,
+      "cream": 2
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 13725.199999999255,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.558987)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 23,
+      "gold": 11,
+      "red": 4,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 13776,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.558987)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 7,
+      "gold": 0,
+      "red": 5,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 13829.79999999702,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.558987)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 13876.199999999255,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.558987)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 13926.5,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.558987)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 13974.89999999851,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.558987)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 14026.699999999255,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.558987)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 14074.89999999851,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.558987)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 14131.39999999851,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.558987)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 14179.199999999255,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.558987)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 14224.79999999702,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.558987)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 14278.89999999851,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.558987)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 14326.39999999851,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.558987)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 14375.099999997765,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "0.842",
+      "tf": "translate(-50%, -50%) scale(0.56252)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 14424.699999999255,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "0.648",
+      "tf": "translate(-50%, -50%) scale(0.566858)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 14475.099999997765,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "0.456",
+      "tf": "translate(-50%, -50%) scale(0.571151)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 14525.099999997765,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "0.2632",
+      "tf": "translate(-50%, -50%) scale(0.575462)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 14575.29999999702,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "0.0704",
+      "tf": "translate(-50%, -50%) scale(0.579773)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "toast-",
+     "t": 14600,
+     "cls": "cel-toast cel-bj"
+    }
+   ],
+   "frameMs": {
+    "avg": 16.7,
+    "max": 16.8
+   }
+  },
+  {
+   "r": 1,
+   "big": false,
+   "goBust": true,
+   "hits": 0,
+   "toast": null,
+   "kind": null,
+   "videoOffset": null,
+   "celLog": [],
+   "frameMs": {
+    "avg": 16.7,
+    "max": 33.3
+   }
+  },
+  {
+   "r": 3,
+   "big": false,
+   "goBust": false,
+   "hits": 1,
+   "pt": 13,
+   "up": 2,
+   "player": "5,3,5",
+   "dealerUp": "2",
+   "toast": {
+    "cls": "cel-toast cel-win",
+    "text": "YOU WIN\nDealer busts"
+   },
+   "kind": "dealerbust",
+   "wallStart": 1792812361882,
+   "videoOffset": 109.1,
+   "burst": {
+    "dir": "/workspace/casino/proto-bot/store/celeb/dealerbust_t_r3/",
+    "times": [
+     {
+      "i": 0,
+      "ms": 160
+     },
+     {
+      "i": 1,
+      "ms": 287
+     },
+     {
+      "i": 2,
+      "ms": 421
+     },
+     {
+      "full": 421
+     },
+     {
+      "i": 3,
+      "ms": 1115
+     },
+     {
+      "i": 4,
+      "ms": 1254
+     },
+     {
+      "i": 5,
+      "ms": 1368
+     },
+     {
+      "i": 6,
+      "ms": 1480
+     },
+     {
+      "i": 7,
+      "ms": 1598
+     },
+     {
+      "i": 8,
+      "ms": 1728
+     },
+     {
+      "i": 9,
+      "ms": 1855
+     },
+     {
+      "i": 10,
+      "ms": 1975
+     },
+     {
+      "i": 11,
+      "ms": 2085
+     },
+     {
+      "i": 12,
+      "ms": 2213
+     },
+     {
+      "i": 13,
+      "ms": 2353
+     },
+     {
+      "i": 14,
+      "ms": 2472
+     },
+     {
+      "i": 15,
+      "ms": 2579
+     },
+     {
+      "i": 16,
+      "ms": 2723
+     },
+     {
+      "i": 17,
+      "ms": 2872
+     },
+     {
+      "i": 18,
+      "ms": 3035
+     },
+     {
+      "i": 19,
+      "ms": 3207
+     }
+    ]
+   },
+   "celLog": [
+    {
+     "ev": "toast+",
+     "t": 17855.39999999851,
+     "wall": 1792812361882,
+     "cls": "cel-toast cel-win",
+     "text": "YOU WIN\nDealer busts"
+    },
+    {
+     "ev": "sample",
+     "t": 17899.5,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "0.103968",
+      "tf": "translate(-50%, -50%) scale(0.704158)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 17942.599999997765,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "0.280159",
+      "tf": "translate(-50%, -50%) scale(0.847936)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 17993.79999999702,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "0.471032",
+      "tf": "translate(-50%, -50%) scale(0.96225)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 18042.699999999255,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "0.653175",
+      "tf": "translate(-50%, -50%) scale(1.03682)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 18094,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "0.844048",
+      "tf": "translate(-50%, -50%) scale(1.08488)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 18143.89999999851,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.10833)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 18193.5,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.11386)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 18242,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.10827)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 18291.89999999851,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.09658)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 18344.29999999702,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.08517)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 18391.79999999702,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.08)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 18441.699999999255,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.07956)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 18488.599999997765,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.07889)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 18538.699999999255,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.07889)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 18588.699999999255,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.07889)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 18638.599999997765,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.07889)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 18688.79999999702,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.07889)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 18738.699999999255,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.07889)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 18788.699999999255,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.07889)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 18854.5,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.07192)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 18891.79999999702,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.06585)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 18942.5,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.04659)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 18993.099999997765,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.02219)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 19043.599999997765,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.008)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 19091.39999999851,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.0017)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 19141.79999999702,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.00005)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 19191.39999999851,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 19244.599999997765,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 19291.39999999851,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 19341.29999999702,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 19391.599999997765,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 19441.599999997765,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 19492,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 19541.099999997765,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 19592.39999999851,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 19648,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 19691.39999999851,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 19742,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 19793.39999999851,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 19841.5,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 19892.099999997765,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 19941.29999999702,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 19993.39999999851,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 20041.29999999702,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 20094,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 20141.39999999851,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 20193.099999997765,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 20241.39999999851,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 20291.39999999851,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 20341.79999999702,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 20391.39999999851,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 20441.29999999702,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 20491.79999999702,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "0.7968",
+      "tf": "translate(-50%, -50%) scale(1.00813)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 20550,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "0.608",
+      "tf": "translate(-50%, -50%) scale(1.01568)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 20592.89999999851,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "0.4252",
+      "tf": "translate(-50%, -50%) scale(1.02299)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 20641.5,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "0.2336",
+      "tf": "translate(-50%, -50%) scale(1.03066)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 20695.199999999255,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "0.0412",
+      "tf": "translate(-50%, -50%) scale(1.03835)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "toast-",
+     "t": 20700.5,
+     "cls": "cel-toast cel-win"
+    }
+   ],
+   "frameMs": {
+    "avg": 18.3,
+    "max": 350
+   }
+  }
+ ],
+ "console": []
+}

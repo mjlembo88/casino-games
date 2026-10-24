@@ -1,0 +1,38 @@
+{
+ "videoStart": 1792813901066,
+ "rounds": [
+  {
+   "r": 0,
+   "big": false,
+   "goBust": false,
+   "hits": 1,
+   "pt": 17,
+   "up": 9,
+   "player": "4,3,K",
+   "dealerUp": "9",
+   "toast": null,
+   "kind": null,
+   "videoOffset": null,
+   "celLog": [],
+   "frameMs": {
+    "avg": 16.9,
+    "max": 66.6
+   }
+  },
+  {
+   "r": 1,
+   "big": false,
+   "goBust": false,
+   "hits": 0,
+   "toast": null,
+   "kind": null,
+   "videoOffset": null,
+   "celLog": [],
+   "frameMs": {
+    "avg": 16.7,
+    "max": 33.3
+   }
+  }
+ ],
+ "console": []
+}

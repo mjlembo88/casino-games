@@ -1,0 +1,2539 @@
+{
+ "videoStart": 1792812390352,
+ "rounds": [
+  {
+   "r": 0,
+   "big": false,
+   "goBust": false,
+   "hits": 0,
+   "pt": 16,
+   "up": 4,
+   "player": "J,6",
+   "dealerUp": "4",
+   "toast": null,
+   "kind": null,
+   "videoOffset": null,
+   "celLog": [],
+   "frameMs": {
+    "avg": 16.7,
+    "max": 33.4
+   }
+  },
+  {
+   "r": 1,
+   "big": false,
+   "goBust": true,
+   "hits": 0,
+   "toast": null,
+   "kind": null,
+   "videoOffset": null,
+   "celLog": [],
+   "frameMs": {
+    "avg": 16.7,
+    "max": 16.8
+   }
+  },
+  {
+   "r": 3,
+   "big": false,
+   "goBust": false,
+   "hits": 0,
+   "pt": 19,
+   "up": 5,
+   "player": "Q,9",
+   "dealerUp": "5",
+   "toast": {
+    "cls": "cel-toast cel-win",
+    "text": "YOU WIN\nDealer busts"
+   },
+   "kind": "dealerbust",
+   "wallStart": 1792812493680,
+   "videoOffset": 103.328,
+   "burst": {
+    "dir": "/workspace/casino/proto-bot/store/celeb/dealerbust_a_r3/",
+    "times": [
+     {
+      "i": 0,
+      "ms": 175
+     },
+     {
+      "i": 1,
+      "ms": 303
+     },
+     {
+      "i": 2,
+      "ms": 464
+     },
+     {
+      "full": 464
+     },
+     {
+      "i": 3,
+      "ms": 1195
+     },
+     {
+      "i": 4,
+      "ms": 1362
+     },
+     {
+      "i": 5,
+      "ms": 1522
+     },
+     {
+      "i": 6,
+      "ms": 1687
+     },
+     {
+      "i": 7,
+      "ms": 1843
+     },
+     {
+      "i": 8,
+      "ms": 1973
+     },
+     {
+      "i": 9,
+      "ms": 2135
+     },
+     {
+      "i": 10,
+      "ms": 2286
+     },
+     {
+      "i": 11,
+      "ms": 2466
+     },
+     {
+      "i": 12,
+      "ms": 2622
+     },
+     {
+      "i": 13,
+      "ms": 2748
+     },
+     {
+      "i": 14,
+      "ms": 2874
+     },
+     {
+      "i": 15,
+      "ms": 3026
+     },
+     {
+      "i": 16,
+      "ms": 3197
+     },
+     {
+      "i": 17,
+      "ms": 3374
+     }
+    ]
+   },
+   "celLog": [
+    {
+     "ev": "toast+",
+     "t": 17540.900000002235,
+     "wall": 1792812493680,
+     "cls": "cel-toast cel-win",
+     "text": "YOU WIN\nDealer busts"
+    },
+    {
+     "ev": "sample",
+     "t": 17606.900000002235,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "0.0670635",
+      "tf": "translate(-50%, -50%) scale(0.668907)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 17629.800000000745,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "0.114683",
+      "tf": "translate(-50%, -50%) scale(0.714046)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 17678.5,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "0.265079",
+      "tf": "translate(-50%, -50%) scale(0.837144)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 17727.5,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "0.415476",
+      "tf": "translate(-50%, -50%) scale(0.933069)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 17778.400000002235,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "0.578968",
+      "tf": "translate(-50%, -50%) scale(1.01014)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 17826.70000000298,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "0.746032",
+      "tf": "translate(-50%, -50%) scale(1.06366)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 17876.70000000298,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "0.92619",
+      "tf": "translate(-50%, -50%) scale(1.09765)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 17926.70000000298,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.11176)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 17989.300000000745,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.11293)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 18027.60000000149,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.10841)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 18076.70000000298,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.09777)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 18126.70000000298,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.08709)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 18177.20000000298,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.08018)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 18228.5,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.07971)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 18276.70000000298,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.07932)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 18326.900000002235,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.07932)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 18377.70000000298,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.07932)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 18426.900000002235,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.07932)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 18477.400000002235,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.07932)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 18527,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.07932)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 18576.900000002235,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.07932)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 18656.70000000298,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.07359)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 18678.70000000298,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.07176)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 18731.60000000149,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.06096)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 18804.800000000745,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.03583)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 18849.20000000298,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.02346)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 18897,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.01164)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 18939.900000002235,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.00717)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 18984.300000000745,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.00283)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 19028.70000000298,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.00078)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 19077.70000000298,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.00001)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 19134.300000000745,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 19176.70000000298,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 19226.70000000298,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 19279.300000000745,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 19326.70000000298,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 19379.60000000149,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 19426.70000000298,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 19476.70000000298,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 19526.70000000298,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 19576.900000002235,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 19626.70000000298,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 19680.60000000149,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 19750.300000000745,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 19779.900000002235,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 19827.900000002235,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 19877.400000002235,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 19944.10000000149,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 19976.70000000298,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 20031.5,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 20079.20000000298,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 20131.900000002235,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 20176.70000000298,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 20230.300000000745,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 20276.800000000745,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 20326.70000000298,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 20376.70000000298,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 20459.5,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 20493.10000000149,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 20526.70000000298,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "0.8976",
+      "tf": "translate(-50%, -50%) scale(1.0041)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 20580.300000000745,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "0.7192",
+      "tf": "translate(-50%, -50%) scale(1.01123)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 20648.70000000298,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "0.5356",
+      "tf": "translate(-50%, -50%) scale(1.01858)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 20676.70000000298,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "0.4328",
+      "tf": "translate(-50%, -50%) scale(1.02269)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 20726.70000000298,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "0.2436",
+      "tf": "translate(-50%, -50%) scale(1.03026)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 20777.800000000745,
+     "toast": {
+      "text": "YOU WIN",
+      "sub": "Dealer busts",
+      "op": "0.064",
+      "tf": "translate(-50%, -50%) scale(1.03744)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "toast-",
+     "t": 20805.900000002235,
+     "cls": "cel-toast cel-win"
+    }
+   ],
+   "frameMs": {
+    "avg": 18.4,
+    "max": 383.3
+   }
+  },
+  {
+   "r": 4,
+   "big": false,
+   "goBust": false,
+   "hits": 0,
+   "toast": null,
+   "kind": null,
+   "videoOffset": null,
+   "celLog": [],
+   "frameMs": {
+    "avg": 16.7,
+    "max": 16.8
+   }
+  },
+  {
+   "r": 6,
+   "big": true,
+   "goBust": false,
+   "hits": 0,
+   "pt": 13,
+   "up": 3,
+   "player": "10,3",
+   "dealerUp": "3",
+   "toast": null,
+   "kind": null,
+   "videoOffset": null,
+   "celLog": [],
+   "frameMs": {
+    "avg": 16.7,
+    "max": 33.2
+   }
+  },
+  {
+   "r": 7,
+   "big": true,
+   "goBust": false,
+   "hits": 0,
+   "pt": 18,
+   "up": 3,
+   "player": "K,8",
+   "dealerUp": "3",
+   "toast": {
+    "cls": "cel-toast cel-big",
+    "text": "+0\nDealer busts"
+   },
+   "kind": "bigWin",
+   "wallStart": 1792812602235,
+   "videoOffset": 211.883,
+   "burst": {
+    "dir": "/workspace/casino/proto-bot/store/celeb/bigWin_a_r7/",
+    "times": [
+     {
+      "i": 0,
+      "ms": 201
+     },
+     {
+      "i": 1,
+      "ms": 339
+     },
+     {
+      "i": 2,
+      "ms": 489
+     },
+     {
+      "full": 489
+     },
+     {
+      "i": 3,
+      "ms": 1263
+     },
+     {
+      "i": 4,
+      "ms": 1424
+     },
+     {
+      "i": 5,
+      "ms": 1563
+     },
+     {
+      "i": 6,
+      "ms": 1704
+     },
+     {
+      "i": 7,
+      "ms": 1829
+     },
+     {
+      "i": 8,
+      "ms": 2005
+     },
+     {
+      "i": 9,
+      "ms": 2156
+     },
+     {
+      "i": 10,
+      "ms": 2309
+     },
+     {
+      "i": 11,
+      "ms": 2442
+     },
+     {
+      "i": 12,
+      "ms": 2575
+     },
+     {
+      "i": 13,
+      "ms": 2723
+     },
+     {
+      "i": 14,
+      "ms": 2876
+     },
+     {
+      "i": 15,
+      "ms": 3022
+     },
+     {
+      "i": 16,
+      "ms": 3141
+     },
+     {
+      "i": 17,
+      "ms": 3281
+     }
+    ]
+   },
+   "celLog": [
+    {
+     "ev": "toast+",
+     "t": 17519.699999999255,
+     "wall": 1792812602235,
+     "cls": "cel-toast cel-big",
+     "text": "+0\nDealer busts"
+    },
+    {
+     "ev": "sample",
+     "t": 17521.900000002235,
+     "toast": {
+      "text": "+0",
+      "sub": "Dealer busts",
+      "op": "0",
+      "tf": "translate(-50%, -50%) scale(0.6)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 17556.60000000149,
+     "toast": {
+      "text": "+0",
+      "sub": "Dealer busts",
+      "op": "0",
+      "tf": "translate(-50%, -50%) scale(0.6)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 106,
+      "gold": 106,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 17598.60000000149,
+     "toast": {
+      "text": "+35",
+      "sub": "Dealer busts",
+      "op": "0.0865079",
+      "tf": "translate(-50%, -50%) scale(0.687712)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 164,
+      "gold": 164,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 17645.699999999255,
+     "toast": {
+      "text": "+98",
+      "sub": "Dealer busts",
+      "op": "0.251587",
+      "tf": "translate(-50%, -50%) scale(0.827256)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 166,
+      "gold": 166,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 17702.5,
+     "toast": {
+      "text": "+157",
+      "sub": "Dealer busts",
+      "op": "0.421825",
+      "tf": "translate(-50%, -50%) scale(0.936567)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 180,
+      "gold": 180,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 17762.199999999255,
+     "toast": {
+      "text": "+211",
+      "sub": "Dealer busts",
+      "op": "0.595635",
+      "tf": "translate(-50%, -50%) scale(1.01656)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 218,
+      "gold": 218,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 17798.5,
+     "toast": {
+      "text": "+245",
+      "sub": "Dealer busts",
+      "op": "0.71627",
+      "tf": "translate(-50%, -50%) scale(1.05581)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 208,
+      "gold": 204,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 17847.199999999255,
+     "toast": {
+      "text": "+290",
+      "sub": "Dealer busts",
+      "op": "0.896032",
+      "tf": "translate(-50%, -50%) scale(1.09346)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 211,
+      "gold": 188,
+      "red": 0,
+      "cream": 3
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 17916.60000000149,
+     "toast": {
+      "text": "+340",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.11286)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 214,
+      "gold": 156,
+      "red": 0,
+      "cream": 6
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 17946.900000002235,
+     "toast": {
+      "text": "+361",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.11357)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 248,
+      "gold": 159,
+      "red": 0,
+      "cream": 7
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 17997.300000000745,
+     "toast": {
+      "text": "+389",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.10754)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 241,
+      "gold": 120,
+      "red": 0,
+      "cream": 19
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 18072.10000000149,
+     "toast": {
+      "text": "+409",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.09903)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 320,
+      "gold": 161,
+      "red": 0,
+      "cream": 21
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 18100,
+     "toast": {
+      "text": "+419",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.09403)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 287,
+      "gold": 106,
+      "red": 0,
+      "cream": 23
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 18151.699999999255,
+     "toast": {
+      "text": "+439",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.08394)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 322,
+      "gold": 84,
+      "red": 0,
+      "cream": 27
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 18207.5,
+     "toast": {
+      "text": "+453",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.08004)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 295,
+      "gold": 21,
+      "red": 0,
+      "cream": 36
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 18269,
+     "toast": {
+      "text": "+462",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.07993)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 310,
+      "gold": 22,
+      "red": 0,
+      "cream": 37
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 18294.199999999255,
+     "toast": {
+      "text": "+465",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.0798)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 305,
+      "gold": 27,
+      "red": 0,
+      "cream": 40
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 18344.199999999255,
+     "toast": {
+      "text": "+465",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.0798)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 305,
+      "gold": 27,
+      "red": 0,
+      "cream": 40
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 18394.60000000149,
+     "toast": {
+      "text": "+465",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.0798)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 305,
+      "gold": 27,
+      "red": 0,
+      "cream": 40
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 18444.300000000745,
+     "toast": {
+      "text": "+465",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.0798)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 305,
+      "gold": 27,
+      "red": 0,
+      "cream": 40
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 18494.300000000745,
+     "toast": {
+      "text": "+465",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.0798)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 305,
+      "gold": 27,
+      "red": 0,
+      "cream": 40
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 18544.300000000745,
+     "toast": {
+      "text": "+465",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.0798)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 305,
+      "gold": 27,
+      "red": 0,
+      "cream": 40
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 18594.5,
+     "toast": {
+      "text": "+465",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.0798)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 305,
+      "gold": 27,
+      "red": 0,
+      "cream": 40
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 18675.800000000745,
+     "toast": {
+      "text": "+480",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.07588)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 387,
+      "gold": 28,
+      "red": 0,
+      "cream": 41
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 18699,
+     "toast": {
+      "text": "+482",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.07376)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 399,
+      "gold": 22,
+      "red": 0,
+      "cream": 50
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 18748.60000000149,
+     "toast": {
+      "text": "+489",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.06397)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 440,
+      "gold": 26,
+      "red": 0,
+      "cream": 52
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 18820.300000000745,
+     "toast": {
+      "text": "+494",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.04227)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 514,
+      "gold": 36,
+      "red": 0,
+      "cream": 63
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 18846.699999999255,
+     "toast": {
+      "text": "+496",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.02938)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 559,
+      "gold": 33,
+      "red": 0,
+      "cream": 71
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 18895.400000002235,
+     "toast": {
+      "text": "+498",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.01212)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 676,
+      "gold": 47,
+      "red": 0,
+      "cream": 92
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 18945.5,
+     "toast": {
+      "text": "+499",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.00375)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 750,
+      "gold": 52,
+      "red": 0,
+      "cream": 109
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 18997.60000000149,
+     "toast": {
+      "text": "+500",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1.00047)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 833,
+      "gold": 31,
+      "red": 0,
+      "cream": 106
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 19044.60000000149,
+     "toast": {
+      "text": "+500",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 887,
+      "gold": 40,
+      "red": 0,
+      "cream": 116
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 19102.5,
+     "toast": {
+      "text": "+500",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 937,
+      "gold": 29,
+      "red": 0,
+      "cream": 127
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 19147.10000000149,
+     "toast": {
+      "text": "+500",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 967,
+      "gold": 41,
+      "red": 0,
+      "cream": 125
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 19200.60000000149,
+     "toast": {
+      "text": "+500",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 1001,
+      "gold": 52,
+      "red": 0,
+      "cream": 128
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 19247.800000000745,
+     "toast": {
+      "text": "+500",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 1071,
+      "gold": 58,
+      "red": 0,
+      "cream": 123
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 19307.199999999255,
+     "toast": {
+      "text": "+500",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 1104,
+      "gold": 56,
+      "red": 0,
+      "cream": 141
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 19345,
+     "toast": {
+      "text": "+500",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 1153,
+      "gold": 62,
+      "red": 0,
+      "cream": 138
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 19419.199999999255,
+     "toast": {
+      "text": "+500",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 1291,
+      "gold": 115,
+      "red": 0,
+      "cream": 170
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 19445.400000002235,
+     "toast": {
+      "text": "+500",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 1368,
+      "gold": 128,
+      "red": 0,
+      "cream": 179
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 19497.300000000745,
+     "toast": {
+      "text": "+500",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 1327,
+      "gold": 122,
+      "red": 0,
+      "cream": 194
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 19547.199999999255,
+     "toast": {
+      "text": "+500",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 1292,
+      "gold": 121,
+      "red": 0,
+      "cream": 177
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 19598.400000002235,
+     "toast": {
+      "text": "+500",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 1237,
+      "gold": 142,
+      "red": 0,
+      "cream": 164
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 19648.699999999255,
+     "toast": {
+      "text": "+500",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 1135,
+      "gold": 96,
+      "red": 0,
+      "cream": 136
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 19697.400000002235,
+     "toast": {
+      "text": "+500",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 1091,
+      "gold": 96,
+      "red": 0,
+      "cream": 131
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 19745.800000000745,
+     "toast": {
+      "text": "+500",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 1002,
+      "gold": 69,
+      "red": 0,
+      "cream": 110
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 19799.5,
+     "toast": {
+      "text": "+500",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 1056,
+      "gold": 93,
+      "red": 0,
+      "cream": 131
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 19847.300000000745,
+     "toast": {
+      "text": "+500",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 1007,
+      "gold": 48,
+      "red": 0,
+      "cream": 135
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 19896.400000002235,
+     "toast": {
+      "text": "+500",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 913,
+      "gold": 24,
+      "red": 0,
+      "cream": 118
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 19947.800000000745,
+     "toast": {
+      "text": "+500",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 897,
+      "gold": 27,
+      "red": 0,
+      "cream": 108
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 19996,
+     "toast": {
+      "text": "+500",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 850,
+      "gold": 34,
+      "red": 0,
+      "cream": 120
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 20045.5,
+     "toast": {
+      "text": "+500",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 802,
+      "gold": 30,
+      "red": 0,
+      "cream": 112
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 20095.300000000745,
+     "toast": {
+      "text": "+500",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 715,
+      "gold": 31,
+      "red": 0,
+      "cream": 90
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 20151.199999999255,
+     "toast": {
+      "text": "+500",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 641,
+      "gold": 25,
+      "red": 0,
+      "cream": 78
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 20198,
+     "toast": {
+      "text": "+500",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 613,
+      "gold": 28,
+      "red": 0,
+      "cream": 78
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 20245.300000000745,
+     "toast": {
+      "text": "+500",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 590,
+      "gold": 22,
+      "red": 0,
+      "cream": 84
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 20296.199999999255,
+     "toast": {
+      "text": "+500",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 613,
+      "gold": 22,
+      "red": 0,
+      "cream": 91
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 20349.300000000745,
+     "toast": {
+      "text": "+500",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 611,
+      "gold": 23,
+      "red": 0,
+      "cream": 89
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 20401.699999999255,
+     "toast": {
+      "text": "+500",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 571,
+      "gold": 21,
+      "red": 0,
+      "cream": 86
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 20445,
+     "toast": {
+      "text": "+500",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 599,
+      "gold": 18,
+      "red": 0,
+      "cream": 83
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 20499.900000002235,
+     "toast": {
+      "text": "+500",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 627,
+      "gold": 24,
+      "red": 0,
+      "cream": 71
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 20566.10000000149,
+     "toast": {
+      "text": "+500",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 620,
+      "gold": 30,
+      "red": 0,
+      "cream": 69
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 20596.5,
+     "toast": {
+      "text": "+500",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 634,
+      "gold": 37,
+      "red": 0,
+      "cream": 78
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 20645,
+     "toast": {
+      "text": "+500",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 652,
+      "gold": 41,
+      "red": 0,
+      "cream": 81
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 20698.800000000745,
+     "toast": {
+      "text": "+500",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 695,
+      "gold": 37,
+      "red": 0,
+      "cream": 81
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 20749,
+     "toast": {
+      "text": "+500",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 712,
+      "gold": 25,
+      "red": 0,
+      "cream": 85
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 20794.900000002235,
+     "toast": {
+      "text": "+500",
+      "sub": "Dealer busts",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(1)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 756,
+      "gold": 24,
+      "red": 0,
+      "cream": 85
+     }
+    }
+   ],
+   "frameMs": {
+    "avg": 18.3,
+    "max": 366.6
+   }
+  }
+ ],
+ "console": []
+}

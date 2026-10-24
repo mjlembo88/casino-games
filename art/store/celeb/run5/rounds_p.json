@@ -1,0 +1,82 @@
+{
+ "videoStart": 1792813901057,
+ "rounds": [
+  {
+   "r": 0,
+   "big": false,
+   "goBust": false,
+   "hits": 1,
+   "pt": 14,
+   "up": 10,
+   "player": "10,4",
+   "dealerUp": "K",
+   "toast": {
+    "cls": "cel-toast cel-bust",
+    "text": "BUST"
+   },
+   "kind": "bust",
+   "wallStart": 1792813920317,
+   "videoOffset": 19.26,
+   "celLog": [
+    {
+     "ev": "toast+",
+     "t": 19068.10000000149,
+     "wall": 1792813920317,
+     "cls": "cel-toast cel-bust",
+     "text": "BUST"
+    },
+    {
+     "ev": "sample",
+     "t": 19107.400000002235,
+     "toast": {
+      "text": "BUST",
+      "op": "0.0611111",
+      "tf": "translate(-50%, -50%) scale(0.663047)"
+     },
+     "dim": "0.077",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    }
+   ],
+   "frameMs": {
+    "avg": 16.7,
+    "max": 16.8
+   }
+  },
+  {
+   "r": 1,
+   "big": false,
+   "goBust": false,
+   "hits": 1,
+   "pt": 16,
+   "up": 7,
+   "player": "8,8",
+   "dealerUp": "7",
+   "toast": {
+    "cls": "cel-toast cel-bust",
+    "text": "BUST"
+   },
+   "kind": "bust",
+   "wallStart": 1792813936879,
+   "videoOffset": 35.822,
+   "celLog": [
+    {
+     "ev": "toast+",
+     "t": 16474.5,
+     "wall": 1792813936879,
+     "cls": "cel-toast cel-bust",
+     "text": "BUST"
+    }
+   ],
+   "frameMs": {
+    "avg": 16.7,
+    "max": 16.8
+   }
+  }
+ ],
+ "console": []
+}

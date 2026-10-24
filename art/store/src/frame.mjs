@@ -10,6 +10,12 @@ export const shots = [
   ['04_in_play', 'Real blackjack rules', 'Six-deck shoe, dealer stands on 17'],
   ['05_result', 'Beat the dealer for fun', 'Your play-money bankroll keeps score'],
   ['06_coach', 'Learn basic strategy', 'The Strategy Coach grades every play'],
+  ['07_win', 'Feel every win', 'Play-money wins light up the table'],
+  ['08_dealer_busts', 'Dealer busts? You win', 'Every result called out clearly'],
+  ['09_push', 'Ties called fairly', 'A push hands your bet right back'],
+  ['10_bust', 'Every rule called clearly', 'Go over 21 and the hand is done'],
+  ['11_big_win', 'Chips rain on big hands', 'Play-money chips rain onto the table'],
+  ['12_blackjack', 'Blackjack pays 3 to 2', 'Gold confetti on every natural'],
 ];
 const felt = `
   background:

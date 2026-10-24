@@ -1,0 +1,730 @@
+[
+ {
+  "src": "rounds_t.json",
+  "r": 0,
+  "kind": "bj",
+  "toast": "BLACKJACK!",
+  "final_text": "BLACKJACK!",
+  "sub": [],
+  "toast_ms": 2500,
+  "canvas_first_ms": 52,
+  "canvas_last_ms": 1676,
+  "canvas_max_lit": 381,
+  "colors": {
+   "gold": 321,
+   "red": 21,
+   "cream": 25
+  },
+  "dim_max": 0.0,
+  "toast_peak_scale": 0.622447,
+  "burst": false
+ },
+ {
+  "src": "rounds_t.json",
+  "r": 3,
+  "kind": "dealerbust",
+  "toast": "YOU WIN | Dealer busts",
+  "final_text": "YOU WIN",
+  "sub": [
+   "Dealer busts"
+  ],
+  "toast_ms": 2845,
+  "canvas_first_ms": null,
+  "canvas_last_ms": null,
+  "canvas_max_lit": 0,
+  "colors": {
+   "gold": 0,
+   "red": 0,
+   "cream": 0
+  },
+  "dim_max": 0.0,
+  "toast_peak_scale": 1.11386,
+  "burst": true
+ },
+ {
+  "src": "rounds_a.json",
+  "r": 3,
+  "kind": "dealerbust",
+  "toast": "YOU WIN | Dealer busts",
+  "final_text": "YOU WIN",
+  "sub": [
+   "Dealer busts"
+  ],
+  "toast_ms": 3265,
+  "canvas_first_ms": null,
+  "canvas_last_ms": null,
+  "canvas_max_lit": 0,
+  "colors": {
+   "gold": 0,
+   "red": 0,
+   "cream": 0
+  },
+  "dim_max": 0.0,
+  "toast_peak_scale": 1.11293,
+  "burst": true
+ },
+ {
+  "src": "rounds_a.json",
+  "r": 7,
+  "kind": "bigWin",
+  "toast": "+0 | Dealer busts",
+  "final_text": "+500",
+  "sub": [
+   "Dealer busts"
+  ],
+  "toast_ms": null,
+  "canvas_first_ms": 37,
+  "canvas_last_ms": 3275,
+  "canvas_max_lit": 1368,
+  "colors": {
+   "gold": 218,
+   "red": 0,
+   "cream": 194
+  },
+  "dim_max": 0.0,
+  "toast_peak_scale": 1.11357,
+  "burst": true
+ },
+ {
+  "src": "rounds_b.json",
+  "r": 0,
+  "kind": "win",
+  "toast": "YOU WIN",
+  "final_text": "YOU WIN",
+  "sub": [],
+  "toast_ms": 3233,
+  "canvas_first_ms": null,
+  "canvas_last_ms": null,
+  "canvas_max_lit": 0,
+  "colors": {
+   "gold": 0,
+   "red": 0,
+   "cream": 0
+  },
+  "dim_max": 0.0,
+  "toast_peak_scale": 1.11387,
+  "burst": true
+ },
+ {
+  "src": "rounds_b.json",
+  "r": 3,
+  "kind": "push",
+  "toast": "PUSH",
+  "final_text": "PUSH",
+  "sub": [],
+  "toast_ms": 3087,
+  "canvas_first_ms": null,
+  "canvas_last_ms": null,
+  "canvas_max_lit": 0,
+  "colors": {
+   "gold": 0,
+   "red": 0,
+   "cream": 0
+  },
+  "dim_max": 0.0,
+  "toast_peak_scale": 1.11383,
+  "burst": true
+ },
+ {
+  "src": "rounds_b.json",
+  "r": 6,
+  "kind": "push",
+  "toast": "PUSH",
+  "final_text": "PUSH",
+  "sub": [],
+  "toast_ms": null,
+  "canvas_first_ms": null,
+  "canvas_last_ms": null,
+  "canvas_max_lit": 0,
+  "colors": {
+   "gold": 0,
+   "red": 0,
+   "cream": 0
+  },
+  "dim_max": 0.0,
+  "toast_peak_scale": 0.763881,
+  "burst": false
+ },
+ {
+  "src": "rounds_c.json",
+  "r": 0,
+  "kind": "bust",
+  "toast": "BUST",
+  "final_text": "BUST",
+  "sub": [],
+  "toast_ms": 2550,
+  "canvas_first_ms": null,
+  "canvas_last_ms": null,
+  "canvas_max_lit": 0,
+  "colors": {
+   "gold": 0,
+   "red": 0,
+   "cream": 0
+  },
+  "dim_max": 1.0,
+  "toast_peak_scale": 1.11282,
+  "burst": true
+ },
+ {
+  "src": "rounds_c.json",
+  "r": 3,
+  "kind": "blackjack",
+  "toast": "BLACKJACK!",
+  "final_text": "BLACKJACK!",
+  "sub": [],
+  "toast_ms": 2796,
+  "canvas_first_ms": 22,
+  "canvas_last_ms": 2010,
+  "canvas_max_lit": 385,
+  "colors": {
+   "gold": 318,
+   "red": 20,
+   "cream": 22
+  },
+  "dim_max": 0.0,
+  "toast_peak_scale": 0.622568,
+  "burst": true
+ },
+ {
+  "src": "rounds_d.json",
+  "r": 0,
+  "kind": "dealerbust",
+  "toast": "YOU WIN | Dealer busts",
+  "final_text": "YOU WIN",
+  "sub": [
+   "Dealer busts"
+  ],
+  "toast_ms": null,
+  "canvas_first_ms": null,
+  "canvas_last_ms": null,
+  "canvas_max_lit": 0,
+  "colors": {
+   "gold": 0,
+   "red": 0,
+   "cream": 0
+  },
+  "dim_max": 0.0,
+  "toast_peak_scale": 0.644364,
+  "burst": false
+ },
+ {
+  "src": "rounds_d.json",
+  "r": 3,
+  "kind": "bust",
+  "toast": "BUST",
+  "final_text": "BUST",
+  "sub": [],
+  "toast_ms": null,
+  "canvas_first_ms": null,
+  "canvas_last_ms": null,
+  "canvas_max_lit": 0,
+  "colors": {
+   "gold": 0,
+   "red": 0,
+   "cream": 0
+  },
+  "dim_max": 0.033,
+  "toast_peak_scale": 0.627668,
+  "burst": false
+ },
+ {
+  "src": "rounds_d.json",
+  "r": 6,
+  "kind": "dealerbust",
+  "toast": "YOU WIN | Dealer busts",
+  "final_text": "YOU WIN",
+  "sub": [
+   "Dealer busts"
+  ],
+  "toast_ms": null,
+  "canvas_first_ms": null,
+  "canvas_last_ms": null,
+  "canvas_max_lit": 0,
+  "colors": {
+   "gold": 0,
+   "red": 0,
+   "cream": 0
+  },
+  "dim_max": 0.0,
+  "toast_peak_scale": 0.612698,
+  "burst": false
+ },
+ {
+  "src": "rounds_d.json",
+  "r": 9,
+  "kind": "push",
+  "toast": "PUSH",
+  "final_text": "PUSH",
+  "sub": [],
+  "toast_ms": null,
+  "canvas_first_ms": null,
+  "canvas_last_ms": null,
+  "canvas_max_lit": 0,
+  "colors": {
+   "gold": 0,
+   "red": 0,
+   "cream": 0
+  },
+  "dim_max": 0.0,
+  "toast_peak_scale": 0.6,
+  "burst": false
+ },
+ {
+  "src": "rounds_e.json",
+  "r": 0,
+  "kind": "dealerbust",
+  "toast": "YOU WIN | Dealer busts",
+  "final_text": "YOU WIN",
+  "sub": [
+   "Dealer busts"
+  ],
+  "toast_ms": null,
+  "canvas_first_ms": null,
+  "canvas_last_ms": null,
+  "canvas_max_lit": 0,
+  "colors": {
+   "gold": 0,
+   "red": 0,
+   "cream": 0
+  },
+  "dim_max": 0.0,
+  "toast_peak_scale": 0.665397,
+  "burst": false
+ },
+ {
+  "src": "rounds_e.json",
+  "r": 3,
+  "kind": "bust",
+  "toast": "BUST",
+  "final_text": "BUST",
+  "sub": [],
+  "toast_ms": null,
+  "canvas_first_ms": null,
+  "canvas_last_ms": null,
+  "canvas_max_lit": 0,
+  "colors": {
+   "gold": 0,
+   "red": 0,
+   "cream": 0
+  },
+  "dim_max": 0.021,
+  "toast_peak_scale": 0.61772,
+  "burst": false
+ },
+ {
+  "src": "rounds_e.json",
+  "r": 6,
+  "kind": "bust",
+  "toast": "BUST",
+  "final_text": "BUST",
+  "sub": [],
+  "toast_ms": null,
+  "canvas_first_ms": null,
+  "canvas_last_ms": null,
+  "canvas_max_lit": 0,
+  "colors": {
+   "gold": 0,
+   "red": 0,
+   "cream": 0
+  },
+  "dim_max": 0.149,
+  "toast_peak_scale": 0.717308,
+  "burst": false
+ },
+ {
+  "src": "rounds_f.json",
+  "r": 0,
+  "kind": "dealerbust",
+  "toast": "YOU WIN | Dealer busts",
+  "final_text": "YOU WIN",
+  "sub": [
+   "Dealer busts"
+  ],
+  "toast_ms": null,
+  "canvas_first_ms": null,
+  "canvas_last_ms": null,
+  "canvas_max_lit": 0,
+  "colors": {
+   "gold": 0,
+   "red": 0,
+   "cream": 0
+  },
+  "dim_max": 0.0,
+  "toast_peak_scale": 0.651577,
+  "burst": false
+ },
+ {
+  "src": "rounds_f.json",
+  "r": 3,
+  "kind": "bust",
+  "toast": "BUST",
+  "final_text": "BUST",
+  "sub": [],
+  "toast_ms": null,
+  "canvas_first_ms": null,
+  "canvas_last_ms": null,
+  "canvas_max_lit": 0,
+  "colors": {
+   "gold": 0,
+   "red": 0,
+   "cream": 0
+  },
+  "dim_max": 1.0,
+  "toast_peak_scale": 1.11305,
+  "burst": true
+ },
+ {
+  "src": "rounds_f.json",
+  "r": 9,
+  "kind": "push",
+  "toast": "PUSH",
+  "final_text": "PUSH",
+  "sub": [],
+  "toast_ms": null,
+  "canvas_first_ms": null,
+  "canvas_last_ms": null,
+  "canvas_max_lit": 0,
+  "colors": {
+   "gold": 0,
+   "red": 0,
+   "cream": 0
+  },
+  "dim_max": 0.0,
+  "toast_peak_scale": 0.6,
+  "burst": false
+ },
+ {
+  "src": "rounds_g.json",
+  "r": 0,
+  "kind": "win",
+  "toast": "YOU WIN",
+  "final_text": null,
+  "sub": [],
+  "toast_ms": null,
+  "canvas_first_ms": null,
+  "canvas_last_ms": null,
+  "canvas_max_lit": 0,
+  "colors": {},
+  "dim_max": 0,
+  "toast_peak_scale": 0,
+  "burst": false
+ },
+ {
+  "src": "rounds_h.json",
+  "r": 0,
+  "kind": "dealerbust",
+  "toast": "YOU WIN | Dealer busts",
+  "final_text": null,
+  "sub": [],
+  "toast_ms": null,
+  "canvas_first_ms": null,
+  "canvas_last_ms": null,
+  "canvas_max_lit": 0,
+  "colors": {},
+  "dim_max": 0,
+  "toast_peak_scale": 0,
+  "burst": false
+ },
+ {
+  "src": "rounds_h.json",
+  "r": 3,
+  "kind": "push",
+  "toast": "PUSH",
+  "final_text": "PUSH",
+  "sub": [],
+  "toast_ms": 2464,
+  "canvas_first_ms": null,
+  "canvas_last_ms": null,
+  "canvas_max_lit": 0,
+  "colors": {
+   "gold": 0,
+   "red": 0,
+   "cream": 0
+  },
+  "dim_max": 0.0,
+  "toast_peak_scale": 1.11284,
+  "burst": false
+ },
+ {
+  "src": "rounds_h.json",
+  "r": 7,
+  "kind": "bust",
+  "toast": "BUST",
+  "final_text": "BUST",
+  "sub": [],
+  "toast_ms": null,
+  "canvas_first_ms": null,
+  "canvas_last_ms": null,
+  "canvas_max_lit": 0,
+  "colors": {
+   "gold": 0,
+   "red": 0,
+   "cream": 0
+  },
+  "dim_max": 0.1165,
+  "toast_peak_scale": 0.693365,
+  "burst": false
+ },
+ {
+  "src": "rounds_i.json",
+  "r": 0,
+  "kind": "win",
+  "toast": "YOU WIN",
+  "final_text": "YOU WIN",
+  "sub": [],
+  "toast_ms": null,
+  "canvas_first_ms": null,
+  "canvas_last_ms": null,
+  "canvas_max_lit": 0,
+  "colors": {
+   "gold": 0,
+   "red": 0,
+   "cream": 0
+  },
+  "dim_max": 0.0,
+  "toast_peak_scale": 0.659507,
+  "burst": false
+ },
+ {
+  "src": "rounds_i.json",
+  "r": 3,
+  "kind": "dealerbust",
+  "toast": "YOU WIN | Dealer busts",
+  "final_text": "YOU WIN",
+  "sub": [
+   "Dealer busts"
+  ],
+  "toast_ms": 2486,
+  "canvas_first_ms": null,
+  "canvas_last_ms": null,
+  "canvas_max_lit": 0,
+  "colors": {
+   "gold": 0,
+   "red": 0,
+   "cream": 0
+  },
+  "dim_max": 0.0,
+  "toast_peak_scale": 1.11362,
+  "burst": false
+ },
+ {
+  "src": "rounds_i.json",
+  "r": 7,
+  "kind": "win",
+  "toast": "YOU WIN",
+  "final_text": "YOU WIN",
+  "sub": [],
+  "toast_ms": null,
+  "canvas_first_ms": null,
+  "canvas_last_ms": null,
+  "canvas_max_lit": 0,
+  "colors": {
+   "gold": 0,
+   "red": 0,
+   "cream": 0
+  },
+  "dim_max": 0.0,
+  "toast_peak_scale": 0.666179,
+  "burst": false
+ },
+ {
+  "src": "rounds_j.json",
+  "r": 3,
+  "kind": "dealerbust",
+  "toast": "YOU WIN | Dealer busts",
+  "final_text": "YOU WIN",
+  "sub": [
+   "Dealer busts"
+  ],
+  "toast_ms": 2506,
+  "canvas_first_ms": null,
+  "canvas_last_ms": null,
+  "canvas_max_lit": 0,
+  "colors": {
+   "gold": 0,
+   "red": 0,
+   "cream": 0
+  },
+  "dim_max": 0.0,
+  "toast_peak_scale": 1.11348,
+  "burst": false
+ },
+ {
+  "src": "rounds_k.json",
+  "r": 0,
+  "kind": "win",
+  "toast": "YOU WIN",
+  "final_text": "YOU WIN",
+  "sub": [],
+  "toast_ms": null,
+  "canvas_first_ms": null,
+  "canvas_last_ms": null,
+  "canvas_max_lit": 0,
+  "colors": {
+   "gold": 0,
+   "red": 0,
+   "cream": 0
+  },
+  "dim_max": 0.0,
+  "toast_peak_scale": 0.6,
+  "burst": false
+ },
+ {
+  "src": "rounds_k.json",
+  "r": 5,
+  "kind": "dealerbust",
+  "toast": "YOU WIN | Dealer busts",
+  "final_text": "YOU WIN",
+  "sub": [
+   "Dealer busts"
+  ],
+  "toast_ms": 2834,
+  "canvas_first_ms": null,
+  "canvas_last_ms": null,
+  "canvas_max_lit": 0,
+  "colors": {
+   "gold": 0,
+   "red": 0,
+   "cream": 0
+  },
+  "dim_max": 0.0,
+  "toast_peak_scale": 1.11305,
+  "burst": false
+ },
+ {
+  "src": "rounds_l.json",
+  "r": 0,
+  "kind": "dealerbust",
+  "toast": "YOU WIN | Dealer busts",
+  "final_text": "YOU WIN",
+  "sub": [
+   "Dealer busts"
+  ],
+  "toast_ms": null,
+  "canvas_first_ms": null,
+  "canvas_last_ms": null,
+  "canvas_max_lit": 0,
+  "colors": {
+   "gold": 0,
+   "red": 0,
+   "cream": 0
+  },
+  "dim_max": 0.0,
+  "toast_peak_scale": 0.631775,
+  "burst": false
+ },
+ {
+  "src": "rounds_l.json",
+  "r": 3,
+  "kind": "win",
+  "toast": "YOU WIN",
+  "final_text": "YOU WIN",
+  "sub": [],
+  "toast_ms": 2654,
+  "canvas_first_ms": null,
+  "canvas_last_ms": null,
+  "canvas_max_lit": 0,
+  "colors": {
+   "gold": 0,
+   "red": 0,
+   "cream": 0
+  },
+  "dim_max": 0.0,
+  "toast_peak_scale": 1.11306,
+  "burst": false
+ },
+ {
+  "src": "rounds_m.json",
+  "r": 0,
+  "kind": "bust",
+  "toast": "BUST",
+  "final_text": null,
+  "sub": [],
+  "toast_ms": null,
+  "canvas_first_ms": null,
+  "canvas_last_ms": null,
+  "canvas_max_lit": 0,
+  "colors": {},
+  "dim_max": 0,
+  "toast_peak_scale": 0,
+  "burst": false
+ },
+ {
+  "src": "rounds_m.json",
+  "r": 3,
+  "kind": "dealerbust",
+  "toast": "YOU WIN | Dealer busts",
+  "final_text": "YOU WIN",
+  "sub": [
+   "Dealer busts"
+  ],
+  "toast_ms": 2674,
+  "canvas_first_ms": null,
+  "canvas_last_ms": null,
+  "canvas_max_lit": 0,
+  "colors": {
+   "gold": 0,
+   "red": 0,
+   "cream": 0
+  },
+  "dim_max": 0.0,
+  "toast_peak_scale": 1.11362,
+  "burst": false
+ },
+ {
+  "src": "rounds_n.json",
+  "r": 1,
+  "kind": "blackjack",
+  "toast": "BLACKJACK!",
+  "final_text": "BLACKJACK!",
+  "sub": [],
+  "toast_ms": 3020,
+  "canvas_first_ms": 67,
+  "canvas_last_ms": 2146,
+  "canvas_max_lit": 397,
+  "colors": {
+   "gold": 322,
+   "red": 19,
+   "cream": 22
+  },
+  "dim_max": 0.0,
+  "toast_peak_scale": 0.622599,
+  "burst": true
+ },
+ {
+  "src": "rounds_p.json",
+  "r": 0,
+  "kind": "bust",
+  "toast": "BUST",
+  "final_text": "BUST",
+  "sub": [],
+  "toast_ms": null,
+  "canvas_first_ms": null,
+  "canvas_last_ms": null,
+  "canvas_max_lit": 0,
+  "colors": {
+   "gold": 0,
+   "red": 0,
+   "cream": 0
+  },
+  "dim_max": 0.077,
+  "toast_peak_scale": 0.663047,
+  "burst": false
+ },
+ {
+  "src": "rounds_p.json",
+  "r": 1,
+  "kind": "bust",
+  "toast": "BUST",
+  "final_text": null,
+  "sub": [],
+  "toast_ms": null,
+  "canvas_first_ms": null,
+  "canvas_last_ms": null,
+  "canvas_max_lit": 0,
+  "colors": {},
+  "dim_max": 0,
+  "toast_peak_scale": 0,
+  "burst": false
+ }
+]

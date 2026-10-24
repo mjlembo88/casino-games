@@ -1,0 +1,1115 @@
+{
+ "videoStart": 1792813901061,
+ "rounds": [
+  {
+   "r": 0,
+   "big": false,
+   "goBust": false,
+   "hits": 0,
+   "pt": 13,
+   "up": 3,
+   "player": "8,5",
+   "dealerUp": "3",
+   "toast": null,
+   "kind": null,
+   "videoOffset": null,
+   "celLog": [],
+   "frameMs": {
+    "avg": 16.8,
+    "max": 33.4
+   }
+  },
+  {
+   "r": 1,
+   "big": false,
+   "goBust": false,
+   "hits": 0,
+   "toast": {
+    "cls": "cel-toast cel-bj",
+    "text": "BLACKJACK!"
+   },
+   "kind": "blackjack",
+   "wallStart": 1792813933347,
+   "videoOffset": 32.286,
+   "burst": {
+    "dir": "/workspace/casino/proto-bot/store/celeb/blackjack_n_r1/",
+    "times": [
+     {
+      "i": 0,
+      "ms": 143
+     },
+     {
+      "i": 1,
+      "ms": 284
+     },
+     {
+      "i": 2,
+      "ms": 451
+     },
+     {
+      "full": 451
+     },
+     {
+      "i": 3,
+      "ms": 1171
+     },
+     {
+      "i": 4,
+      "ms": 1312
+     },
+     {
+      "i": 5,
+      "ms": 1431
+     },
+     {
+      "i": 6,
+      "ms": 1563
+     },
+     {
+      "i": 7,
+      "ms": 1725
+     },
+     {
+      "i": 8,
+      "ms": 1849
+     },
+     {
+      "i": 9,
+      "ms": 1987
+     },
+     {
+      "i": 10,
+      "ms": 2151
+     },
+     {
+      "i": 11,
+      "ms": 2332
+     },
+     {
+      "i": 12,
+      "ms": 2470
+     },
+     {
+      "i": 13,
+      "ms": 2628
+     },
+     {
+      "i": 14,
+      "ms": 2756
+     },
+     {
+      "i": 15,
+      "ms": 2879
+     },
+     {
+      "i": 16,
+      "ms": 3057
+     },
+     {
+      "i": 17,
+      "ms": 3190
+     },
+     {
+      "i": 18,
+      "ms": 3390
+     }
+    ]
+   },
+   "celLog": [
+    {
+     "ev": "toast+",
+     "t": 11688.300000000745,
+     "wall": 1792813933347,
+     "cls": "cel-toast cel-bj",
+     "text": "BLACKJACK!"
+    },
+    {
+     "ev": "sample",
+     "t": 11689.39999999851,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "0",
+      "tf": "translate(-50%, -50%) scale(0.335392)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 11755.699999999255,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "0.182143",
+      "tf": "translate(-50%, -50%) scale(0.431997)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 164,
+      "gold": 164,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 11784.89999999851,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "0.30119",
+      "tf": "translate(-50%, -50%) scale(0.482148)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 173,
+      "gold": 173,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 11838.199999999255,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "0.486905",
+      "tf": "translate(-50%, -50%) scale(0.542221)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 180,
+      "gold": 180,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 11886,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "0.665873",
+      "tf": "translate(-50%, -50%) scale(0.581851)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 343,
+      "gold": 296,
+      "red": 8,
+      "cream": 7
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 11937.10000000149,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "0.847619",
+      "tf": "translate(-50%, -50%) scale(0.606796)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 389,
+      "gold": 322,
+      "red": 16,
+      "cream": 10
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 11985.800000000745,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.619608)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 353,
+      "gold": 279,
+      "red": 19,
+      "cream": 6
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 12037.60000000149,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.622599)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 397,
+      "gold": 319,
+      "red": 14,
+      "cream": 5
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 12089.60000000149,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.619851)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 333,
+      "gold": 249,
+      "red": 10,
+      "cream": 6
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 12137.89999999851,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.613845)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 350,
+      "gold": 268,
+      "red": 12,
+      "cream": 3
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 12187.10000000149,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.607461)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 227,
+      "gold": 143,
+      "red": 9,
+      "cream": 5
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 12245.60000000149,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.60378)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 240,
+      "gold": 140,
+      "red": 8,
+      "cream": 11
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 12285.800000000745,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.603661)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 228,
+      "gold": 130,
+      "red": 6,
+      "cream": 15
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 12336.10000000149,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.602837)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 213,
+      "gold": 128,
+      "red": 5,
+      "cream": 15
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 12384,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.602059)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 188,
+      "gold": 102,
+      "red": 4,
+      "cream": 22
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 12439.800000000745,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.599018)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 205,
+      "gold": 127,
+      "red": 6,
+      "cream": 20
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 12484.10000000149,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.599018)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 205,
+      "gold": 127,
+      "red": 6,
+      "cream": 20
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 12534.10000000149,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.599018)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 205,
+      "gold": 127,
+      "red": 6,
+      "cream": 20
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 12584.10000000149,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.599018)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 205,
+      "gold": 127,
+      "red": 6,
+      "cream": 20
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 12634.10000000149,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.599018)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 205,
+      "gold": 127,
+      "red": 6,
+      "cream": 20
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 12684.199999999255,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.599018)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 205,
+      "gold": 127,
+      "red": 6,
+      "cream": 20
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 12734.10000000149,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.599018)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 205,
+      "gold": 127,
+      "red": 6,
+      "cream": 20
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 12784.199999999255,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.599018)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 205,
+      "gold": 127,
+      "red": 6,
+      "cream": 20
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 12854.5,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.582003)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 117,
+      "gold": 37,
+      "red": 14,
+      "cream": 15
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 12887.10000000149,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.573221)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 113,
+      "gold": 37,
+      "red": 18,
+      "cream": 8
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 12940,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.565394)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 117,
+      "gold": 38,
+      "red": 16,
+      "cream": 7
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 12989.199999999255,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.560905)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 132,
+      "gold": 44,
+      "red": 13,
+      "cream": 8
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 13034,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.559217)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 143,
+      "gold": 44,
+      "red": 15,
+      "cream": 6
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 13084,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.558987)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 138,
+      "gold": 48,
+      "red": 11,
+      "cream": 5
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 13133.89999999851,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.558987)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 132,
+      "gold": 37,
+      "red": 15,
+      "cream": 9
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 13185.699999999255,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.558987)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 98,
+      "gold": 35,
+      "red": 10,
+      "cream": 8
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 13235.89999999851,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.558987)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 113,
+      "gold": 33,
+      "red": 8,
+      "cream": 18
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 13286.89999999851,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.558987)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 108,
+      "gold": 24,
+      "red": 8,
+      "cream": 21
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 13353.89999999851,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.558987)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 124,
+      "gold": 38,
+      "red": 15,
+      "cream": 14
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 13384.300000000745,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.558987)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 137,
+      "gold": 33,
+      "red": 14,
+      "cream": 12
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 13434,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.558987)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 121,
+      "gold": 32,
+      "red": 11,
+      "cream": 5
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 13483.89999999851,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.558987)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 106,
+      "gold": 24,
+      "red": 9,
+      "cream": 8
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 13536,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.558987)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 82,
+      "gold": 23,
+      "red": 5,
+      "cream": 5
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 13584,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.558987)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 65,
+      "gold": 22,
+      "red": 2,
+      "cream": 6
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 13634.199999999255,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.558987)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 51,
+      "gold": 21,
+      "red": 0,
+      "cream": 6
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 13684.199999999255,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.558987)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 49,
+      "gold": 20,
+      "red": 2,
+      "cream": 1
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 13738.699999999255,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.558987)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 37,
+      "gold": 18,
+      "red": 4,
+      "cream": 2
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 13784,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.558987)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 17,
+      "gold": 8,
+      "red": 2,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 13834.10000000149,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.558987)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 5,
+      "gold": 0,
+      "red": 3,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 13884.199999999255,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.558987)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 13943.300000000745,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.558987)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 13983.89999999851,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.558987)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 14040,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.558987)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 14090.10000000149,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.558987)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 14138.300000000745,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.558987)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 14184.39999999851,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.558987)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 14239.800000000745,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.558987)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 14287,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.558987)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 14334.199999999255,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.558987)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 14384.89999999851,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.558987)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 14434,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "1",
+      "tf": "translate(-50%, -50%) scale(0.558987)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 14487.300000000745,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "0.8388",
+      "tf": "translate(-50%, -50%) scale(0.562592)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 14534.699999999255,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "0.6504",
+      "tf": "translate(-50%, -50%) scale(0.566804)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 14584.199999999255,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "0.46",
+      "tf": "translate(-50%, -50%) scale(0.571061)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 14634.300000000745,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "0.27",
+      "tf": "translate(-50%, -50%) scale(0.57531)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "sample",
+     "t": 14684.60000000149,
+     "toast": {
+      "text": "BLACKJACK!",
+      "op": "0.08",
+      "tf": "translate(-50%, -50%) scale(0.579558)"
+     },
+     "dim": "0",
+     "canvas": {
+      "lit": 0,
+      "gold": 0,
+      "red": 0,
+      "cream": 0
+     }
+    },
+    {
+     "ev": "toast-",
+     "t": 14707.89999999851,
+     "cls": "cel-toast cel-bj"
+    }
+   ],
+   "frameMs": {
+    "avg": 18.4,
+    "max": 383.2
+   }
+  }
+ ],
+ "console": []
+}

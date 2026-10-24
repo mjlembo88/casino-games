@@ -6,7 +6,7 @@ from PIL import Image, ImageDraw, ImageFont, ImageFilter
 import numpy as np
 HERE = os.path.dirname(os.path.abspath(__file__)); ROOT = os.path.dirname(HERE)
 KIT = '/workspace/casino/assets/kit/'
-W, H, FPS, DUR = 1080, 1920, 30, 12.0
+W, H, FPS, DUR = 1080, 1920, 30, 14.0
 N = int(FPS * DUR)
 BUILD = f'{ROOT}/promo/build'; FR = f'{BUILD}/frames'
 shutil.rmtree(FR, ignore_errors=True); os.makedirs(FR, exist_ok=True)
@@ -90,11 +90,12 @@ def title_scene(c, k_in, t):
 
 # timeline: (start, end, shot, caption, sub, zoom0, zoom1, focus_y)
 SEG = [
-    (1.6, 3.8, '01_bet', 'Stack your chips', 'Play money only', 1.00, 1.05, .62),
-    (3.8, 5.0, '02_dealing', 'Dealt card by card', 'Smooth shoe-to-felt dealing', 1.06, 1.16, .40),
-    (5.0, 6.8, '03_decision', 'Every classic move', 'Hit, stand, double or surrender', 1.00, 1.05, .55),
-    (6.8, 8.6, '05_result', 'Beat the dealer for fun', 'Your bankroll keeps score', 1.00, 1.14, .38),
-    (8.6, 10.6, '06_coach', 'Learn basic strategy', 'The Coach grades every play', 1.00, 1.08, .45),
+    (1.6, 3.8, '01_bet', 'Stack your chips', 'Play money only', 1.00, 1.04, .50),
+    (3.8, 5.0, '02_dealing', 'Dealt card by card', 'Smooth shoe-to-felt dealing', 1.00, 1.04, .50),
+    (5.0, 6.8, '03_decision', 'Every classic move', 'Hit, stand, double or surrender', 1.00, 1.04, .50),
+    (6.8, 8.6, '05_result', 'Beat the dealer for fun', 'Your bankroll keeps score', 1.00, 1.04, .50),
+    (8.6, 10.6, '12_blackjack', 'Blackjack pays 3 to 2', 'Gold confetti on every natural', 1.00, 1.01, .50),
+    (10.6, 12.6, '06_coach', 'Learn basic strategy', 'The Coach grades every play', 1.00, 1.03, .50),
 ]
 TR = .35  # slide transition length
 PCX, PCY = W / 2, 330 + PH / 2
@@ -104,7 +105,7 @@ def frame(i):
     c = bg.copy()
     # title in/out
     if t < 1.6:   k = 1 - ease((t - 1.25) / .35) if t > 1.25 else 1
-    elif t > 10.6: k = ease((t - 10.6) / 1.4)
+    elif t > 12.6: k = ease((t - 12.6) / 1.4)
     else: k = 0
     if t < 1.6:   # title exits upward / phone enters
         title_scene(c, 1, t) if t <= 1.25 else None
@@ -112,7 +113,7 @@ def frame(i):
             lay = Image.new('RGBA', c.size, (0, 0, 0, 0)); title_scene(lay, 1, t)
             off = int(-ease((t - 1.25) / .35) * 500); a = 1 - ease((t - 1.25) / .35)
             lay = lay.transform(lay.size, Image.AFFINE, (1, 0, 0, 0, 1, -off)); al = lay.getchannel('A').point(lambda v: int(v * a)); lay.putalpha(al); c.alpha_composite(lay)
-    elif t > 10.6:
+    elif t > 12.6:
         title_scene(c, k, t)
     # phones
     for j, (s0, s1, shot, cap, sub, z0, z1, fy) in enumerate(SEG):

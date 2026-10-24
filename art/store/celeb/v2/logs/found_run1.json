@@ -1,0 +1,7 @@
+{
+ "win": 48,
+ "bust": 14,
+ "blackjack": 8,
+ "bigWin": 1,
+ "push": 8
+}
