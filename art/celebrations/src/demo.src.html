@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Marcus's Table: celebration effects demo (play money)</title>
+<style>
+  html,body{margin:0;height:100%;background:#073d22;font-family:system-ui,-apple-system,Roboto,"Segoe UI",sans-serif;color:#fff8e7;overflow:hidden}
+  #table{position:absolute;inset:0}
+  #felt{position:absolute;inset:0;width:100%;height:100%}
+  .hand{position:absolute;left:50%;transform:translateX(-50%);display:flex;gap:calc(14px*var(--k))}
+  #dealer{top:7%} #player{top:56%}
+  .card{width:calc(110px*var(--k));height:calc(154px*var(--k));border-radius:calc(7px*var(--k));background:linear-gradient(160deg,#fffdf6,#f7f3ea 60%,#ece5d3);box-shadow:0 6px 14px rgba(0,0,0,.45);position:relative}
+  .card .ix{position:absolute;left:8%;top:5%;font:700 calc(30px*var(--k)) Georgia,"Times New Roman",serif;line-height:1;text-align:center}
+  .card .ix svg{display:block;width:calc(20px*var(--k));height:calc(20px*var(--k));margin:calc(3px*var(--k)) auto 0}
+  .card .big{position:absolute;left:50%;top:54%;width:46%;transform:translate(-50%,-50%)}
+  .card.back{background:#8a0d22;border:calc(5px*var(--k)) solid #f7f3ea;box-sizing:border-box;background-image:repeating-linear-gradient(45deg,rgba(255,255,255,.14) 0 6px,transparent 6px 14px),repeating-linear-gradient(-45deg,rgba(255,255,255,.14) 0 6px,transparent 6px 14px)}
+  #bet{position:absolute;left:50%;top:86%;width:calc(120px*var(--k));height:calc(120px*var(--k));transform:translate(-50%,-50%);border-radius:50%;border:calc(2px*var(--k)) dashed rgba(242,193,78,.7);box-shadow:inset 0 0 0 calc(6px*var(--k)) rgba(255,240,200,.08)}
+  .chip{position:absolute;left:50%;width:calc(64px*var(--k));height:calc(64px*var(--k));margin-left:calc(-32px*var(--k));filter:drop-shadow(0 3px 2px rgba(0,0,0,.45))}
+  #ui{position:absolute;left:0;right:0;top:0;display:flex;gap:8px;padding:10px;flex-wrap:wrap;z-index:100;align-items:center}
+  #ui button{min-height:44px;padding:0 16px;border-radius:14px;border:0;font-weight:700;font-size:15px;cursor:pointer;background:linear-gradient(#f2c14e,#c89527);color:#121212;box-shadow:0 3px 0 #7a5a14}
+  #ui button:active{transform:translateY(2px);box-shadow:0 1px 0 #7a5a14}
+  #ui label{font-size:14px;color:rgba(255,248,231,.85);display:flex;gap:6px;align-items:center;background:rgba(0,0,0,.25);padding:6px 10px;border-radius:10px}
+  .capture #ui{display:none}
+  #stats{position:absolute;right:10px;bottom:8px;font:12px ui-monospace,Menlo,monospace;color:rgba(255,248,231,.55);z-index:100}
+  .capture #stats{display:none}
+</style></head>
+<body>
+<div id="table">
+  <canvas id="felt"></canvas>
+  <div id="dealer" class="hand"></div>
+  <div id="player" class="hand"></div>
+  <div id="bet"></div>
+</div>
+<div id="ui">
+  <button data-fx="win">Win</button><button data-fx="blackjack">Blackjack</button><button data-fx="push">Push</button>
+  <button data-fx="bust">Bust</button><button data-fx="bigWin">Big win</button>
+  <label><input type="checkbox" id="low"> quality: low</label>
+  <label><input type="checkbox" id="rm"> reduce motion</label>
+  <label><input type="checkbox" id="snd"> sound</label>
+  <label>speed <select id="spd"><option>0.5</option><option selected>1</option><option>2</option></select></label>
+</div>
+<div id="stats"></div>
+<script>/*CELEBRATE_JS*/</script>
+<script>
+(() => {
+  const Q = new URLSearchParams(location.search), capture = Q.has('capture');
+  if (capture) document.documentElement.classList.add('capture');
+  const SUIT = {
+    s: '<path d="M50 6C20 34 4 48 4 64c0 14 11 22 24 22 9 0 16-4 20-10-2 10-6 16-14 20h32c-8-4-12-10-14-20 4 6 11 10 20 10 13 0 24-8 24-22 0-16-16-30-46-58z"/>',
+    h: '<path d="M50 90C20 66 4 50 4 32 4 18 15 8 28 8c10 0 18 6 22 14 4-8 12-14 22-14 13 0 24 10 24 24 0 18-16 34-46 58z"/>',
+    d: '<path d="M50 4l38 46-38 46-38-46z"/>',
+    c: '<circle cx="50" cy="28" r="20"/><circle cx="28" cy="60" r="20"/><circle cx="72" cy="60" r="20"/><rect x="40" y="36" width="20" height="30"/><path d="M46 60c0 20-6 30-14 36h36c-8-6-14-16-14-36z"/>'
+  };
+  const RED = { h: 1, d: 1 };
+  const svg = (s) => `<svg viewBox="0 0 100 100" fill="${RED[s] ? '#c8102e' : '#121212'}">${SUIT[s]}</svg>`;
+  function card(code) {
+    const el = document.createElement('div');
+    if (code === 'back') { el.className = 'card back'; return el; }
+    const r = code.slice(0, -1), s = code.slice(-1);
+    el.className = 'card';
+    el.innerHTML = `<div class="ix" style="color:${RED[s] ? '#c8102e' : '#121212'}">${r}${svg(s)}</div><div class="big">${svg(s)}</div>`;
+    return el;
+  }
+  const dealerEl = document.getElementById('dealer'), playerEl = document.getElementById('player'), betEl = document.getElementById('bet');
+  function setHands(d, p) {
+    dealerEl.replaceChildren(...d.map(card)); playerEl.replaceChildren(...p.map(card));
+    return [...playerEl.children];
+  }
+  // chips: same drawChip the engine uses, rendered once to data: URIs (kit section 0 caching)
+  const chipURI = {};
+  function chipImg(d) {
+    if (!chipURI[d]) { const c = document.createElement('canvas'); c.width = c.height = 128; CasinoCelebrate.drawChip(c.getContext('2d'), 64, 64, 62, d); chipURI[d] = c.toDataURL(); }
+    const i = new Image(); i.src = chipURI[d]; i.className = 'chip'; return i;
+  }
+  function setBet(denoms) {
+    betEl.replaceChildren(...denoms.map((d, i) => { const im = chipImg(d); im.style.top = `calc(50% - 32px*var(--k) - ${i * 4}px*var(--k))`; return im; }));
+    return [...betEl.children];
+  }
+  // felt (kit section 2): radial gradient + grain + lamp + vignette + printed arc + rail
+  const felt = document.getElementById('felt'), table = document.getElementById('table');
+  function drawFelt() {
+    const W = table.clientWidth, H = table.clientHeight, dpr = Math.min(2, devicePixelRatio || 1);
+    felt.width = W * dpr; felt.height = H * dpr; const g = felt.getContext('2d'); g.scale(dpr, dpr);
+    const k = Math.min(W, H) / 900; document.documentElement.style.setProperty('--k', (k * 1.25).toFixed(3));
+    let gr = g.createRadialGradient(W * .5, H * .35, 0, W * .5, H * .35, Math.max(W, H) * .75);
+    gr.addColorStop(0, '#14804a'); gr.addColorStop(.45, '#0b5d34'); gr.addColorStop(1, '#073d22'); g.fillStyle = gr; g.fillRect(0, 0, W, H);
+    const n = document.createElement('canvas'); n.width = n.height = 256; const nc = n.getContext('2d'); let s = 7;
+    const rnd = () => (s = (s * 16807) % 2147483647) / 2147483647;
+    for (let i = 0; i < 9000; i++) { nc.fillStyle = rnd() < .5 ? 'rgba(255,255,255,.035)' : 'rgba(0,0,0,.05)'; nc.fillRect(rnd() * 256, rnd() * 256, 1, 1); }
+    g.fillStyle = g.createPattern(n, 'repeat'); g.fillRect(0, 0, W, H);
+    gr = g.createRadialGradient(W * .5, H * .12, 0, W * .5, H * .12, H * .55); gr.addColorStop(0, 'rgba(255,230,180,.16)'); gr.addColorStop(1, 'rgba(255,230,180,0)');
+    g.fillStyle = gr; g.fillRect(0, 0, W, H);
+    // printed arc
+    const cx = W / 2, cy = -H * 0.62, R = H * 1.12, txt = 'BLACKJACK PAYS 3 TO 2';
+    g.font = `600 ${Math.round(26 * k * 1.25)}px Georgia, "Times New Roman", serif`; g.fillStyle = 'rgba(255,240,200,.55)'; g.textAlign = 'center'; g.textBaseline = 'middle';
+    const adv = [...txt].map((c) => g.measureText(c).width * 1.18), tot = adv.reduce((a, b) => a + b, 0);
+    let a = Math.PI / 2 + tot / 2 / R;
+    [...txt].forEach((c, i) => { a -= adv[i] / 2 / R; g.save(); g.translate(cx + Math.cos(a) * R, cy + Math.sin(a) * R); g.rotate(a - Math.PI / 2); g.fillText(c, 0, 0); g.restore(); a -= adv[i] / 2 / R; });
+    gr = g.createRadialGradient(W / 2, H / 2, Math.min(W, H) * .45, W / 2, H / 2, Math.max(W, H) * .78); gr.addColorStop(0, 'rgba(0,0,0,0)'); gr.addColorStop(1, 'rgba(0,0,0,.55)');
+    g.fillStyle = gr; g.fillRect(0, 0, W, H);
+    // rail along the player edge
+    const ry = H - 18 * k * 1.25; gr = g.createLinearGradient(0, ry, 0, H); gr.addColorStop(0, '#6b4127'); gr.addColorStop(1, '#3a2214');
+    g.fillStyle = gr; g.fillRect(0, ry, W, H - ry); g.strokeStyle = 'rgba(255,255,255,.15)'; g.setLineDash([6, 6]); g.beginPath(); g.moveTo(0, ry + 6 * k); g.lineTo(W, ry + 6 * k); g.stroke();
+  }
+  drawFelt(); addEventListener('resize', drawFelt);
+
+  const fx = CasinoCelebrate.createCelebrator(table, { manual: capture, seed: 20261023, sound: false });
+  const SCEN = {
+    win:       () => { const c = setHands(['9h', 'back'], ['Kc', '9d']); const b = setBet([25, 25]); return fx.win({ cards: c }); },
+    blackjack: () => { const c = setHands(['7d', 'back'], ['As', 'Kh']); setBet([100, 25, 25]); const chips = betEl.lastElementChild; return fx.blackjack({ cards: c, chips, sub: 'Pays 3 to 2' }); },
+    push:      () => { setHands(['Qs', '8c'], ['Jh', '8d']); const b = setBet([25, 5]); return fx.push({ chips: b }); },
+    bust:      () => { const c = setHands(['10d', 'back'], ['10c', '6h', '9s']); setBet([25]); return fx.bust({ cards: c }); },
+    bigWin:    () => { setHands(['6c', '10h', 'Qd'], ['Ah', 'Ad']); setBet([500, 500, 100]); return fx.bigWin({ amount: 1500, to: betEl, sub: "Added to Marcus's bankroll" }); },
+  };
+  window.__fx = fx; window.__scen = SCEN;
+  window.__run = (name, opts) => { fx.clear(); fx.set(Object.assign({ quality: 'high', reduceMotion: false, speed: 1 }, opts || {})); return SCEN[name](); };
+  window.__step = (ms) => fx.advance(ms);
+  document.querySelectorAll('[data-fx]').forEach((b) => b.addEventListener('click', () => {
+    fx.set({ quality: low.checked ? 'low' : 'auto', reduceMotion: rm.checked, sound: snd.checked, speed: +spd.value });
+    SCEN[b.dataset.fx]();
+  }));
+  const low = document.getElementById('low'), rm = document.getElementById('rm'), snd = document.getElementById('snd'), spd = document.getElementById('spd');
+  rm.checked = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  setHands(['7d', 'back'], ['As', 'Kh']); setBet([100, 25, 25]);
+  if (!capture) setInterval(() => { const s = fx.stats; document.getElementById('stats').textContent = `quality ${s.quality} · particles ${s.activeParticles} (peak ${s.peakParticles}) · drawn ${s.particlesDrawn}`; }, 200);
+})();
+</script>
+</body></html>

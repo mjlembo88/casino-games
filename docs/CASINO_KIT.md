@@ -193,3 +193,26 @@ A game module provides `rules` (pure engine), `layout` (spots), and a controller
 3. Write a pure-TS rules engine with vitest tests in `engine/`, then paste it in.
 4. Add voice lines to the manifest (same model and voice, for consistency) and regenerate with `tts/gen.py`.
 5. Keep the shared bankroll key `casino.bankroll`, so all games share one play-money bankroll.
+
+## 12. Art sources & licenses (art v1, 2026-10-23)
+The kit can now load optional raster art from GitHub Pages: `https://mjlembo88.github.io/casino-games/assets/kit/` (CORS `*`). The index is `assets/kit/manifest.json`, which lists every file's purpose, size, model, license, method and prompt. If an asset fails to load, the procedural renderers in §2–§5 are still the fallback.
+
+| Asset | Made with | License | Link |
+|---|---|---|---|
+| Dealer still + 5 sprite frames + idle/talk/react_win loops | **SimianLuo/LCM_Dreamshaper_v7**, run locally on CPU (diffusers txt2img/img2img). Frames are masked face edits; loops are built with ffmpeg | **MIT** | https://huggingface.co/SimianLuo/LCM_Dreamshaper_v7 |
+| Felt, leather, paper, clay textures | same model; high-pass + offset-blend to make them tileable | MIT | same |
+| Tables (top-down + perspective, 1920×1080 + 1080×1920) | procedural numpy composite of the AI felt/leather textures | MIT (model) / original code | — |
+| Chips 1…5K (faces + side views) | procedural chip in `theme.chip` colors + AI clay detail (img2img 0.28; luminance only, so colors stay exact) | MIT (model) / original code | — |
+| Card backs (red `#8a0d22`, blue) | procedural lattice + "M" medallion × AI paper texture | MIT (model) / original code | — |
+| Overlay text "BLACKJACK PAYS 3 TO 2" | DejaVu Serif Bold | Bitstream Vera / DejaVu free license | https://dejavu-fonts.github.io/License.html |
+
+- Libraries: diffusers (Apache-2.0), torch (BSD), Pillow, numpy, scipy, ffmpeg. All model downloads are public, with no HF token stored or used.
+- The dealer is a fictional generated man in his 40s (salt-and-pepper hair and beard, black vest, burgundy bow tie). He isn't based on any real person, and there are no real casino names or logos.
+- **No Krea output is in the repo or the app.** Krea drafts in `assets/kit/_samples/` are private reference only and git-ignored (the Krea account is on the Free plan, which has no commercial license or redistribution rights).
+- Regenerate with `/workspace/casino/art-hf/*.py` (`.artvenv`). See `/home/box/ops/cheatsheets/casino-games.md`.
+
+## 13. Celebrations (`celebrate.ts`)
+Shared win/blackjack/push/bust/big-win effects by Proto Bot. They're 100% procedural (DOM + Canvas2D + WebAudio), with no images, fonts or AI.
+- Kit source: `kit/celebrate.ts` in the repo, which goes to `src/kit/celebrate.ts` in a Grok Build project. It imports nothing, and has no game imports.
+- The API, hookup steps, timings and reduce-motion/quality rules are in `art/celebrations/README.md` ("Wiring into src/kit"). The demo is `art/celebrations/demo.html`, and review clips are in `art/celebrations/media/*.mp4|gif`.
+- API: `createCelebrator(tableEl, opts)` returns `fx.win | blackjack | push | bust | lose | bigWin | celebrate(level, text, at?, sub?) | set | clear`, plus `drawChip(ctx, x, y, r, denom, theme)`.

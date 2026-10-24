@@ -1,0 +1,1144 @@
+{
+ "name": "Casino Kit art v1",
+ "created": "2026-10-23",
+ "author": "Marcus",
+ "base_url": "https://mjlembo88.github.io/casino-games/assets/kit/",
+ "models": [
+  {
+   "id": "SimianLuo/LCM_Dreamshaper_v7",
+   "license": "MIT",
+   "link": "https://huggingface.co/SimianLuo/LCM_Dreamshaper_v7",
+   "note": "run locally on CPU (diffusers 0.42, torch 2.14, fp32); public download, no token"
+  }
+ ],
+ "tools": [
+  "diffusers (Apache-2.0)",
+  "numpy/scipy/Pillow",
+  "ffmpeg",
+  "DejaVu fonts (Bitstream Vera / public-domain-style permissive)"
+ ],
+ "not_included": "No Krea output is used or shipped. assets/kit/_samples/ is private and git-ignored.",
+ "dealer_anim": {
+  "frames": {
+   "rest": "dealer/frames/dealer_rest_768x512.webp",
+   "mid": "dealer/frames/dealer_mid_768x512.webp",
+   "open": "dealer/frames/dealer_open_768x512.webp",
+   "blink": "dealer/frames/dealer_blink_768x512.webp",
+   "smile": "dealer/frames/dealer_smile_768x512.webp"
+  },
+  "face_box_1536": [
+   583,
+   78,
+   967,
+   462
+  ],
+  "loops": {
+   "idle": "dealer/dealer_idle",
+   "talk": "dealer/dealer_talk",
+   "react_win": "dealer/dealer_react_win"
+  }
+ },
+ "chips": {
+  "1": "chips/chip_1.png",
+  "5": "chips/chip_5.png",
+  "25": "chips/chip_25.png",
+  "100": "chips/chip_100.png",
+  "500": "chips/chip_500.png",
+  "1000": "chips/chip_1000.png",
+  "5000": "chips/chip_5000.png"
+ },
+ "items": [
+  {
+   "file": "cards/card_back_blue.png",
+   "url": "https://mjlembo88.github.io/casino-games/assets/kit/cards/card_back_blue.png",
+   "purpose": "card back, transparent rounded corners",
+   "size": [
+    500,
+    700
+   ],
+   "bytes": 583239,
+   "model": "SimianLuo/LCM_Dreamshaper_v7",
+   "license": "MIT (model); outputs original, no third-party marks",
+   "method": "procedural lattice back (#8a0d22 red / #1f4fa8 blue, medallion M) x AI paper texture, rounded-corner alpha",
+   "prompt": "paper: 'macro photo of plain white cotton card stock paper texture, subtle linen fibers, uniform, flat even lighting, seamless texture' seed 3"
+  },
+  {
+   "file": "cards/card_back_blue.webp",
+   "url": "https://mjlembo88.github.io/casino-games/assets/kit/cards/card_back_blue.webp",
+   "purpose": "card back, transparent rounded corners",
+   "size": [
+    500,
+    700
+   ],
+   "bytes": 99032,
+   "model": "SimianLuo/LCM_Dreamshaper_v7",
+   "license": "MIT (model); outputs original, no third-party marks",
+   "method": "procedural lattice back (#8a0d22 red / #1f4fa8 blue, medallion M) x AI paper texture, rounded-corner alpha",
+   "prompt": "paper: 'macro photo of plain white cotton card stock paper texture, subtle linen fibers, uniform, flat even lighting, seamless texture' seed 3"
+  },
+  {
+   "file": "cards/card_back_red.png",
+   "url": "https://mjlembo88.github.io/casino-games/assets/kit/cards/card_back_red.png",
+   "purpose": "card back, transparent rounded corners",
+   "size": [
+    500,
+    700
+   ],
+   "bytes": 542179,
+   "model": "SimianLuo/LCM_Dreamshaper_v7",
+   "license": "MIT (model); outputs original, no third-party marks",
+   "method": "procedural lattice back (#8a0d22 red / #1f4fa8 blue, medallion M) x AI paper texture, rounded-corner alpha",
+   "prompt": "paper: 'macro photo of plain white cotton card stock paper texture, subtle linen fibers, uniform, flat even lighting, seamless texture' seed 3"
+  },
+  {
+   "file": "cards/card_back_red.webp",
+   "url": "https://mjlembo88.github.io/casino-games/assets/kit/cards/card_back_red.webp",
+   "purpose": "card back, transparent rounded corners",
+   "size": [
+    500,
+    700
+   ],
+   "bytes": 79192,
+   "model": "SimianLuo/LCM_Dreamshaper_v7",
+   "license": "MIT (model); outputs original, no third-party marks",
+   "method": "procedural lattice back (#8a0d22 red / #1f4fa8 blue, medallion M) x AI paper texture, rounded-corner alpha",
+   "prompt": "paper: 'macro photo of plain white cotton card stock paper texture, subtle linen fibers, uniform, flat even lighting, seamless texture' seed 3"
+  },
+  {
+   "file": "chips/chip_1.png",
+   "url": "https://mjlembo88.github.io/casino-games/assets/kit/chips/chip_1.png",
+   "purpose": "chip face, transparent",
+   "size": [
+    512,
+    512
+   ],
+   "bytes": 316437,
+   "model": "SimianLuo/LCM_Dreamshaper_v7",
+   "license": "MIT (model); outputs original, no third-party marks",
+   "method": "procedural chip in theme.chip colours + AI clay detail, img2img strength 0.28 for surface realism (luminance detail only, colours kept exact), value text drawn after, anti-aliased circular alpha cutout",
+   "prompt": "top-down studio photo of a clay casino chip, realistic, soft light, sharp; clay texture: 'full frame texture of matte grey speckled plastic surface, fine grain, uniform' seed 13"
+  },
+  {
+   "file": "chips/chip_1.webp",
+   "url": "https://mjlembo88.github.io/casino-games/assets/kit/chips/chip_1.webp",
+   "purpose": "chip face, transparent",
+   "size": [
+    512,
+    512
+   ],
+   "bytes": 63234,
+   "model": "SimianLuo/LCM_Dreamshaper_v7",
+   "license": "MIT (model); outputs original, no third-party marks",
+   "method": "procedural chip in theme.chip colours + AI clay detail, img2img strength 0.28 for surface realism (luminance detail only, colours kept exact), value text drawn after, anti-aliased circular alpha cutout",
+   "prompt": "top-down studio photo of a clay casino chip, realistic, soft light, sharp; clay texture: 'full frame texture of matte grey speckled plastic surface, fine grain, uniform' seed 13"
+  },
+  {
+   "file": "chips/chip_100.png",
+   "url": "https://mjlembo88.github.io/casino-games/assets/kit/chips/chip_100.png",
+   "purpose": "chip face, transparent",
+   "size": [
+    512,
+    512
+   ],
+   "bytes": 263357,
+   "model": "SimianLuo/LCM_Dreamshaper_v7",
+   "license": "MIT (model); outputs original, no third-party marks",
+   "method": "procedural chip in theme.chip colours + AI clay detail, img2img strength 0.28 for surface realism (luminance detail only, colours kept exact), value text drawn after, anti-aliased circular alpha cutout",
+   "prompt": "top-down studio photo of a clay casino chip, realistic, soft light, sharp; clay texture: 'full frame texture of matte grey speckled plastic surface, fine grain, uniform' seed 13"
+  },
+  {
+   "file": "chips/chip_100.webp",
+   "url": "https://mjlembo88.github.io/casino-games/assets/kit/chips/chip_100.webp",
+   "purpose": "chip face, transparent",
+   "size": [
+    512,
+    512
+   ],
+   "bytes": 33248,
+   "model": "SimianLuo/LCM_Dreamshaper_v7",
+   "license": "MIT (model); outputs original, no third-party marks",
+   "method": "procedural chip in theme.chip colours + AI clay detail, img2img strength 0.28 for surface realism (luminance detail only, colours kept exact), value text drawn after, anti-aliased circular alpha cutout",
+   "prompt": "top-down studio photo of a clay casino chip, realistic, soft light, sharp; clay texture: 'full frame texture of matte grey speckled plastic surface, fine grain, uniform' seed 13"
+  },
+  {
+   "file": "chips/chip_1000.png",
+   "url": "https://mjlembo88.github.io/casino-games/assets/kit/chips/chip_1000.png",
+   "purpose": "chip face, transparent",
+   "size": [
+    512,
+    512
+   ],
+   "bytes": 427922,
+   "model": "SimianLuo/LCM_Dreamshaper_v7",
+   "license": "MIT (model); outputs original, no third-party marks",
+   "method": "procedural chip in theme.chip colours + AI clay detail, img2img strength 0.28 for surface realism (luminance detail only, colours kept exact), value text drawn after, anti-aliased circular alpha cutout",
+   "prompt": "top-down studio photo of a clay casino chip, realistic, soft light, sharp; clay texture: 'full frame texture of matte grey speckled plastic surface, fine grain, uniform' seed 13"
+  },
+  {
+   "file": "chips/chip_1000.webp",
+   "url": "https://mjlembo88.github.io/casino-games/assets/kit/chips/chip_1000.webp",
+   "purpose": "chip face, transparent",
+   "size": [
+    512,
+    512
+   ],
+   "bytes": 68896,
+   "model": "SimianLuo/LCM_Dreamshaper_v7",
+   "license": "MIT (model); outputs original, no third-party marks",
+   "method": "procedural chip in theme.chip colours + AI clay detail, img2img strength 0.28 for surface realism (luminance detail only, colours kept exact), value text drawn after, anti-aliased circular alpha cutout",
+   "prompt": "top-down studio photo of a clay casino chip, realistic, soft light, sharp; clay texture: 'full frame texture of matte grey speckled plastic surface, fine grain, uniform' seed 13"
+  },
+  {
+   "file": "chips/chip_1000_128.png",
+   "url": "https://mjlembo88.github.io/casino-games/assets/kit/chips/chip_1000_128.png",
+   "purpose": "chip face, transparent",
+   "size": [
+    128,
+    128
+   ],
+   "bytes": 27981,
+   "model": "SimianLuo/LCM_Dreamshaper_v7",
+   "license": "MIT (model); outputs original, no third-party marks",
+   "method": "procedural chip in theme.chip colours + AI clay detail, img2img strength 0.28 for surface realism (luminance detail only, colours kept exact), value text drawn after, anti-aliased circular alpha cutout",
+   "prompt": "top-down studio photo of a clay casino chip, realistic, soft light, sharp; clay texture: 'full frame texture of matte grey speckled plastic surface, fine grain, uniform' seed 13"
+  },
+  {
+   "file": "chips/chip_1000_side.png",
+   "url": "https://mjlembo88.github.io/casino-games/assets/kit/chips/chip_1000_side.png",
+   "purpose": "chip edge/side view for stacks",
+   "size": [
+    512,
+    119
+   ],
+   "bytes": 98709,
+   "model": null,
+   "license": "MIT (model); outputs original, no third-party marks",
+   "method": "procedural edge/side view built from the chip face (ellipse + edge stripes), transparent",
+   "prompt": null
+  },
+  {
+   "file": "chips/chip_1000_side.webp",
+   "url": "https://mjlembo88.github.io/casino-games/assets/kit/chips/chip_1000_side.webp",
+   "purpose": "chip edge/side view for stacks",
+   "size": [
+    512,
+    119
+   ],
+   "bytes": 21920,
+   "model": null,
+   "license": "MIT (model); outputs original, no third-party marks",
+   "method": "procedural edge/side view built from the chip face (ellipse + edge stripes), transparent",
+   "prompt": null
+  },
+  {
+   "file": "chips/chip_100_128.png",
+   "url": "https://mjlembo88.github.io/casino-games/assets/kit/chips/chip_100_128.png",
+   "purpose": "chip face, transparent",
+   "size": [
+    128,
+    128
+   ],
+   "bytes": 20802,
+   "model": "SimianLuo/LCM_Dreamshaper_v7",
+   "license": "MIT (model); outputs original, no third-party marks",
+   "method": "procedural chip in theme.chip colours + AI clay detail, img2img strength 0.28 for surface realism (luminance detail only, colours kept exact), value text drawn after, anti-aliased circular alpha cutout",
+   "prompt": "top-down studio photo of a clay casino chip, realistic, soft light, sharp; clay texture: 'full frame texture of matte grey speckled plastic surface, fine grain, uniform' seed 13"
+  },
+  {
+   "file": "chips/chip_100_side.png",
+   "url": "https://mjlembo88.github.io/casino-games/assets/kit/chips/chip_100_side.png",
+   "purpose": "chip edge/side view for stacks",
+   "size": [
+    512,
+    119
+   ],
+   "bytes": 60621,
+   "model": null,
+   "license": "MIT (model); outputs original, no third-party marks",
+   "method": "procedural edge/side view built from the chip face (ellipse + edge stripes), transparent",
+   "prompt": null
+  },
+  {
+   "file": "chips/chip_100_side.webp",
+   "url": "https://mjlembo88.github.io/casino-games/assets/kit/chips/chip_100_side.webp",
+   "purpose": "chip edge/side view for stacks",
+   "size": [
+    512,
+    119
+   ],
+   "bytes": 13198,
+   "model": null,
+   "license": "MIT (model); outputs original, no third-party marks",
+   "method": "procedural edge/side view built from the chip face (ellipse + edge stripes), transparent",
+   "prompt": null
+  },
+  {
+   "file": "chips/chip_1_128.png",
+   "url": "https://mjlembo88.github.io/casino-games/assets/kit/chips/chip_1_128.png",
+   "purpose": "chip face, transparent",
+   "size": [
+    128,
+    128
+   ],
+   "bytes": 23735,
+   "model": "SimianLuo/LCM_Dreamshaper_v7",
+   "license": "MIT (model); outputs original, no third-party marks",
+   "method": "procedural chip in theme.chip colours + AI clay detail, img2img strength 0.28 for surface realism (luminance detail only, colours kept exact), value text drawn after, anti-aliased circular alpha cutout",
+   "prompt": "top-down studio photo of a clay casino chip, realistic, soft light, sharp; clay texture: 'full frame texture of matte grey speckled plastic surface, fine grain, uniform' seed 13"
+  },
+  {
+   "file": "chips/chip_1_side.png",
+   "url": "https://mjlembo88.github.io/casino-games/assets/kit/chips/chip_1_side.png",
+   "purpose": "chip edge/side view for stacks",
+   "size": [
+    512,
+    119
+   ],
+   "bytes": 72687,
+   "model": null,
+   "license": "MIT (model); outputs original, no third-party marks",
+   "method": "procedural edge/side view built from the chip face (ellipse + edge stripes), transparent",
+   "prompt": null
+  },
+  {
+   "file": "chips/chip_1_side.webp",
+   "url": "https://mjlembo88.github.io/casino-games/assets/kit/chips/chip_1_side.webp",
+   "purpose": "chip edge/side view for stacks",
+   "size": [
+    512,
+    119
+   ],
+   "bytes": 20616,
+   "model": null,
+   "license": "MIT (model); outputs original, no third-party marks",
+   "method": "procedural edge/side view built from the chip face (ellipse + edge stripes), transparent",
+   "prompt": null
+  },
+  {
+   "file": "chips/chip_25.png",
+   "url": "https://mjlembo88.github.io/casino-games/assets/kit/chips/chip_25.png",
+   "purpose": "chip face, transparent",
+   "size": [
+    512,
+    512
+   ],
+   "bytes": 394167,
+   "model": "SimianLuo/LCM_Dreamshaper_v7",
+   "license": "MIT (model); outputs original, no third-party marks",
+   "method": "procedural chip in theme.chip colours + AI clay detail, img2img strength 0.28 for surface realism (luminance detail only, colours kept exact), value text drawn after, anti-aliased circular alpha cutout",
+   "prompt": "top-down studio photo of a clay casino chip, realistic, soft light, sharp; clay texture: 'full frame texture of matte grey speckled plastic surface, fine grain, uniform' seed 13"
+  },
+  {
+   "file": "chips/chip_25.webp",
+   "url": "https://mjlembo88.github.io/casino-games/assets/kit/chips/chip_25.webp",
+   "purpose": "chip face, transparent",
+   "size": [
+    512,
+    512
+   ],
+   "bytes": 59998,
+   "model": "SimianLuo/LCM_Dreamshaper_v7",
+   "license": "MIT (model); outputs original, no third-party marks",
+   "method": "procedural chip in theme.chip colours + AI clay detail, img2img strength 0.28 for surface realism (luminance detail only, colours kept exact), value text drawn after, anti-aliased circular alpha cutout",
+   "prompt": "top-down studio photo of a clay casino chip, realistic, soft light, sharp; clay texture: 'full frame texture of matte grey speckled plastic surface, fine grain, uniform' seed 13"
+  },
+  {
+   "file": "chips/chip_25_128.png",
+   "url": "https://mjlembo88.github.io/casino-games/assets/kit/chips/chip_25_128.png",
+   "purpose": "chip face, transparent",
+   "size": [
+    128,
+    128
+   ],
+   "bytes": 26117,
+   "model": "SimianLuo/LCM_Dreamshaper_v7",
+   "license": "MIT (model); outputs original, no third-party marks",
+   "method": "procedural chip in theme.chip colours + AI clay detail, img2img strength 0.28 for surface realism (luminance detail only, colours kept exact), value text drawn after, anti-aliased circular alpha cutout",
+   "prompt": "top-down studio photo of a clay casino chip, realistic, soft light, sharp; clay texture: 'full frame texture of matte grey speckled plastic surface, fine grain, uniform' seed 13"
+  },
+  {
+   "file": "chips/chip_25_side.png",
+   "url": "https://mjlembo88.github.io/casino-games/assets/kit/chips/chip_25_side.png",
+   "purpose": "chip edge/side view for stacks",
+   "size": [
+    512,
+    119
+   ],
+   "bytes": 90525,
+   "model": null,
+   "license": "MIT (model); outputs original, no third-party marks",
+   "method": "procedural edge/side view built from the chip face (ellipse + edge stripes), transparent",
+   "prompt": null
+  },
+  {
+   "file": "chips/chip_25_side.webp",
+   "url": "https://mjlembo88.github.io/casino-games/assets/kit/chips/chip_25_side.webp",
+   "purpose": "chip edge/side view for stacks",
+   "size": [
+    512,
+    119
+   ],
+   "bytes": 18890,
+   "model": null,
+   "license": "MIT (model); outputs original, no third-party marks",
+   "method": "procedural edge/side view built from the chip face (ellipse + edge stripes), transparent",
+   "prompt": null
+  },
+  {
+   "file": "chips/chip_5.png",
+   "url": "https://mjlembo88.github.io/casino-games/assets/kit/chips/chip_5.png",
+   "purpose": "chip face, transparent",
+   "size": [
+    512,
+    512
+   ],
+   "bytes": 413268,
+   "model": "SimianLuo/LCM_Dreamshaper_v7",
+   "license": "MIT (model); outputs original, no third-party marks",
+   "method": "procedural chip in theme.chip colours + AI clay detail, img2img strength 0.28 for surface realism (luminance detail only, colours kept exact), value text drawn after, anti-aliased circular alpha cutout",
+   "prompt": "top-down studio photo of a clay casino chip, realistic, soft light, sharp; clay texture: 'full frame texture of matte grey speckled plastic surface, fine grain, uniform' seed 13"
+  },
+  {
+   "file": "chips/chip_5.webp",
+   "url": "https://mjlembo88.github.io/casino-games/assets/kit/chips/chip_5.webp",
+   "purpose": "chip face, transparent",
+   "size": [
+    512,
+    512
+   ],
+   "bytes": 59198,
+   "model": "SimianLuo/LCM_Dreamshaper_v7",
+   "license": "MIT (model); outputs original, no third-party marks",
+   "method": "procedural chip in theme.chip colours + AI clay detail, img2img strength 0.28 for surface realism (luminance detail only, colours kept exact), value text drawn after, anti-aliased circular alpha cutout",
+   "prompt": "top-down studio photo of a clay casino chip, realistic, soft light, sharp; clay texture: 'full frame texture of matte grey speckled plastic surface, fine grain, uniform' seed 13"
+  },
+  {
+   "file": "chips/chip_500.png",
+   "url": "https://mjlembo88.github.io/casino-games/assets/kit/chips/chip_500.png",
+   "purpose": "chip face, transparent",
+   "size": [
+    512,
+    512
+   ],
+   "bytes": 452644,
+   "model": "SimianLuo/LCM_Dreamshaper_v7",
+   "license": "MIT (model); outputs original, no third-party marks",
+   "method": "procedural chip in theme.chip colours + AI clay detail, img2img strength 0.28 for surface realism (luminance detail only, colours kept exact), value text drawn after, anti-aliased circular alpha cutout",
+   "prompt": "top-down studio photo of a clay casino chip, realistic, soft light, sharp; clay texture: 'full frame texture of matte grey speckled plastic surface, fine grain, uniform' seed 13"
+  },
+  {
+   "file": "chips/chip_500.webp",
+   "url": "https://mjlembo88.github.io/casino-games/assets/kit/chips/chip_500.webp",
+   "purpose": "chip face, transparent",
+   "size": [
+    512,
+    512
+   ],
+   "bytes": 61216,
+   "model": "SimianLuo/LCM_Dreamshaper_v7",
+   "license": "MIT (model); outputs original, no third-party marks",
+   "method": "procedural chip in theme.chip colours + AI clay detail, img2img strength 0.28 for surface realism (luminance detail only, colours kept exact), value text drawn after, anti-aliased circular alpha cutout",
+   "prompt": "top-down studio photo of a clay casino chip, realistic, soft light, sharp; clay texture: 'full frame texture of matte grey speckled plastic surface, fine grain, uniform' seed 13"
+  },
+  {
+   "file": "chips/chip_5000.png",
+   "url": "https://mjlembo88.github.io/casino-games/assets/kit/chips/chip_5000.png",
+   "purpose": "chip face, transparent",
+   "size": [
+    512,
+    512
+   ],
+   "bytes": 422979,
+   "model": "SimianLuo/LCM_Dreamshaper_v7",
+   "license": "MIT (model); outputs original, no third-party marks",
+   "method": "procedural chip in theme.chip colours + AI clay detail, img2img strength 0.28 for surface realism (luminance detail only, colours kept exact), value text drawn after, anti-aliased circular alpha cutout",
+   "prompt": "top-down studio photo of a clay casino chip, realistic, soft light, sharp; clay texture: 'full frame texture of matte grey speckled plastic surface, fine grain, uniform' seed 13"
+  },
+  {
+   "file": "chips/chip_5000.webp",
+   "url": "https://mjlembo88.github.io/casino-games/assets/kit/chips/chip_5000.webp",
+   "purpose": "chip face, transparent",
+   "size": [
+    512,
+    512
+   ],
+   "bytes": 68114,
+   "model": "SimianLuo/LCM_Dreamshaper_v7",
+   "license": "MIT (model); outputs original, no third-party marks",
+   "method": "procedural chip in theme.chip colours + AI clay detail, img2img strength 0.28 for surface realism (luminance detail only, colours kept exact), value text drawn after, anti-aliased circular alpha cutout",
+   "prompt": "top-down studio photo of a clay casino chip, realistic, soft light, sharp; clay texture: 'full frame texture of matte grey speckled plastic surface, fine grain, uniform' seed 13"
+  },
+  {
+   "file": "chips/chip_5000_128.png",
+   "url": "https://mjlembo88.github.io/casino-games/assets/kit/chips/chip_5000_128.png",
+   "purpose": "chip face, transparent",
+   "size": [
+    128,
+    128
+   ],
+   "bytes": 26474,
+   "model": "SimianLuo/LCM_Dreamshaper_v7",
+   "license": "MIT (model); outputs original, no third-party marks",
+   "method": "procedural chip in theme.chip colours + AI clay detail, img2img strength 0.28 for surface realism (luminance detail only, colours kept exact), value text drawn after, anti-aliased circular alpha cutout",
+   "prompt": "top-down studio photo of a clay casino chip, realistic, soft light, sharp; clay texture: 'full frame texture of matte grey speckled plastic surface, fine grain, uniform' seed 13"
+  },
+  {
+   "file": "chips/chip_5000_side.png",
+   "url": "https://mjlembo88.github.io/casino-games/assets/kit/chips/chip_5000_side.png",
+   "purpose": "chip edge/side view for stacks",
+   "size": [
+    512,
+    119
+   ],
+   "bytes": 95141,
+   "model": null,
+   "license": "MIT (model); outputs original, no third-party marks",
+   "method": "procedural edge/side view built from the chip face (ellipse + edge stripes), transparent",
+   "prompt": null
+  },
+  {
+   "file": "chips/chip_5000_side.webp",
+   "url": "https://mjlembo88.github.io/casino-games/assets/kit/chips/chip_5000_side.webp",
+   "purpose": "chip edge/side view for stacks",
+   "size": [
+    512,
+    119
+   ],
+   "bytes": 20334,
+   "model": null,
+   "license": "MIT (model); outputs original, no third-party marks",
+   "method": "procedural edge/side view built from the chip face (ellipse + edge stripes), transparent",
+   "prompt": null
+  },
+  {
+   "file": "chips/chip_500_128.png",
+   "url": "https://mjlembo88.github.io/casino-games/assets/kit/chips/chip_500_128.png",
+   "purpose": "chip face, transparent",
+   "size": [
+    128,
+    128
+   ],
+   "bytes": 27258,
+   "model": "SimianLuo/LCM_Dreamshaper_v7",
+   "license": "MIT (model); outputs original, no third-party marks",
+   "method": "procedural chip in theme.chip colours + AI clay detail, img2img strength 0.28 for surface realism (luminance detail only, colours kept exact), value text drawn after, anti-aliased circular alpha cutout",
+   "prompt": "top-down studio photo of a clay casino chip, realistic, soft light, sharp; clay texture: 'full frame texture of matte grey speckled plastic surface, fine grain, uniform' seed 13"
+  },
+  {
+   "file": "chips/chip_500_side.png",
+   "url": "https://mjlembo88.github.io/casino-games/assets/kit/chips/chip_500_side.png",
+   "purpose": "chip edge/side view for stacks",
+   "size": [
+    512,
+    119
+   ],
+   "bytes": 98527,
+   "model": null,
+   "license": "MIT (model); outputs original, no third-party marks",
+   "method": "procedural edge/side view built from the chip face (ellipse + edge stripes), transparent",
+   "prompt": null
+  },
+  {
+   "file": "chips/chip_500_side.webp",
+   "url": "https://mjlembo88.github.io/casino-games/assets/kit/chips/chip_500_side.webp",
+   "purpose": "chip edge/side view for stacks",
+   "size": [
+    512,
+    119
+   ],
+   "bytes": 18564,
+   "model": null,
+   "license": "MIT (model); outputs original, no third-party marks",
+   "method": "procedural edge/side view built from the chip face (ellipse + edge stripes), transparent",
+   "prompt": null
+  },
+  {
+   "file": "chips/chip_5_128.png",
+   "url": "https://mjlembo88.github.io/casino-games/assets/kit/chips/chip_5_128.png",
+   "purpose": "chip face, transparent",
+   "size": [
+    128,
+    128
+   ],
+   "bytes": 26199,
+   "model": "SimianLuo/LCM_Dreamshaper_v7",
+   "license": "MIT (model); outputs original, no third-party marks",
+   "method": "procedural chip in theme.chip colours + AI clay detail, img2img strength 0.28 for surface realism (luminance detail only, colours kept exact), value text drawn after, anti-aliased circular alpha cutout",
+   "prompt": "top-down studio photo of a clay casino chip, realistic, soft light, sharp; clay texture: 'full frame texture of matte grey speckled plastic surface, fine grain, uniform' seed 13"
+  },
+  {
+   "file": "chips/chip_5_side.png",
+   "url": "https://mjlembo88.github.io/casino-games/assets/kit/chips/chip_5_side.png",
+   "purpose": "chip edge/side view for stacks",
+   "size": [
+    512,
+    119
+   ],
+   "bytes": 93025,
+   "model": null,
+   "license": "MIT (model); outputs original, no third-party marks",
+   "method": "procedural edge/side view built from the chip face (ellipse + edge stripes), transparent",
+   "prompt": null
+  },
+  {
+   "file": "chips/chip_5_side.webp",
+   "url": "https://mjlembo88.github.io/casino-games/assets/kit/chips/chip_5_side.webp",
+   "purpose": "chip edge/side view for stacks",
+   "size": [
+    512,
+    119
+   ],
+   "bytes": 18250,
+   "model": null,
+   "license": "MIT (model); outputs original, no third-party marks",
+   "method": "procedural edge/side view built from the chip face (ellipse + edge stripes), transparent",
+   "prompt": null
+  },
+  {
+   "file": "dealer/dealer_idle.mp4",
+   "url": "https://mjlembo88.github.io/casino-games/assets/kit/dealer/dealer_idle.mp4",
+   "purpose": "dealer animated loop / poster",
+   "size": [
+    768,
+    512
+   ],
+   "bytes": 45073,
+   "model": "SimianLuo/LCM_Dreamshaper_v7",
+   "license": "MIT (model); outputs original, no third-party marks",
+   "method": "ffmpeg from the frames: 24 fps, bottom-anchored 0.6% breathing zoom; idle 4 s with 170 ms blink, talk 3 s 8 Hz flap, react_win 3 s smile; H.264 CRF 26 + VP9 CRF 38",
+   "prompt": null
+  },
+  {
+   "file": "dealer/dealer_idle.webm",
+   "url": "https://mjlembo88.github.io/casino-games/assets/kit/dealer/dealer_idle.webm",
+   "purpose": "dealer animated loop / poster",
+   "size": [
+    768,
+    512
+   ],
+   "bytes": 56037,
+   "model": "SimianLuo/LCM_Dreamshaper_v7",
+   "license": "MIT (model); outputs original, no third-party marks",
+   "method": "ffmpeg from the frames: 24 fps, bottom-anchored 0.6% breathing zoom; idle 4 s with 170 ms blink, talk 3 s 8 Hz flap, react_win 3 s smile; H.264 CRF 26 + VP9 CRF 38",
+   "prompt": null
+  },
+  {
+   "file": "dealer/dealer_idle_poster.png",
+   "url": "https://mjlembo88.github.io/casino-games/assets/kit/dealer/dealer_idle_poster.png",
+   "purpose": "dealer animated loop / poster",
+   "size": [
+    768,
+    512
+   ],
+   "bytes": 345633,
+   "model": "SimianLuo/LCM_Dreamshaper_v7",
+   "license": "MIT (model); outputs original, no third-party marks",
+   "method": "ffmpeg from the frames: 24 fps, bottom-anchored 0.6% breathing zoom; idle 4 s with 170 ms blink, talk 3 s 8 Hz flap, react_win 3 s smile; H.264 CRF 26 + VP9 CRF 38",
+   "prompt": null
+  },
+  {
+   "file": "dealer/dealer_react_win.mp4",
+   "url": "https://mjlembo88.github.io/casino-games/assets/kit/dealer/dealer_react_win.mp4",
+   "purpose": "dealer animated loop / poster",
+   "size": [
+    768,
+    512
+   ],
+   "bytes": 40516,
+   "model": "SimianLuo/LCM_Dreamshaper_v7",
+   "license": "MIT (model); outputs original, no third-party marks",
+   "method": "ffmpeg from the frames: 24 fps, bottom-anchored 0.6% breathing zoom; idle 4 s with 170 ms blink, talk 3 s 8 Hz flap, react_win 3 s smile; H.264 CRF 26 + VP9 CRF 38",
+   "prompt": null
+  },
+  {
+   "file": "dealer/dealer_react_win.webm",
+   "url": "https://mjlembo88.github.io/casino-games/assets/kit/dealer/dealer_react_win.webm",
+   "purpose": "dealer animated loop / poster",
+   "size": [
+    768,
+    512
+   ],
+   "bytes": 54017,
+   "model": "SimianLuo/LCM_Dreamshaper_v7",
+   "license": "MIT (model); outputs original, no third-party marks",
+   "method": "ffmpeg from the frames: 24 fps, bottom-anchored 0.6% breathing zoom; idle 4 s with 170 ms blink, talk 3 s 8 Hz flap, react_win 3 s smile; H.264 CRF 26 + VP9 CRF 38",
+   "prompt": null
+  },
+  {
+   "file": "dealer/dealer_react_win_poster.png",
+   "url": "https://mjlembo88.github.io/casino-games/assets/kit/dealer/dealer_react_win_poster.png",
+   "purpose": "dealer animated loop / poster",
+   "size": [
+    768,
+    512
+   ],
+   "bytes": 345633,
+   "model": "SimianLuo/LCM_Dreamshaper_v7",
+   "license": "MIT (model); outputs original, no third-party marks",
+   "method": "ffmpeg from the frames: 24 fps, bottom-anchored 0.6% breathing zoom; idle 4 s with 170 ms blink, talk 3 s 8 Hz flap, react_win 3 s smile; H.264 CRF 26 + VP9 CRF 38",
+   "prompt": null
+  },
+  {
+   "file": "dealer/dealer_still_1536x1024.jpg",
+   "url": "https://mjlembo88.github.io/casino-games/assets/kit/dealer/dealer_still_1536x1024.jpg",
+   "purpose": "dealer avatar still",
+   "size": [
+    1536,
+    1024
+   ],
+   "bytes": 103272,
+   "model": "SimianLuo/LCM_Dreamshaper_v7",
+   "license": "MIT (model); outputs original, no third-party marks",
+   "method": "txt2img seed 101 768x512 6 steps cfg 8, then 2x Lanczos + img2img strength 0.3 (8 steps)",
+   "prompt": "photo of a smiling 42 year old casino dealer, short salt-and-pepper hair, short trimmed salt-and-pepper beard, warm friendly smile, white shirt with rolled sleeves, black waistcoat, red burgundy bow tie, no jacket, hands on green felt table, waist-up, centered, facing camera, warm lamp light, dark background"
+  },
+  {
+   "file": "dealer/dealer_still_1536x1024.webp",
+   "url": "https://mjlembo88.github.io/casino-games/assets/kit/dealer/dealer_still_1536x1024.webp",
+   "purpose": "dealer avatar still",
+   "size": [
+    1536,
+    1024
+   ],
+   "bytes": 55044,
+   "model": "SimianLuo/LCM_Dreamshaper_v7",
+   "license": "MIT (model); outputs original, no third-party marks",
+   "method": "txt2img seed 101 768x512 6 steps cfg 8, then 2x Lanczos + img2img strength 0.3 (8 steps)",
+   "prompt": "photo of a smiling 42 year old casino dealer, short salt-and-pepper hair, short trimmed salt-and-pepper beard, warm friendly smile, white shirt with rolled sleeves, black waistcoat, red burgundy bow tie, no jacket, hands on green felt table, waist-up, centered, facing camera, warm lamp light, dark background"
+  },
+  {
+   "file": "dealer/dealer_talk.mp4",
+   "url": "https://mjlembo88.github.io/casino-games/assets/kit/dealer/dealer_talk.mp4",
+   "purpose": "dealer animated loop / poster",
+   "size": [
+    768,
+    512
+   ],
+   "bytes": 41246,
+   "model": "SimianLuo/LCM_Dreamshaper_v7",
+   "license": "MIT (model); outputs original, no third-party marks",
+   "method": "ffmpeg from the frames: 24 fps, bottom-anchored 0.6% breathing zoom; idle 4 s with 170 ms blink, talk 3 s 8 Hz flap, react_win 3 s smile; H.264 CRF 26 + VP9 CRF 38",
+   "prompt": null
+  },
+  {
+   "file": "dealer/dealer_talk.webm",
+   "url": "https://mjlembo88.github.io/casino-games/assets/kit/dealer/dealer_talk.webm",
+   "purpose": "dealer animated loop / poster",
+   "size": [
+    768,
+    512
+   ],
+   "bytes": 57809,
+   "model": "SimianLuo/LCM_Dreamshaper_v7",
+   "license": "MIT (model); outputs original, no third-party marks",
+   "method": "ffmpeg from the frames: 24 fps, bottom-anchored 0.6% breathing zoom; idle 4 s with 170 ms blink, talk 3 s 8 Hz flap, react_win 3 s smile; H.264 CRF 26 + VP9 CRF 38",
+   "prompt": null
+  },
+  {
+   "file": "dealer/dealer_talk_poster.png",
+   "url": "https://mjlembo88.github.io/casino-games/assets/kit/dealer/dealer_talk_poster.png",
+   "purpose": "dealer animated loop / poster",
+   "size": [
+    768,
+    512
+   ],
+   "bytes": 345633,
+   "model": "SimianLuo/LCM_Dreamshaper_v7",
+   "license": "MIT (model); outputs original, no third-party marks",
+   "method": "ffmpeg from the frames: 24 fps, bottom-anchored 0.6% breathing zoom; idle 4 s with 170 ms blink, talk 3 s 8 Hz flap, react_win 3 s smile; H.264 CRF 26 + VP9 CRF 38",
+   "prompt": null
+  },
+  {
+   "file": "dealer/frames/dealer_blink_1536x1024.webp",
+   "url": "https://mjlembo88.github.io/casino-games/assets/kit/dealer/frames/dealer_blink_1536x1024.webp",
+   "purpose": "dealer sprite frame (rest/mid/open = mouth visemes for TTS lip-flap, blink, smile = react win)",
+   "size": [
+    1536,
+    1024
+   ],
+   "bytes": 47756,
+   "model": "SimianLuo/LCM_Dreamshaper_v7",
+   "license": "MIT (model); outputs original, no third-party marks",
+   "method": "img2img (strength 0.45-0.55) on a 384px face crop, then only a feathered mouth/eye ellipse pasted back with colour matching; rest = still",
+   "prompt": "close-up photo of a 42 year old man with salt-and-pepper hair and trimmed beard, + 'laughing happily, mouth wide open' (open/smile) | 'big happy grin, cheerful smile showing teeth' (mid) | 'eyes closed, blinking, relaxed' (blink)"
+  },
+  {
+   "file": "dealer/frames/dealer_blink_768x512.webp",
+   "url": "https://mjlembo88.github.io/casino-games/assets/kit/dealer/frames/dealer_blink_768x512.webp",
+   "purpose": "dealer sprite frame (rest/mid/open = mouth visemes for TTS lip-flap, blink, smile = react win)",
+   "size": [
+    768,
+    512
+   ],
+   "bytes": 15742,
+   "model": "SimianLuo/LCM_Dreamshaper_v7",
+   "license": "MIT (model); outputs original, no third-party marks",
+   "method": "img2img (strength 0.45-0.55) on a 384px face crop, then only a feathered mouth/eye ellipse pasted back with colour matching; rest = still",
+   "prompt": "close-up photo of a 42 year old man with salt-and-pepper hair and trimmed beard, + 'laughing happily, mouth wide open' (open/smile) | 'big happy grin, cheerful smile showing teeth' (mid) | 'eyes closed, blinking, relaxed' (blink)"
+  },
+  {
+   "file": "dealer/frames/dealer_mid_1536x1024.webp",
+   "url": "https://mjlembo88.github.io/casino-games/assets/kit/dealer/frames/dealer_mid_1536x1024.webp",
+   "purpose": "dealer sprite frame (rest/mid/open = mouth visemes for TTS lip-flap, blink, smile = react win)",
+   "size": [
+    1536,
+    1024
+   ],
+   "bytes": 47622,
+   "model": "SimianLuo/LCM_Dreamshaper_v7",
+   "license": "MIT (model); outputs original, no third-party marks",
+   "method": "img2img (strength 0.45-0.55) on a 384px face crop, then only a feathered mouth/eye ellipse pasted back with colour matching; rest = still",
+   "prompt": "close-up photo of a 42 year old man with salt-and-pepper hair and trimmed beard, + 'laughing happily, mouth wide open' (open/smile) | 'big happy grin, cheerful smile showing teeth' (mid) | 'eyes closed, blinking, relaxed' (blink)"
+  },
+  {
+   "file": "dealer/frames/dealer_mid_768x512.webp",
+   "url": "https://mjlembo88.github.io/casino-games/assets/kit/dealer/frames/dealer_mid_768x512.webp",
+   "purpose": "dealer sprite frame (rest/mid/open = mouth visemes for TTS lip-flap, blink, smile = react win)",
+   "size": [
+    768,
+    512
+   ],
+   "bytes": 15878,
+   "model": "SimianLuo/LCM_Dreamshaper_v7",
+   "license": "MIT (model); outputs original, no third-party marks",
+   "method": "img2img (strength 0.45-0.55) on a 384px face crop, then only a feathered mouth/eye ellipse pasted back with colour matching; rest = still",
+   "prompt": "close-up photo of a 42 year old man with salt-and-pepper hair and trimmed beard, + 'laughing happily, mouth wide open' (open/smile) | 'big happy grin, cheerful smile showing teeth' (mid) | 'eyes closed, blinking, relaxed' (blink)"
+  },
+  {
+   "file": "dealer/frames/dealer_open_1536x1024.webp",
+   "url": "https://mjlembo88.github.io/casino-games/assets/kit/dealer/frames/dealer_open_1536x1024.webp",
+   "purpose": "dealer sprite frame (rest/mid/open = mouth visemes for TTS lip-flap, blink, smile = react win)",
+   "size": [
+    1536,
+    1024
+   ],
+   "bytes": 47662,
+   "model": "SimianLuo/LCM_Dreamshaper_v7",
+   "license": "MIT (model); outputs original, no third-party marks",
+   "method": "img2img (strength 0.45-0.55) on a 384px face crop, then only a feathered mouth/eye ellipse pasted back with colour matching; rest = still",
+   "prompt": "close-up photo of a 42 year old man with salt-and-pepper hair and trimmed beard, + 'laughing happily, mouth wide open' (open/smile) | 'big happy grin, cheerful smile showing teeth' (mid) | 'eyes closed, blinking, relaxed' (blink)"
+  },
+  {
+   "file": "dealer/frames/dealer_open_768x512.webp",
+   "url": "https://mjlembo88.github.io/casino-games/assets/kit/dealer/frames/dealer_open_768x512.webp",
+   "purpose": "dealer sprite frame (rest/mid/open = mouth visemes for TTS lip-flap, blink, smile = react win)",
+   "size": [
+    768,
+    512
+   ],
+   "bytes": 15886,
+   "model": "SimianLuo/LCM_Dreamshaper_v7",
+   "license": "MIT (model); outputs original, no third-party marks",
+   "method": "img2img (strength 0.45-0.55) on a 384px face crop, then only a feathered mouth/eye ellipse pasted back with colour matching; rest = still",
+   "prompt": "close-up photo of a 42 year old man with salt-and-pepper hair and trimmed beard, + 'laughing happily, mouth wide open' (open/smile) | 'big happy grin, cheerful smile showing teeth' (mid) | 'eyes closed, blinking, relaxed' (blink)"
+  },
+  {
+   "file": "dealer/frames/dealer_rest_1536x1024.webp",
+   "url": "https://mjlembo88.github.io/casino-games/assets/kit/dealer/frames/dealer_rest_1536x1024.webp",
+   "purpose": "dealer sprite frame (rest/mid/open = mouth visemes for TTS lip-flap, blink, smile = react win)",
+   "size": [
+    1536,
+    1024
+   ],
+   "bytes": 47836,
+   "model": "SimianLuo/LCM_Dreamshaper_v7",
+   "license": "MIT (model); outputs original, no third-party marks",
+   "method": "img2img (strength 0.45-0.55) on a 384px face crop, then only a feathered mouth/eye ellipse pasted back with colour matching; rest = still",
+   "prompt": "close-up photo of a 42 year old man with salt-and-pepper hair and trimmed beard, + 'laughing happily, mouth wide open' (open/smile) | 'big happy grin, cheerful smile showing teeth' (mid) | 'eyes closed, blinking, relaxed' (blink)"
+  },
+  {
+   "file": "dealer/frames/dealer_rest_768x512.webp",
+   "url": "https://mjlembo88.github.io/casino-games/assets/kit/dealer/frames/dealer_rest_768x512.webp",
+   "purpose": "dealer sprite frame (rest/mid/open = mouth visemes for TTS lip-flap, blink, smile = react win)",
+   "size": [
+    768,
+    512
+   ],
+   "bytes": 15808,
+   "model": "SimianLuo/LCM_Dreamshaper_v7",
+   "license": "MIT (model); outputs original, no third-party marks",
+   "method": "img2img (strength 0.45-0.55) on a 384px face crop, then only a feathered mouth/eye ellipse pasted back with colour matching; rest = still",
+   "prompt": "close-up photo of a 42 year old man with salt-and-pepper hair and trimmed beard, + 'laughing happily, mouth wide open' (open/smile) | 'big happy grin, cheerful smile showing teeth' (mid) | 'eyes closed, blinking, relaxed' (blink)"
+  },
+  {
+   "file": "dealer/frames/dealer_smile_1536x1024.webp",
+   "url": "https://mjlembo88.github.io/casino-games/assets/kit/dealer/frames/dealer_smile_1536x1024.webp",
+   "purpose": "dealer sprite frame (rest/mid/open = mouth visemes for TTS lip-flap, blink, smile = react win)",
+   "size": [
+    1536,
+    1024
+   ],
+   "bytes": 47708,
+   "model": "SimianLuo/LCM_Dreamshaper_v7",
+   "license": "MIT (model); outputs original, no third-party marks",
+   "method": "img2img (strength 0.45-0.55) on a 384px face crop, then only a feathered mouth/eye ellipse pasted back with colour matching; rest = still",
+   "prompt": "close-up photo of a 42 year old man with salt-and-pepper hair and trimmed beard, + 'laughing happily, mouth wide open' (open/smile) | 'big happy grin, cheerful smile showing teeth' (mid) | 'eyes closed, blinking, relaxed' (blink)"
+  },
+  {
+   "file": "dealer/frames/dealer_smile_768x512.webp",
+   "url": "https://mjlembo88.github.io/casino-games/assets/kit/dealer/frames/dealer_smile_768x512.webp",
+   "purpose": "dealer sprite frame (rest/mid/open = mouth visemes for TTS lip-flap, blink, smile = react win)",
+   "size": [
+    768,
+    512
+   ],
+   "bytes": 15880,
+   "model": "SimianLuo/LCM_Dreamshaper_v7",
+   "license": "MIT (model); outputs original, no third-party marks",
+   "method": "img2img (strength 0.45-0.55) on a 384px face crop, then only a feathered mouth/eye ellipse pasted back with colour matching; rest = still",
+   "prompt": "close-up photo of a 42 year old man with salt-and-pepper hair and trimmed beard, + 'laughing happily, mouth wide open' (open/smile) | 'big happy grin, cheerful smile showing teeth' (mid) | 'eyes closed, blinking, relaxed' (blink)"
+  },
+  {
+   "file": "table/overlay_bj_pays_3to2_1080x1920.png",
+   "url": "https://mjlembo88.github.io/casino-games/assets/kit/table/overlay_bj_pays_3to2_1080x1920.png",
+   "purpose": "optional printed-text overlay, transparent",
+   "size": [
+    1080,
+    1920
+   ],
+   "bytes": 31154,
+   "model": null,
+   "license": "MIT (model); outputs original, no third-party marks",
+   "method": "procedural text on arc (DejaVu Serif Bold, Bitstream Vera license); matches topdown geometry only",
+   "prompt": null
+  },
+  {
+   "file": "table/overlay_bj_pays_3to2_1920x1080.png",
+   "url": "https://mjlembo88.github.io/casino-games/assets/kit/table/overlay_bj_pays_3to2_1920x1080.png",
+   "purpose": "optional printed-text overlay, transparent",
+   "size": [
+    1920,
+    1080
+   ],
+   "bytes": 35806,
+   "model": null,
+   "license": "MIT (model); outputs original, no third-party marks",
+   "method": "procedural text on arc (DejaVu Serif Bold, Bitstream Vera license); matches topdown geometry only",
+   "prompt": null
+  },
+  {
+   "file": "table/table_perspective_1080x1920.jpg",
+   "url": "https://mjlembo88.github.io/casino-games/assets/kit/table/table_perspective_1080x1920.jpg",
+   "purpose": "blank blackjack table background (app draws its own text and bet spots)",
+   "size": [
+    1080,
+    1920
+   ],
+   "bytes": 287714,
+   "model": "SimianLuo/LCM_Dreamshaper_v7",
+   "license": "MIT (model); outputs original, no third-party marks",
+   "method": "procedural composite (numpy): felt gradient #0b5d34 -> #073d22 + AI felt-fibre detail, AI leather on the padded rail, lamp hotspot, vignette; perspective = 4-point warp",
+   "prompt": "felt: 'extreme close-up of plain green wool felt cloth, fuzzy fibers, full frame fabric texture, nothing else' seed 11; leather: 'macro photo of dark brown padded leather texture, fine grain, uniform, flat even lighting, seamless texture' seed 2"
+  },
+  {
+   "file": "table/table_perspective_1080x1920.webp",
+   "url": "https://mjlembo88.github.io/casino-games/assets/kit/table/table_perspective_1080x1920.webp",
+   "purpose": "blank blackjack table background (app draws its own text and bet spots)",
+   "size": [
+    1080,
+    1920
+   ],
+   "bytes": 215512,
+   "model": "SimianLuo/LCM_Dreamshaper_v7",
+   "license": "MIT (model); outputs original, no third-party marks",
+   "method": "procedural composite (numpy): felt gradient #0b5d34 -> #073d22 + AI felt-fibre detail, AI leather on the padded rail, lamp hotspot, vignette; perspective = 4-point warp",
+   "prompt": "felt: 'extreme close-up of plain green wool felt cloth, fuzzy fibers, full frame fabric texture, nothing else' seed 11; leather: 'macro photo of dark brown padded leather texture, fine grain, uniform, flat even lighting, seamless texture' seed 2"
+  },
+  {
+   "file": "table/table_perspective_1920x1080.jpg",
+   "url": "https://mjlembo88.github.io/casino-games/assets/kit/table/table_perspective_1920x1080.jpg",
+   "purpose": "blank blackjack table background (app draws its own text and bet spots)",
+   "size": [
+    1920,
+    1080
+   ],
+   "bytes": 277992,
+   "model": "SimianLuo/LCM_Dreamshaper_v7",
+   "license": "MIT (model); outputs original, no third-party marks",
+   "method": "procedural composite (numpy): felt gradient #0b5d34 -> #073d22 + AI felt-fibre detail, AI leather on the padded rail, lamp hotspot, vignette; perspective = 4-point warp",
+   "prompt": "felt: 'extreme close-up of plain green wool felt cloth, fuzzy fibers, full frame fabric texture, nothing else' seed 11; leather: 'macro photo of dark brown padded leather texture, fine grain, uniform, flat even lighting, seamless texture' seed 2"
+  },
+  {
+   "file": "table/table_perspective_1920x1080.webp",
+   "url": "https://mjlembo88.github.io/casino-games/assets/kit/table/table_perspective_1920x1080.webp",
+   "purpose": "blank blackjack table background (app draws its own text and bet spots)",
+   "size": [
+    1920,
+    1080
+   ],
+   "bytes": 198350,
+   "model": "SimianLuo/LCM_Dreamshaper_v7",
+   "license": "MIT (model); outputs original, no third-party marks",
+   "method": "procedural composite (numpy): felt gradient #0b5d34 -> #073d22 + AI felt-fibre detail, AI leather on the padded rail, lamp hotspot, vignette; perspective = 4-point warp",
+   "prompt": "felt: 'extreme close-up of plain green wool felt cloth, fuzzy fibers, full frame fabric texture, nothing else' seed 11; leather: 'macro photo of dark brown padded leather texture, fine grain, uniform, flat even lighting, seamless texture' seed 2"
+  },
+  {
+   "file": "table/table_topdown_1080x1920.jpg",
+   "url": "https://mjlembo88.github.io/casino-games/assets/kit/table/table_topdown_1080x1920.jpg",
+   "purpose": "blank blackjack table background (app draws its own text and bet spots)",
+   "size": [
+    1080,
+    1920
+   ],
+   "bytes": 301905,
+   "model": "SimianLuo/LCM_Dreamshaper_v7",
+   "license": "MIT (model); outputs original, no third-party marks",
+   "method": "procedural composite (numpy): felt gradient #0b5d34 -> #073d22 + AI felt-fibre detail, AI leather on the padded rail, lamp hotspot, vignette; perspective = 4-point warp",
+   "prompt": "felt: 'extreme close-up of plain green wool felt cloth, fuzzy fibers, full frame fabric texture, nothing else' seed 11; leather: 'macro photo of dark brown padded leather texture, fine grain, uniform, flat even lighting, seamless texture' seed 2"
+  },
+  {
+   "file": "table/table_topdown_1080x1920.webp",
+   "url": "https://mjlembo88.github.io/casino-games/assets/kit/table/table_topdown_1080x1920.webp",
+   "purpose": "blank blackjack table background (app draws its own text and bet spots)",
+   "size": [
+    1080,
+    1920
+   ],
+   "bytes": 225908,
+   "model": "SimianLuo/LCM_Dreamshaper_v7",
+   "license": "MIT (model); outputs original, no third-party marks",
+   "method": "procedural composite (numpy): felt gradient #0b5d34 -> #073d22 + AI felt-fibre detail, AI leather on the padded rail, lamp hotspot, vignette; perspective = 4-point warp",
+   "prompt": "felt: 'extreme close-up of plain green wool felt cloth, fuzzy fibers, full frame fabric texture, nothing else' seed 11; leather: 'macro photo of dark brown padded leather texture, fine grain, uniform, flat even lighting, seamless texture' seed 2"
+  },
+  {
+   "file": "table/table_topdown_1920x1080.jpg",
+   "url": "https://mjlembo88.github.io/casino-games/assets/kit/table/table_topdown_1920x1080.jpg",
+   "purpose": "blank blackjack table background (app draws its own text and bet spots)",
+   "size": [
+    1920,
+    1080
+   ],
+   "bytes": 295661,
+   "model": "SimianLuo/LCM_Dreamshaper_v7",
+   "license": "MIT (model); outputs original, no third-party marks",
+   "method": "procedural composite (numpy): felt gradient #0b5d34 -> #073d22 + AI felt-fibre detail, AI leather on the padded rail, lamp hotspot, vignette; perspective = 4-point warp",
+   "prompt": "felt: 'extreme close-up of plain green wool felt cloth, fuzzy fibers, full frame fabric texture, nothing else' seed 11; leather: 'macro photo of dark brown padded leather texture, fine grain, uniform, flat even lighting, seamless texture' seed 2"
+  },
+  {
+   "file": "table/table_topdown_1920x1080.webp",
+   "url": "https://mjlembo88.github.io/casino-games/assets/kit/table/table_topdown_1920x1080.webp",
+   "purpose": "blank blackjack table background (app draws its own text and bet spots)",
+   "size": [
+    1920,
+    1080
+   ],
+   "bytes": 225336,
+   "model": "SimianLuo/LCM_Dreamshaper_v7",
+   "license": "MIT (model); outputs original, no third-party marks",
+   "method": "procedural composite (numpy): felt gradient #0b5d34 -> #073d22 + AI felt-fibre detail, AI leather on the padded rail, lamp hotspot, vignette; perspective = 4-point warp",
+   "prompt": "felt: 'extreme close-up of plain green wool felt cloth, fuzzy fibers, full frame fabric texture, nothing else' seed 11; leather: 'macro photo of dark brown padded leather texture, fine grain, uniform, flat even lighting, seamless texture' seed 2"
+  },
+  {
+   "file": "textures/card_face_paper_512.png",
+   "url": "https://mjlembo88.github.io/casino-games/assets/kit/textures/card_face_paper_512.png",
+   "purpose": "reusable tileable texture (felt tile at #073d22; *_detail_gray = neutral detail to tint any felt/leather colour; card_face_paper = optional subtle card-face texture)",
+   "size": [
+    512,
+    512
+   ],
+   "bytes": 354553,
+   "model": "SimianLuo/LCM_Dreamshaper_v7",
+   "license": "MIT (model); outputs original, no third-party marks",
+   "method": "AI texture, high-pass + offset-blend made seamless (tileable)",
+   "prompt": "see table/cards/chips prompts"
+  },
+  {
+   "file": "textures/card_face_paper_512.webp",
+   "url": "https://mjlembo88.github.io/casino-games/assets/kit/textures/card_face_paper_512.webp",
+   "purpose": "reusable tileable texture (felt tile at #073d22; *_detail_gray = neutral detail to tint any felt/leather colour; card_face_paper = optional subtle card-face texture)",
+   "size": [
+    512,
+    512
+   ],
+   "bytes": 61638,
+   "model": "SimianLuo/LCM_Dreamshaper_v7",
+   "license": "MIT (model); outputs original, no third-party marks",
+   "method": "AI texture, high-pass + offset-blend made seamless (tileable)",
+   "prompt": "see table/cards/chips prompts"
+  },
+  {
+   "file": "textures/felt_detail_gray_512.png",
+   "url": "https://mjlembo88.github.io/casino-games/assets/kit/textures/felt_detail_gray_512.png",
+   "purpose": "reusable tileable texture (felt tile at #073d22; *_detail_gray = neutral detail to tint any felt/leather colour; card_face_paper = optional subtle card-face texture)",
+   "size": [
+    512,
+    512
+   ],
+   "bytes": 391438,
+   "model": "SimianLuo/LCM_Dreamshaper_v7",
+   "license": "MIT (model); outputs original, no third-party marks",
+   "method": "AI texture, high-pass + offset-blend made seamless (tileable)",
+   "prompt": "see table/cards/chips prompts"
+  },
+  {
+   "file": "textures/felt_detail_gray_512.webp",
+   "url": "https://mjlembo88.github.io/casino-games/assets/kit/textures/felt_detail_gray_512.webp",
+   "purpose": "reusable tileable texture (felt tile at #073d22; *_detail_gray = neutral detail to tint any felt/leather colour; card_face_paper = optional subtle card-face texture)",
+   "size": [
+    512,
+    512
+   ],
+   "bytes": 122118,
+   "model": "SimianLuo/LCM_Dreamshaper_v7",
+   "license": "MIT (model); outputs original, no third-party marks",
+   "method": "AI texture, high-pass + offset-blend made seamless (tileable)",
+   "prompt": "see table/cards/chips prompts"
+  },
+  {
+   "file": "textures/felt_tile_512.png",
+   "url": "https://mjlembo88.github.io/casino-games/assets/kit/textures/felt_tile_512.png",
+   "purpose": "reusable tileable texture (felt tile at #073d22; *_detail_gray = neutral detail to tint any felt/leather colour; card_face_paper = optional subtle card-face texture)",
+   "size": [
+    512,
+    512
+   ],
+   "bytes": 316066,
+   "model": "SimianLuo/LCM_Dreamshaper_v7",
+   "license": "MIT (model); outputs original, no third-party marks",
+   "method": "AI texture, high-pass + offset-blend made seamless (tileable)",
+   "prompt": "see table/cards/chips prompts"
+  },
+  {
+   "file": "textures/felt_tile_512.webp",
+   "url": "https://mjlembo88.github.io/casino-games/assets/kit/textures/felt_tile_512.webp",
+   "purpose": "reusable tileable texture (felt tile at #073d22; *_detail_gray = neutral detail to tint any felt/leather colour; card_face_paper = optional subtle card-face texture)",
+   "size": [
+    512,
+    512
+   ],
+   "bytes": 40224,
+   "model": "SimianLuo/LCM_Dreamshaper_v7",
+   "license": "MIT (model); outputs original, no third-party marks",
+   "method": "AI texture, high-pass + offset-blend made seamless (tileable)",
+   "prompt": "see table/cards/chips prompts"
+  },
+  {
+   "file": "textures/leather_detail_gray_512.png",
+   "url": "https://mjlembo88.github.io/casino-games/assets/kit/textures/leather_detail_gray_512.png",
+   "purpose": "reusable tileable texture (felt tile at #073d22; *_detail_gray = neutral detail to tint any felt/leather colour; card_face_paper = optional subtle card-face texture)",
+   "size": [
+    512,
+    512
+   ],
+   "bytes": 285039,
+   "model": "SimianLuo/LCM_Dreamshaper_v7",
+   "license": "MIT (model); outputs original, no third-party marks",
+   "method": "AI texture, high-pass + offset-blend made seamless (tileable)",
+   "prompt": "see table/cards/chips prompts"
+  },
+  {
+   "file": "textures/leather_detail_gray_512.webp",
+   "url": "https://mjlembo88.github.io/casino-games/assets/kit/textures/leather_detail_gray_512.webp",
+   "purpose": "reusable tileable texture (felt tile at #073d22; *_detail_gray = neutral detail to tint any felt/leather colour; card_face_paper = optional subtle card-face texture)",
+   "size": [
+    512,
+    512
+   ],
+   "bytes": 92378,
+   "model": "SimianLuo/LCM_Dreamshaper_v7",
+   "license": "MIT (model); outputs original, no third-party marks",
+   "method": "AI texture, high-pass + offset-blend made seamless (tileable)",
+   "prompt": "see table/cards/chips prompts"
+  }
+ ]
+}

@@ -1,0 +1,35 @@
+{
+  "win": {
+    "frames": 78,
+    "peakParticles": 0
+  },
+  "blackjack": {
+    "frames": 81,
+    "peakParticles": 40
+  },
+  "push": {
+    "frames": 75,
+    "peakParticles": 0
+  },
+  "bust": {
+    "frames": 93,
+    "peakParticles": 0
+  },
+  "bigWin": {
+    "frames": 99,
+    "peakParticles": 60
+  },
+  "blackjack:{\"quality\":\"low\"}": {
+    "particlesDrawn": 0
+  },
+  "bigWin:{\"quality\":\"low\"}": {
+    "particlesDrawn": 0
+  },
+  "blackjack:{\"reduceMotion\":true}": {
+    "particlesDrawn": 0
+  },
+  "bigWin:{\"reduceMotion\":true}": {
+    "particlesDrawn": 0
+  },
+  "bjToastEndMs": 2350
+}
