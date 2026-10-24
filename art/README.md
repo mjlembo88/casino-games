@@ -41,4 +41,4 @@ Small follow-ups for Engineer, because I didn't touch those files:
 | `POLISH_SPECS.md` | P0/P1/P2 punch list plus Casino Kit extensions, written as Grok Build-ready specs |
 | `src/art.py` | the generator (the only source of truth; edit and re-run) |
 
-Not in this drop yet: store screenshots and a promo loop. Both need the published build at casino-blackjack.grok.me, so they come next.
+Not in this drop yet: store screenshots and a promo loop. Both need the published build at marcus-casino-blackjack.grok.me, so they come next.

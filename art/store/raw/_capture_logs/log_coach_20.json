@@ -1,0 +1,970 @@
+[
+ {
+  "f": "000_r20_bet.png",
+  "cards": [],
+  "cap": "",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Clear",
+   "Rebet",
+   "2×",
+   "Deal"
+  ],
+  "stand": false,
+  "hit": false,
+  "deal": true,
+  "busy": false,
+  "hud": "Bankroll 1,000 Bet 150"
+ },
+ {
+  "f": "001_r20_deal2900.png",
+  "cards": [
+   {
+    "r": "J",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "6",
+    "y": 345,
+    "up": false
+   },
+   {
+    "r": "4",
+    "y": 338,
+    "up": false
+   }
+  ],
+  "cap": "",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Clear",
+   "Rebet",
+   "2×",
+   "Deal"
+  ],
+  "stand": false,
+  "hit": false,
+  "deal": true,
+  "busy": true,
+  "hud": "Bankroll 850 Bet 150"
+ },
+ {
+  "f": "002_r20_deal3300.png",
+  "cards": [
+   {
+    "r": "J",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "6",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "4",
+    "y": 424,
+    "up": false
+   }
+  ],
+  "cap": "",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Clear",
+   "Rebet",
+   "2×",
+   "Deal"
+  ],
+  "stand": false,
+  "hit": false,
+  "deal": true,
+  "busy": true,
+  "hud": "Bankroll 850 Bet 150"
+ },
+ {
+  "f": "003_r20_deal3700.png",
+  "cards": [
+   {
+    "r": "J",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "6",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "4",
+    "y": 425,
+    "up": false
+   }
+  ],
+  "cap": "",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Clear",
+   "Rebet",
+   "2×",
+   "Deal"
+  ],
+  "stand": false,
+  "hit": false,
+  "deal": true,
+  "busy": true,
+  "hud": "Bankroll 850 Bet 150"
+ },
+ {
+  "f": "004_r20_deal4100.png",
+  "cards": [
+   {
+    "r": "J",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "6",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "4",
+    "y": 425,
+    "up": false
+   },
+   {
+    "r": "Q",
+    "y": 338,
+    "up": false
+   }
+  ],
+  "cap": "",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Clear",
+   "Rebet",
+   "2×",
+   "Deal"
+  ],
+  "stand": false,
+  "hit": false,
+  "deal": true,
+  "busy": true,
+  "hud": "Bankroll 850 Bet 150"
+ },
+ {
+  "f": "005_r20_decision.png",
+  "cards": [
+   {
+    "r": "J",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "6",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "4",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "Q",
+    "y": 345,
+    "up": false
+   }
+  ],
+  "cap": "Hit or stand?",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Hit",
+   "Stand",
+   "Double",
+   "Surrender"
+  ],
+  "stand": true,
+  "hit": true,
+  "deal": false,
+  "busy": false,
+  "hud": "Bankroll 850 Bet 150"
+ },
+ {
+  "f": "006_r20_stand0.png",
+  "cards": [
+   {
+    "r": "J",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "6",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "4",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "Q",
+    "y": 345,
+    "up": false
+   },
+   {
+    "r": "6",
+    "y": 345,
+    "up": false
+   }
+  ],
+  "cap": "",
+  "toast": "",
+  "grade": "✓\nStand · Hard 14 vs 6\n\nhard 14 vs 6: let the dealer risk busting.",
+  "pills": [
+   "Hit",
+   "Stand",
+   "Double",
+   "Surrender"
+  ],
+  "stand": true,
+  "hit": true,
+  "deal": false,
+  "busy": true,
+  "hud": "Bankroll 850 Bet 150"
+ },
+ {
+  "f": "007_r20_stand1.png",
+  "cards": [
+   {
+    "r": "J",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "6",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "4",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "Q",
+    "y": 345,
+    "up": false
+   },
+   {
+    "r": "6",
+    "y": 345,
+    "up": true
+   }
+  ],
+  "cap": "",
+  "toast": "",
+  "grade": "✓\nStand · Hard 14 vs 6\n\nhard 14 vs 6: let the dealer risk busting.",
+  "pills": [
+   "Hit",
+   "Stand",
+   "Double",
+   "Surrender"
+  ],
+  "stand": true,
+  "hit": true,
+  "deal": false,
+  "busy": true,
+  "hud": "Bankroll 850 Bet 150"
+ },
+ {
+  "f": "008_r20_stand2.png",
+  "cards": [
+   {
+    "r": "J",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "6",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "4",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "Q",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "6",
+    "y": 345,
+    "up": true
+   }
+  ],
+  "cap": "Dealer hits.",
+  "toast": "",
+  "grade": "✓\nStand · Hard 14 vs 6\n\nhard 14 vs 6: let the dealer risk busting.",
+  "pills": [
+   "Hit",
+   "Stand",
+   "Double",
+   "Surrender"
+  ],
+  "stand": true,
+  "hit": true,
+  "deal": false,
+  "busy": true,
+  "hud": "Bankroll 850 Bet 150"
+ },
+ {
+  "f": "009_r20_stand3.png",
+  "cards": [
+   {
+    "r": "J",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "6",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "4",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "Q",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "6",
+    "y": 345,
+    "up": true
+   }
+  ],
+  "cap": "Dealer hits.",
+  "toast": "",
+  "grade": "✓\nStand · Hard 14 vs 6\n\nhard 14 vs 6: let the dealer risk busting.",
+  "pills": [
+   "Hit",
+   "Stand",
+   "Double",
+   "Surrender"
+  ],
+  "stand": true,
+  "hit": true,
+  "deal": false,
+  "busy": true,
+  "hud": "Bankroll 850 Bet 150"
+ },
+ {
+  "f": "010_r20_stand4.png",
+  "cards": [
+   {
+    "r": "J",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "6",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "4",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "Q",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "6",
+    "y": 345,
+    "up": true
+   }
+  ],
+  "cap": "Dealer busts!",
+  "toast": "",
+  "grade": "✓\nStand · Hard 14 vs 6\n\nhard 14 vs 6: let the dealer risk busting.",
+  "pills": [
+   "Hit",
+   "Stand",
+   "Double",
+   "Surrender"
+  ],
+  "stand": true,
+  "hit": true,
+  "deal": false,
+  "busy": true,
+  "hud": "Bankroll 850 Bet 150"
+ },
+ {
+  "f": "011_r20_stand5.png",
+  "cards": [
+   {
+    "r": "J",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "6",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "4",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "Q",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "6",
+    "y": 345,
+    "up": true
+   }
+  ],
+  "cap": "You win.",
+  "toast": "",
+  "grade": "✓\nStand · Hard 14 vs 6\n\nhard 14 vs 6: let the dealer risk busting.",
+  "pills": [
+   "Hit",
+   "Stand",
+   "Double",
+   "Surrender"
+  ],
+  "stand": true,
+  "hit": true,
+  "deal": false,
+  "busy": true,
+  "hud": "Bankroll 850 Bet 150"
+ },
+ {
+  "f": "012_r20_stand6.png",
+  "cards": [
+   {
+    "r": "J",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "6",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "4",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "Q",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "6",
+    "y": 345,
+    "up": true
+   }
+  ],
+  "cap": "",
+  "toast": "",
+  "grade": "✓\nStand · Hard 14 vs 6\n\nhard 14 vs 6: let the dealer risk busting.",
+  "pills": [
+   "Hit",
+   "Stand",
+   "Double",
+   "Surrender"
+  ],
+  "stand": true,
+  "hit": true,
+  "deal": false,
+  "busy": true,
+  "hud": "Bankroll 850 Bet 150"
+ },
+ {
+  "f": "013_r20_stand7.png",
+  "cards": [
+   {
+    "r": "J",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "6",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "4",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "Q",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "6",
+    "y": 345,
+    "up": true
+   }
+  ],
+  "cap": "",
+  "toast": "",
+  "grade": "✓\nStand · Hard 14 vs 6\n\nhard 14 vs 6: let the dealer risk busting.",
+  "pills": [
+   "Hit",
+   "Stand",
+   "Double",
+   "Surrender"
+  ],
+  "stand": true,
+  "hit": true,
+  "deal": false,
+  "busy": true,
+  "hud": "Bankroll 850 Bet 150"
+ },
+ {
+  "f": "014_r20_stand8.png",
+  "cards": [
+   {
+    "r": "J",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "6",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "4",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "Q",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "6",
+    "y": 345,
+    "up": true
+   }
+  ],
+  "cap": "",
+  "toast": "",
+  "grade": "✓\nStand · Hard 14 vs 6\n\nhard 14 vs 6: let the dealer risk busting.",
+  "pills": [
+   "Hit",
+   "Stand",
+   "Double",
+   "Surrender"
+  ],
+  "stand": true,
+  "hit": true,
+  "deal": false,
+  "busy": true,
+  "hud": "Bankroll 850 Bet 150"
+ },
+ {
+  "f": "015_r20_stand9.png",
+  "cards": [
+   {
+    "r": "J",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "6",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "4",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "Q",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "6",
+    "y": 345,
+    "up": true
+   }
+  ],
+  "cap": "",
+  "toast": "",
+  "grade": "✓\nStand · Hard 14 vs 6\n\nhard 14 vs 6: let the dealer risk busting.",
+  "pills": [
+   "Hit",
+   "Stand",
+   "Double",
+   "Surrender"
+  ],
+  "stand": true,
+  "hit": true,
+  "deal": false,
+  "busy": true,
+  "hud": "Bankroll 850 Bet 150"
+ },
+ {
+  "f": "016_r20_stand10.png",
+  "cards": [
+   {
+    "r": "J",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "6",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "4",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "Q",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "6",
+    "y": 345,
+    "up": true
+   }
+  ],
+  "cap": "",
+  "toast": "",
+  "grade": "✓\nStand · Hard 14 vs 6\n\nhard 14 vs 6: let the dealer risk busting.",
+  "pills": [
+   "Hit",
+   "Stand",
+   "Double",
+   "Surrender"
+  ],
+  "stand": true,
+  "hit": true,
+  "deal": false,
+  "busy": true,
+  "hud": "Bankroll 850 Bet 150"
+ },
+ {
+  "f": "017_r20_stand11.png",
+  "cards": [
+   {
+    "r": "J",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "6",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "4",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "Q",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "6",
+    "y": 345,
+    "up": true
+   }
+  ],
+  "cap": "",
+  "toast": "",
+  "grade": "✓\nStand · Hard 14 vs 6\n\nhard 14 vs 6: let the dealer risk busting.",
+  "pills": [
+   "Hit",
+   "Stand",
+   "Double",
+   "Surrender"
+  ],
+  "stand": true,
+  "hit": true,
+  "deal": false,
+  "busy": true,
+  "hud": "Bankroll 850 Bet 150"
+ },
+ {
+  "f": "018_r20_stand12.png",
+  "cards": [
+   {
+    "r": "J",
+    "y": 305,
+    "up": true
+   },
+   {
+    "r": "6",
+    "y": 304,
+    "up": true
+   },
+   {
+    "r": "4",
+    "y": 326,
+    "up": true
+   },
+   {
+    "r": "Q",
+    "y": 320,
+    "up": true
+   },
+   {
+    "r": "6",
+    "y": 332,
+    "up": true
+   }
+  ],
+  "cap": "",
+  "toast": "",
+  "grade": "✓\nStand · Hard 14 vs 6\n\nhard 14 vs 6: let the dealer risk busting.",
+  "pills": [
+   "Hit",
+   "Stand",
+   "Double",
+   "Surrender"
+  ],
+  "stand": true,
+  "hit": true,
+  "deal": false,
+  "busy": true,
+  "hud": "Bankroll 1,119 Bet 150"
+ },
+ {
+  "f": "019_r20_stand13.png",
+  "cards": [],
+  "cap": "Place your bets.",
+  "toast": "",
+  "grade": "✓\nStand · Hard 14 vs 6\n\nhard 14 vs 6: let the dealer risk busting.",
+  "pills": [
+   "Hit",
+   "Stand",
+   "Double",
+   "Surrender"
+  ],
+  "stand": true,
+  "hit": true,
+  "deal": false,
+  "busy": true,
+  "hud": "Bankroll 1,150 Bet 0"
+ },
+ {
+  "f": "020_r20_stand14.png",
+  "cards": [],
+  "cap": "",
+  "toast": "",
+  "grade": "✓\nStand · Hard 14 vs 6\n\nhard 14 vs 6: let the dealer risk busting.",
+  "pills": [
+   "Hit",
+   "Stand",
+   "Double",
+   "Surrender"
+  ],
+  "stand": true,
+  "hit": true,
+  "deal": false,
+  "busy": true,
+  "hud": "Bankroll 1,150 Bet 0"
+ },
+ {
+  "f": "021_r20_stand15.png",
+  "cards": [],
+  "cap": "",
+  "toast": "",
+  "grade": "✓\nStand · Hard 14 vs 6\n\nhard 14 vs 6: let the dealer risk busting.",
+  "pills": [
+   "Clear",
+   "Rebet",
+   "2×",
+   "Deal"
+  ],
+  "stand": false,
+  "hit": false,
+  "deal": true,
+  "busy": false,
+  "hud": "Bankroll 1,150 Bet 0"
+ },
+ {
+  "f": "022_r20_after0.png",
+  "cards": [],
+  "cap": "",
+  "toast": "",
+  "grade": "✓\nStand · Hard 14 vs 6\n\nhard 14 vs 6: let the dealer risk busting.",
+  "pills": [
+   "Clear",
+   "Rebet",
+   "2×",
+   "Deal"
+  ],
+  "stand": false,
+  "hit": false,
+  "deal": true,
+  "busy": false,
+  "hud": "Bankroll 1,150 Bet 0"
+ },
+ {
+  "f": "023_r20_after1.png",
+  "cards": [],
+  "cap": "",
+  "toast": "",
+  "grade": "✓\nStand · Hard 14 vs 6\n\nhard 14 vs 6: let the dealer risk busting.",
+  "pills": [
+   "Clear",
+   "Rebet",
+   "2×",
+   "Deal"
+  ],
+  "stand": false,
+  "hit": false,
+  "deal": true,
+  "busy": false,
+  "hud": "Bankroll 1,150 Bet 0"
+ },
+ {
+  "f": "024_r20_after2.png",
+  "cards": [],
+  "cap": "",
+  "toast": "",
+  "grade": "✓\nStand · Hard 14 vs 6\n\nhard 14 vs 6: let the dealer risk busting.",
+  "pills": [
+   "Clear",
+   "Rebet",
+   "2×",
+   "Deal"
+  ],
+  "stand": false,
+  "hit": false,
+  "deal": true,
+  "busy": false,
+  "hud": "Bankroll 1,150 Bet 0"
+ },
+ {
+  "f": "025_r20_after3.png",
+  "cards": [],
+  "cap": "",
+  "toast": "",
+  "grade": "✓\nStand · Hard 14 vs 6\n\nhard 14 vs 6: let the dealer risk busting.",
+  "pills": [
+   "Clear",
+   "Rebet",
+   "2×",
+   "Deal"
+  ],
+  "stand": false,
+  "hit": false,
+  "deal": true,
+  "busy": false,
+  "hud": "Bankroll 1,150 Bet 0"
+ },
+ {
+  "f": "026_r20_after4.png",
+  "cards": [],
+  "cap": "",
+  "toast": "",
+  "grade": "✓\nStand · Hard 14 vs 6\n\nhard 14 vs 6: let the dealer risk busting.",
+  "pills": [
+   "Clear",
+   "Rebet",
+   "2×",
+   "Deal"
+  ],
+  "stand": false,
+  "hit": false,
+  "deal": true,
+  "busy": false,
+  "hud": "Bankroll 1,150 Bet 0"
+ },
+ {
+  "f": "027_r20_after5.png",
+  "cards": [],
+  "cap": "",
+  "toast": "",
+  "grade": "✓\nStand · Hard 14 vs 6\n\nhard 14 vs 6: let the dealer risk busting.",
+  "pills": [
+   "Clear",
+   "Rebet",
+   "2×",
+   "Deal"
+  ],
+  "stand": false,
+  "hit": false,
+  "deal": true,
+  "busy": false,
+  "hud": "Bankroll 1,150 Bet 0"
+ },
+ {
+  "f": "028_r20_after6.png",
+  "cards": [],
+  "cap": "",
+  "toast": "",
+  "grade": "✓\nStand · Hard 14 vs 6\n\nhard 14 vs 6: let the dealer risk busting.",
+  "pills": [
+   "Clear",
+   "Rebet",
+   "2×",
+   "Deal"
+  ],
+  "stand": false,
+  "hit": false,
+  "deal": true,
+  "busy": false,
+  "hud": "Bankroll 1,150 Bet 0"
+ },
+ {
+  "f": "029_r20_after7.png",
+  "cards": [],
+  "cap": "",
+  "toast": "",
+  "grade": "✓\nStand · Hard 14 vs 6\n\nhard 14 vs 6: let the dealer risk busting.",
+  "pills": [
+   "Clear",
+   "Rebet",
+   "2×",
+   "Deal"
+  ],
+  "stand": false,
+  "hit": false,
+  "deal": true,
+  "busy": false,
+  "hud": "Bankroll 1,150 Bet 0"
+ }
+]

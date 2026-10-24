@@ -1,0 +1,2356 @@
+[
+ {
+  "f": "000_r0_bet.png",
+  "cards": [],
+  "cap": "",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Clear",
+   "Rebet",
+   "2×",
+   "Deal"
+  ],
+  "stand": false,
+  "hit": false,
+  "deal": true,
+  "busy": false,
+  "hud": "Bankroll 1,000 Bet 150"
+ },
+ {
+  "f": "001_r0_deal2900.png",
+  "cards": [
+   {
+    "r": "4",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "7",
+    "y": 345,
+    "up": false
+   },
+   {
+    "r": "6",
+    "y": 339,
+    "up": false
+   }
+  ],
+  "cap": "",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Clear",
+   "Rebet",
+   "2×",
+   "Deal"
+  ],
+  "stand": false,
+  "hit": false,
+  "deal": true,
+  "busy": true,
+  "hud": "Bankroll 850 Bet 150"
+ },
+ {
+  "f": "002_r0_deal3300.png",
+  "cards": [
+   {
+    "r": "4",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "7",
+    "y": 345,
+    "up": false
+   },
+   {
+    "r": "6",
+    "y": 422,
+    "up": false
+   }
+  ],
+  "cap": "",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Clear",
+   "Rebet",
+   "2×",
+   "Deal"
+  ],
+  "stand": false,
+  "hit": false,
+  "deal": true,
+  "busy": true,
+  "hud": "Bankroll 850 Bet 150"
+ },
+ {
+  "f": "003_r0_deal3700.png",
+  "cards": [
+   {
+    "r": "4",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "7",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "6",
+    "y": 425,
+    "up": false
+   }
+  ],
+  "cap": "",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Clear",
+   "Rebet",
+   "2×",
+   "Deal"
+  ],
+  "stand": false,
+  "hit": false,
+  "deal": true,
+  "busy": true,
+  "hud": "Bankroll 850 Bet 150"
+ },
+ {
+  "f": "004_r0_deal4100.png",
+  "cards": [
+   {
+    "r": "4",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "7",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "6",
+    "y": 425,
+    "up": false
+   },
+   {
+    "r": "Q",
+    "y": 340,
+    "up": false
+   }
+  ],
+  "cap": "",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Clear",
+   "Rebet",
+   "2×",
+   "Deal"
+  ],
+  "stand": false,
+  "hit": false,
+  "deal": true,
+  "busy": true,
+  "hud": "Bankroll 850 Bet 150"
+ },
+ {
+  "f": "005_r0_decision.png",
+  "cards": [
+   {
+    "r": "4",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "7",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "6",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "Q",
+    "y": 345,
+    "up": false
+   }
+  ],
+  "cap": "Hit or stand?",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Hit",
+   "Stand",
+   "Double",
+   "Surrender"
+  ],
+  "stand": true,
+  "hit": true,
+  "deal": false,
+  "busy": false,
+  "hud": "Bankroll 850 Bet 150"
+ },
+ {
+  "f": "006_r0_afterhit1.png",
+  "cards": [
+   {
+    "r": "4",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "7",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "6",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "Q",
+    "y": 345,
+    "up": false
+   },
+   {
+    "r": "K",
+    "y": 425,
+    "up": true
+   }
+  ],
+  "cap": "Hit or stand?",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Hit",
+   "Stand"
+  ],
+  "stand": true,
+  "hit": true,
+  "deal": false,
+  "busy": false,
+  "hud": "Bankroll 850 Bet 150"
+ },
+ {
+  "f": "007_r0_stand0.png",
+  "cards": [
+   {
+    "r": "4",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "7",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "6",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "Q",
+    "y": 345,
+    "up": false
+   },
+   {
+    "r": "K",
+    "y": 425,
+    "up": true
+   }
+  ],
+  "cap": "",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Hit",
+   "Stand"
+  ],
+  "stand": true,
+  "hit": true,
+  "deal": false,
+  "busy": true,
+  "hud": "Bankroll 850 Bet 150"
+ },
+ {
+  "f": "008_r0_stand1.png",
+  "cards": [
+   {
+    "r": "4",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "7",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "6",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "Q",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "K",
+    "y": 425,
+    "up": true
+   }
+  ],
+  "cap": "Dealer has 17.",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Hit",
+   "Stand"
+  ],
+  "stand": true,
+  "hit": true,
+  "deal": false,
+  "busy": true,
+  "hud": "Bankroll 850 Bet 150"
+ },
+ {
+  "f": "009_r0_stand2.png",
+  "cards": [
+   {
+    "r": "4",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "7",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "6",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "Q",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "K",
+    "y": 425,
+    "up": true
+   }
+  ],
+  "cap": "Dealer has 17.",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Hit",
+   "Stand"
+  ],
+  "stand": true,
+  "hit": true,
+  "deal": false,
+  "busy": true,
+  "hud": "Bankroll 850 Bet 150"
+ },
+ {
+  "f": "010_r0_stand3.png",
+  "cards": [
+   {
+    "r": "4",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "7",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "6",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "Q",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "K",
+    "y": 425,
+    "up": true
+   }
+  ],
+  "cap": "",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Hit",
+   "Stand"
+  ],
+  "stand": true,
+  "hit": true,
+  "deal": false,
+  "busy": true,
+  "hud": "Bankroll 850 Bet 150"
+ },
+ {
+  "f": "011_r0_stand4.png",
+  "cards": [
+   {
+    "r": "4",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "7",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "6",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "Q",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "K",
+    "y": 425,
+    "up": true
+   }
+  ],
+  "cap": "You win.",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Hit",
+   "Stand"
+  ],
+  "stand": true,
+  "hit": true,
+  "deal": false,
+  "busy": true,
+  "hud": "Bankroll 850 Bet 150"
+ },
+ {
+  "f": "012_r0_stand5.png",
+  "cards": [
+   {
+    "r": "4",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "7",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "6",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "Q",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "K",
+    "y": 425,
+    "up": true
+   }
+  ],
+  "cap": "",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Hit",
+   "Stand"
+  ],
+  "stand": true,
+  "hit": true,
+  "deal": false,
+  "busy": true,
+  "hud": "Bankroll 850 Bet 150"
+ },
+ {
+  "f": "013_r0_stand6.png",
+  "cards": [
+   {
+    "r": "4",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "7",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "6",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "Q",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "K",
+    "y": 425,
+    "up": true
+   }
+  ],
+  "cap": "",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Hit",
+   "Stand"
+  ],
+  "stand": true,
+  "hit": true,
+  "deal": false,
+  "busy": true,
+  "hud": "Bankroll 850 Bet 150"
+ },
+ {
+  "f": "014_r0_stand7.png",
+  "cards": [
+   {
+    "r": "4",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "7",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "6",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "Q",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "K",
+    "y": 425,
+    "up": true
+   }
+  ],
+  "cap": "",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Hit",
+   "Stand"
+  ],
+  "stand": true,
+  "hit": true,
+  "deal": false,
+  "busy": true,
+  "hud": "Bankroll 850 Bet 150"
+ },
+ {
+  "f": "015_r0_stand8.png",
+  "cards": [
+   {
+    "r": "4",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "7",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "6",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "Q",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "K",
+    "y": 425,
+    "up": true
+   }
+  ],
+  "cap": "",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Hit",
+   "Stand"
+  ],
+  "stand": true,
+  "hit": true,
+  "deal": false,
+  "busy": true,
+  "hud": "Bankroll 850 Bet 150"
+ },
+ {
+  "f": "016_r0_stand9.png",
+  "cards": [
+   {
+    "r": "4",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "7",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "6",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "Q",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "K",
+    "y": 425,
+    "up": true
+   }
+  ],
+  "cap": "",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Hit",
+   "Stand"
+  ],
+  "stand": true,
+  "hit": true,
+  "deal": false,
+  "busy": true,
+  "hud": "Bankroll 850 Bet 150"
+ },
+ {
+  "f": "017_r0_stand10.png",
+  "cards": [
+   {
+    "r": "4",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "7",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "6",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "Q",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "K",
+    "y": 425,
+    "up": true
+   }
+  ],
+  "cap": "",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Hit",
+   "Stand"
+  ],
+  "stand": true,
+  "hit": true,
+  "deal": false,
+  "busy": true,
+  "hud": "Bankroll 850 Bet 150"
+ },
+ {
+  "f": "018_r0_stand11.png",
+  "cards": [
+   {
+    "r": "4",
+    "y": 305,
+    "up": true
+   },
+   {
+    "r": "7",
+    "y": 304,
+    "up": true
+   },
+   {
+    "r": "6",
+    "y": 326,
+    "up": true
+   },
+   {
+    "r": "Q",
+    "y": 320,
+    "up": true
+   },
+   {
+    "r": "K",
+    "y": 389,
+    "up": true
+   }
+  ],
+  "cap": "",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Hit",
+   "Stand"
+  ],
+  "stand": true,
+  "hit": true,
+  "deal": false,
+  "busy": true,
+  "hud": "Bankroll 1,119 Bet 150"
+ },
+ {
+  "f": "019_r0_stand12.png",
+  "cards": [],
+  "cap": "Place your bets.",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Hit",
+   "Stand"
+  ],
+  "stand": true,
+  "hit": true,
+  "deal": false,
+  "busy": true,
+  "hud": "Bankroll 1,150 Bet 0"
+ },
+ {
+  "f": "020_r0_stand13.png",
+  "cards": [],
+  "cap": "",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Clear",
+   "Rebet",
+   "2×",
+   "Deal"
+  ],
+  "stand": false,
+  "hit": false,
+  "deal": true,
+  "busy": false,
+  "hud": "Bankroll 1,150 Bet 0"
+ },
+ {
+  "f": "021_r0_after0.png",
+  "cards": [],
+  "cap": "",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Clear",
+   "Rebet",
+   "2×",
+   "Deal"
+  ],
+  "stand": false,
+  "hit": false,
+  "deal": true,
+  "busy": false,
+  "hud": "Bankroll 1,150 Bet 0"
+ },
+ {
+  "f": "022_r0_after1.png",
+  "cards": [],
+  "cap": "",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Clear",
+   "Rebet",
+   "2×",
+   "Deal"
+  ],
+  "stand": false,
+  "hit": false,
+  "deal": true,
+  "busy": false,
+  "hud": "Bankroll 1,150 Bet 0"
+ },
+ {
+  "f": "023_r0_after2.png",
+  "cards": [],
+  "cap": "",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Clear",
+   "Rebet",
+   "2×",
+   "Deal"
+  ],
+  "stand": false,
+  "hit": false,
+  "deal": true,
+  "busy": false,
+  "hud": "Bankroll 1,150 Bet 0"
+ },
+ {
+  "f": "024_r0_after3.png",
+  "cards": [],
+  "cap": "",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Clear",
+   "Rebet",
+   "2×",
+   "Deal"
+  ],
+  "stand": false,
+  "hit": false,
+  "deal": true,
+  "busy": false,
+  "hud": "Bankroll 1,150 Bet 0"
+ },
+ {
+  "f": "025_r0_after4.png",
+  "cards": [],
+  "cap": "",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Clear",
+   "Rebet",
+   "2×",
+   "Deal"
+  ],
+  "stand": false,
+  "hit": false,
+  "deal": true,
+  "busy": false,
+  "hud": "Bankroll 1,150 Bet 0"
+ },
+ {
+  "f": "026_r0_after5.png",
+  "cards": [],
+  "cap": "",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Clear",
+   "Rebet",
+   "2×",
+   "Deal"
+  ],
+  "stand": false,
+  "hit": false,
+  "deal": true,
+  "busy": false,
+  "hud": "Bankroll 1,150 Bet 0"
+ },
+ {
+  "f": "027_r0_after6.png",
+  "cards": [],
+  "cap": "",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Clear",
+   "Rebet",
+   "2×",
+   "Deal"
+  ],
+  "stand": false,
+  "hit": false,
+  "deal": true,
+  "busy": false,
+  "hud": "Bankroll 1,150 Bet 0"
+ },
+ {
+  "f": "028_r0_after7.png",
+  "cards": [],
+  "cap": "",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Clear",
+   "Rebet",
+   "2×",
+   "Deal"
+  ],
+  "stand": false,
+  "hit": false,
+  "deal": true,
+  "busy": false,
+  "hud": "Bankroll 1,150 Bet 0"
+ },
+ {
+  "f": "029_r1_bet.png",
+  "cards": [],
+  "cap": "",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Clear",
+   "Rebet",
+   "2×",
+   "Deal"
+  ],
+  "stand": false,
+  "hit": false,
+  "deal": true,
+  "busy": false,
+  "hud": "Bankroll 1,000 Bet 150"
+ },
+ {
+  "f": "030_r1_deal2900.png",
+  "cards": [
+   {
+    "r": "J",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "K",
+    "y": 345,
+    "up": false
+   },
+   {
+    "r": "A",
+    "y": 339,
+    "up": false
+   }
+  ],
+  "cap": "",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Clear",
+   "Rebet",
+   "2×",
+   "Deal"
+  ],
+  "stand": false,
+  "hit": false,
+  "deal": true,
+  "busy": true,
+  "hud": "Bankroll 850 Bet 150"
+ },
+ {
+  "f": "031_r1_deal3300.png",
+  "cards": [
+   {
+    "r": "J",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "K",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "A",
+    "y": 424,
+    "up": false
+   }
+  ],
+  "cap": "",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Clear",
+   "Rebet",
+   "2×",
+   "Deal"
+  ],
+  "stand": false,
+  "hit": false,
+  "deal": true,
+  "busy": true,
+  "hud": "Bankroll 850 Bet 150"
+ },
+ {
+  "f": "032_r1_deal3700.png",
+  "cards": [
+   {
+    "r": "J",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "K",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "A",
+    "y": 425,
+    "up": false
+   }
+  ],
+  "cap": "",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Clear",
+   "Rebet",
+   "2×",
+   "Deal"
+  ],
+  "stand": false,
+  "hit": false,
+  "deal": true,
+  "busy": true,
+  "hud": "Bankroll 850 Bet 150"
+ },
+ {
+  "f": "033_r1_deal4100.png",
+  "cards": [
+   {
+    "r": "J",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "K",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "A",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "6",
+    "y": 345,
+    "up": false
+   }
+  ],
+  "cap": "",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Clear",
+   "Rebet",
+   "2×",
+   "Deal"
+  ],
+  "stand": false,
+  "hit": false,
+  "deal": true,
+  "busy": true,
+  "hud": "Bankroll 850 Bet 150"
+ },
+ {
+  "f": "034_r1_stand0.png",
+  "cards": [],
+  "cap": "",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Clear",
+   "Rebet",
+   "2×",
+   "Deal"
+  ],
+  "stand": false,
+  "hit": false,
+  "deal": true,
+  "busy": false,
+  "hud": "Bankroll 1,225 Bet 0"
+ },
+ {
+  "f": "035_r1_stand1.png",
+  "cards": [],
+  "cap": "",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Clear",
+   "Rebet",
+   "2×",
+   "Deal"
+  ],
+  "stand": false,
+  "hit": false,
+  "deal": true,
+  "busy": false,
+  "hud": "Bankroll 1,225 Bet 0"
+ },
+ {
+  "f": "036_r1_stand2.png",
+  "cards": [],
+  "cap": "",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Clear",
+   "Rebet",
+   "2×",
+   "Deal"
+  ],
+  "stand": false,
+  "hit": false,
+  "deal": true,
+  "busy": false,
+  "hud": "Bankroll 1,225 Bet 0"
+ },
+ {
+  "f": "037_r1_stand3.png",
+  "cards": [],
+  "cap": "",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Clear",
+   "Rebet",
+   "2×",
+   "Deal"
+  ],
+  "stand": false,
+  "hit": false,
+  "deal": true,
+  "busy": false,
+  "hud": "Bankroll 1,225 Bet 0"
+ },
+ {
+  "f": "038_r1_stand4.png",
+  "cards": [],
+  "cap": "",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Clear",
+   "Rebet",
+   "2×",
+   "Deal"
+  ],
+  "stand": false,
+  "hit": false,
+  "deal": true,
+  "busy": false,
+  "hud": "Bankroll 1,225 Bet 0"
+ },
+ {
+  "f": "039_r1_stand5.png",
+  "cards": [],
+  "cap": "",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Clear",
+   "Rebet",
+   "2×",
+   "Deal"
+  ],
+  "stand": false,
+  "hit": false,
+  "deal": true,
+  "busy": false,
+  "hud": "Bankroll 1,225 Bet 0"
+ },
+ {
+  "f": "040_r1_stand6.png",
+  "cards": [],
+  "cap": "",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Clear",
+   "Rebet",
+   "2×",
+   "Deal"
+  ],
+  "stand": false,
+  "hit": false,
+  "deal": true,
+  "busy": false,
+  "hud": "Bankroll 1,225 Bet 0"
+ },
+ {
+  "f": "041_r1_stand7.png",
+  "cards": [],
+  "cap": "",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Clear",
+   "Rebet",
+   "2×",
+   "Deal"
+  ],
+  "stand": false,
+  "hit": false,
+  "deal": true,
+  "busy": false,
+  "hud": "Bankroll 1,225 Bet 0"
+ },
+ {
+  "f": "042_r1_after0.png",
+  "cards": [],
+  "cap": "",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Clear",
+   "Rebet",
+   "2×",
+   "Deal"
+  ],
+  "stand": false,
+  "hit": false,
+  "deal": true,
+  "busy": false,
+  "hud": "Bankroll 1,225 Bet 0"
+ },
+ {
+  "f": "043_r1_after1.png",
+  "cards": [],
+  "cap": "",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Clear",
+   "Rebet",
+   "2×",
+   "Deal"
+  ],
+  "stand": false,
+  "hit": false,
+  "deal": true,
+  "busy": false,
+  "hud": "Bankroll 1,225 Bet 0"
+ },
+ {
+  "f": "044_r1_after2.png",
+  "cards": [],
+  "cap": "",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Clear",
+   "Rebet",
+   "2×",
+   "Deal"
+  ],
+  "stand": false,
+  "hit": false,
+  "deal": true,
+  "busy": false,
+  "hud": "Bankroll 1,225 Bet 0"
+ },
+ {
+  "f": "045_r1_after3.png",
+  "cards": [],
+  "cap": "",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Clear",
+   "Rebet",
+   "2×",
+   "Deal"
+  ],
+  "stand": false,
+  "hit": false,
+  "deal": true,
+  "busy": false,
+  "hud": "Bankroll 1,225 Bet 0"
+ },
+ {
+  "f": "046_r1_after4.png",
+  "cards": [],
+  "cap": "",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Clear",
+   "Rebet",
+   "2×",
+   "Deal"
+  ],
+  "stand": false,
+  "hit": false,
+  "deal": true,
+  "busy": false,
+  "hud": "Bankroll 1,225 Bet 0"
+ },
+ {
+  "f": "047_r1_after5.png",
+  "cards": [],
+  "cap": "",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Clear",
+   "Rebet",
+   "2×",
+   "Deal"
+  ],
+  "stand": false,
+  "hit": false,
+  "deal": true,
+  "busy": false,
+  "hud": "Bankroll 1,225 Bet 0"
+ },
+ {
+  "f": "048_r1_after6.png",
+  "cards": [],
+  "cap": "",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Clear",
+   "Rebet",
+   "2×",
+   "Deal"
+  ],
+  "stand": false,
+  "hit": false,
+  "deal": true,
+  "busy": false,
+  "hud": "Bankroll 1,225 Bet 0"
+ },
+ {
+  "f": "049_r1_after7.png",
+  "cards": [],
+  "cap": "",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Clear",
+   "Rebet",
+   "2×",
+   "Deal"
+  ],
+  "stand": false,
+  "hit": false,
+  "deal": true,
+  "busy": false,
+  "hud": "Bankroll 1,225 Bet 0"
+ },
+ {
+  "f": "050_r2_bet.png",
+  "cards": [],
+  "cap": "",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Clear",
+   "Rebet",
+   "2×",
+   "Deal"
+  ],
+  "stand": false,
+  "hit": false,
+  "deal": true,
+  "busy": false,
+  "hud": "Bankroll 1,000 Bet 150"
+ },
+ {
+  "f": "051_r2_deal2900.png",
+  "cards": [
+   {
+    "r": "10",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "3",
+    "y": 345,
+    "up": false
+   },
+   {
+    "r": "3",
+    "y": 339,
+    "up": false
+   }
+  ],
+  "cap": "",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Clear",
+   "Rebet",
+   "2×",
+   "Deal"
+  ],
+  "stand": false,
+  "hit": false,
+  "deal": true,
+  "busy": true,
+  "hud": "Bankroll 850 Bet 150"
+ },
+ {
+  "f": "052_r2_deal3300.png",
+  "cards": [
+   {
+    "r": "10",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "3",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "3",
+    "y": 423,
+    "up": false
+   }
+  ],
+  "cap": "",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Clear",
+   "Rebet",
+   "2×",
+   "Deal"
+  ],
+  "stand": false,
+  "hit": false,
+  "deal": true,
+  "busy": true,
+  "hud": "Bankroll 850 Bet 150"
+ },
+ {
+  "f": "053_r2_deal3700.png",
+  "cards": [
+   {
+    "r": "10",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "3",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "3",
+    "y": 425,
+    "up": false
+   }
+  ],
+  "cap": "",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Clear",
+   "Rebet",
+   "2×",
+   "Deal"
+  ],
+  "stand": false,
+  "hit": false,
+  "deal": true,
+  "busy": true,
+  "hud": "Bankroll 850 Bet 150"
+ },
+ {
+  "f": "054_r2_deal4100.png",
+  "cards": [
+   {
+    "r": "10",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "3",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "3",
+    "y": 425,
+    "up": false
+   },
+   {
+    "r": "5",
+    "y": 340,
+    "up": false
+   }
+  ],
+  "cap": "",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Clear",
+   "Rebet",
+   "2×",
+   "Deal"
+  ],
+  "stand": false,
+  "hit": false,
+  "deal": true,
+  "busy": true,
+  "hud": "Bankroll 850 Bet 150"
+ },
+ {
+  "f": "055_r2_decision.png",
+  "cards": [
+   {
+    "r": "10",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "3",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "3",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "5",
+    "y": 345,
+    "up": false
+   }
+  ],
+  "cap": "Hit or stand?",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Hit",
+   "Stand",
+   "Double",
+   "Surrender"
+  ],
+  "stand": true,
+  "hit": true,
+  "deal": false,
+  "busy": false,
+  "hud": "Bankroll 850 Bet 150"
+ },
+ {
+  "f": "056_r2_stand0.png",
+  "cards": [
+   {
+    "r": "10",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "3",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "3",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "5",
+    "y": 345,
+    "up": false
+   }
+  ],
+  "cap": "",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Hit",
+   "Stand",
+   "Double",
+   "Surrender"
+  ],
+  "stand": true,
+  "hit": true,
+  "deal": false,
+  "busy": true,
+  "hud": "Bankroll 850 Bet 150"
+ },
+ {
+  "f": "057_r2_stand1.png",
+  "cards": [
+   {
+    "r": "10",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "3",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "3",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "5",
+    "y": 345,
+    "up": false
+   },
+   {
+    "r": "8",
+    "y": 345,
+    "up": false
+   }
+  ],
+  "cap": "",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Hit",
+   "Stand",
+   "Double",
+   "Surrender"
+  ],
+  "stand": true,
+  "hit": true,
+  "deal": false,
+  "busy": true,
+  "hud": "Bankroll 850 Bet 150"
+ },
+ {
+  "f": "058_r2_stand2.png",
+  "cards": [
+   {
+    "r": "10",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "3",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "3",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "5",
+    "y": 345,
+    "up": false
+   },
+   {
+    "r": "8",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "3",
+    "y": 345,
+    "up": false
+   }
+  ],
+  "cap": "",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Hit",
+   "Stand",
+   "Double",
+   "Surrender"
+  ],
+  "stand": true,
+  "hit": true,
+  "deal": false,
+  "busy": true,
+  "hud": "Bankroll 850 Bet 150"
+ },
+ {
+  "f": "059_r2_stand3.png",
+  "cards": [
+   {
+    "r": "10",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "3",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "3",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "5",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "8",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "3",
+    "y": 345,
+    "up": true
+   }
+  ],
+  "cap": "",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Hit",
+   "Stand",
+   "Double",
+   "Surrender"
+  ],
+  "stand": true,
+  "hit": true,
+  "deal": false,
+  "busy": true,
+  "hud": "Bankroll 850 Bet 150"
+ },
+ {
+  "f": "060_r2_stand4.png",
+  "cards": [
+   {
+    "r": "10",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "3",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "3",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "5",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "8",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "3",
+    "y": 345,
+    "up": true
+   }
+  ],
+  "cap": "Dealer hits.",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Hit",
+   "Stand",
+   "Double",
+   "Surrender"
+  ],
+  "stand": true,
+  "hit": true,
+  "deal": false,
+  "busy": true,
+  "hud": "Bankroll 850 Bet 150"
+ },
+ {
+  "f": "061_r2_stand5.png",
+  "cards": [
+   {
+    "r": "10",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "3",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "3",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "5",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "8",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "3",
+    "y": 345,
+    "up": true
+   }
+  ],
+  "cap": "",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Hit",
+   "Stand",
+   "Double",
+   "Surrender"
+  ],
+  "stand": true,
+  "hit": true,
+  "deal": false,
+  "busy": true,
+  "hud": "Bankroll 850 Bet 150"
+ },
+ {
+  "f": "062_r2_stand6.png",
+  "cards": [
+   {
+    "r": "10",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "3",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "3",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "5",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "8",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "3",
+    "y": 345,
+    "up": true
+   }
+  ],
+  "cap": "",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Hit",
+   "Stand",
+   "Double",
+   "Surrender"
+  ],
+  "stand": true,
+  "hit": true,
+  "deal": false,
+  "busy": true,
+  "hud": "Bankroll 850 Bet 150"
+ },
+ {
+  "f": "063_r2_stand7.png",
+  "cards": [
+   {
+    "r": "10",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "3",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "3",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "5",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "8",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "3",
+    "y": 345,
+    "up": true
+   }
+  ],
+  "cap": "Dealer has 19.",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Hit",
+   "Stand",
+   "Double",
+   "Surrender"
+  ],
+  "stand": true,
+  "hit": true,
+  "deal": false,
+  "busy": true,
+  "hud": "Bankroll 850 Bet 150"
+ },
+ {
+  "f": "064_r2_stand8.png",
+  "cards": [
+   {
+    "r": "10",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "3",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "3",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "5",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "8",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "3",
+    "y": 345,
+    "up": true
+   }
+  ],
+  "cap": "Dealer stands.",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Hit",
+   "Stand",
+   "Double",
+   "Surrender"
+  ],
+  "stand": true,
+  "hit": true,
+  "deal": false,
+  "busy": true,
+  "hud": "Bankroll 850 Bet 150"
+ },
+ {
+  "f": "065_r2_stand9.png",
+  "cards": [
+   {
+    "r": "10",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "3",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "3",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "5",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "8",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "3",
+    "y": 345,
+    "up": true
+   }
+  ],
+  "cap": "Dealer wins.",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Hit",
+   "Stand",
+   "Double",
+   "Surrender"
+  ],
+  "stand": true,
+  "hit": true,
+  "deal": false,
+  "busy": true,
+  "hud": "Bankroll 850 Bet 150"
+ },
+ {
+  "f": "066_r2_stand10.png",
+  "cards": [
+   {
+    "r": "10",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "3",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "3",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "5",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "8",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "3",
+    "y": 345,
+    "up": true
+   }
+  ],
+  "cap": "Dealer wins.",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Hit",
+   "Stand",
+   "Double",
+   "Surrender"
+  ],
+  "stand": true,
+  "hit": true,
+  "deal": false,
+  "busy": true,
+  "hud": "Bankroll 850 Bet 150"
+ },
+ {
+  "f": "067_r2_stand11.png",
+  "cards": [
+   {
+    "r": "10",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "3",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "3",
+    "y": 425,
+    "up": true
+   },
+   {
+    "r": "5",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "8",
+    "y": 345,
+    "up": true
+   },
+   {
+    "r": "3",
+    "y": 345,
+    "up": true
+   }
+  ],
+  "cap": "",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Hit",
+   "Stand",
+   "Double",
+   "Surrender"
+  ],
+  "stand": true,
+  "hit": true,
+  "deal": false,
+  "busy": true,
+  "hud": "Bankroll 850 Bet 150"
+ },
+ {
+  "f": "068_r2_stand12.png",
+  "cards": [
+   {
+    "r": "5",
+    "y": 300,
+    "up": true
+   },
+   {
+    "r": "8",
+    "y": 300,
+    "up": true
+   },
+   {
+    "r": "3",
+    "y": 301,
+    "up": true
+   }
+  ],
+  "cap": "",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Hit",
+   "Stand",
+   "Double",
+   "Surrender"
+  ],
+  "stand": true,
+  "hit": true,
+  "deal": false,
+  "busy": true,
+  "hud": "Bankroll 850 Bet 150"
+ },
+ {
+  "f": "069_r2_stand13.png",
+  "cards": [],
+  "cap": "Place your bets.",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Hit",
+   "Stand",
+   "Double",
+   "Surrender"
+  ],
+  "stand": true,
+  "hit": true,
+  "deal": false,
+  "busy": true,
+  "hud": "Bankroll 850 Bet 0"
+ },
+ {
+  "f": "070_r2_stand14.png",
+  "cards": [],
+  "cap": "",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Clear",
+   "Rebet",
+   "2×",
+   "Deal"
+  ],
+  "stand": false,
+  "hit": false,
+  "deal": true,
+  "busy": false,
+  "hud": "Bankroll 850 Bet 0"
+ },
+ {
+  "f": "071_r2_after0.png",
+  "cards": [],
+  "cap": "",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Clear",
+   "Rebet",
+   "2×",
+   "Deal"
+  ],
+  "stand": false,
+  "hit": false,
+  "deal": true,
+  "busy": false,
+  "hud": "Bankroll 850 Bet 0"
+ },
+ {
+  "f": "072_r2_after1.png",
+  "cards": [],
+  "cap": "",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Clear",
+   "Rebet",
+   "2×",
+   "Deal"
+  ],
+  "stand": false,
+  "hit": false,
+  "deal": true,
+  "busy": false,
+  "hud": "Bankroll 850 Bet 0"
+ },
+ {
+  "f": "073_r2_after2.png",
+  "cards": [],
+  "cap": "",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Clear",
+   "Rebet",
+   "2×",
+   "Deal"
+  ],
+  "stand": false,
+  "hit": false,
+  "deal": true,
+  "busy": false,
+  "hud": "Bankroll 850 Bet 0"
+ },
+ {
+  "f": "074_r2_after3.png",
+  "cards": [],
+  "cap": "",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Clear",
+   "Rebet",
+   "2×",
+   "Deal"
+  ],
+  "stand": false,
+  "hit": false,
+  "deal": true,
+  "busy": false,
+  "hud": "Bankroll 850 Bet 0"
+ },
+ {
+  "f": "075_r2_after4.png",
+  "cards": [],
+  "cap": "",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Clear",
+   "Rebet",
+   "2×",
+   "Deal"
+  ],
+  "stand": false,
+  "hit": false,
+  "deal": true,
+  "busy": false,
+  "hud": "Bankroll 850 Bet 0"
+ },
+ {
+  "f": "076_r2_after5.png",
+  "cards": [],
+  "cap": "",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Clear",
+   "Rebet",
+   "2×",
+   "Deal"
+  ],
+  "stand": false,
+  "hit": false,
+  "deal": true,
+  "busy": false,
+  "hud": "Bankroll 850 Bet 0"
+ },
+ {
+  "f": "077_r2_after6.png",
+  "cards": [],
+  "cap": "",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Clear",
+   "Rebet",
+   "2×",
+   "Deal"
+  ],
+  "stand": false,
+  "hit": false,
+  "deal": true,
+  "busy": false,
+  "hud": "Bankroll 850 Bet 0"
+ },
+ {
+  "f": "078_r2_after7.png",
+  "cards": [],
+  "cap": "",
+  "toast": "",
+  "grade": "",
+  "pills": [
+   "Clear",
+   "Rebet",
+   "2×",
+   "Deal"
+  ],
+  "stand": false,
+  "hit": false,
+  "deal": true,
+  "busy": false,
+  "hud": "Bankroll 850 Bet 0"
+ }
+]
