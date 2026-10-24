@@ -4,5 +4,5 @@
         <item name="android:statusBarColor">@color/felt</item>
         <item name="android:navigationBarColor">@color/felt</item>
     </style>
-    <color name="felt">#0B3D23</color>
+    <color name="felt">#073D22</color>
 </resources>

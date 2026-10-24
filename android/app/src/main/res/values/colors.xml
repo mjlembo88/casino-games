@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Casino Kit tokens. Names are new so they never clash with @color/felt in values/styles.xml. -->
+<resources>
+    <color name="kit_felt_deep">#073D22</color>
+    <color name="kit_felt_base">#0B5D34</color>
+    <color name="kit_felt_light">#14804A</color>
+    <color name="kit_gold">#F2C14E</color>
+</resources>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="108" height="108" viewBox="0 0 108 108"><defs>
+<radialGradient id="felt" cx="50%" cy="35%" r="75%"><stop offset="0" stop-color="#14804a"/>
+<stop offset=".55" stop-color="#0b5d34"/><stop offset="1" stop-color="#073d22"/></radialGradient>
+<radialGradient id="vig" cx="50%" cy="50%" r="72%"><stop offset=".55" stop-color="#000" stop-opacity="0"/>
+<stop offset="1" stop-color="#000" stop-opacity=".55"/></radialGradient>
+<radialGradient id="lamp" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#ffe6b4" stop-opacity=".22"/>
+<stop offset="1" stop-color="#ffe6b4" stop-opacity="0"/></radialGradient>
+<linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fffdf7"/>
+<stop offset="1" stop-color="#f7f3ea"/></linearGradient>
+<linearGradient id="goldG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffe08a"/>
+<stop offset=".5" stop-color="#f2c14e"/><stop offset="1" stop-color="#c89527"/></linearGradient>
+<radialGradient id="chipG" cx="35%" cy="30%" r="80%"><stop offset="0" stop-color="#e8394f"/>
+<stop offset=".6" stop-color="#c8102e"/><stop offset="1" stop-color="#8a0d22"/></radialGradient>
+<radialGradient id="sheen" cx="30%" cy="25%" r="60%"><stop offset="0" stop-color="#fff" stop-opacity=".35"/>
+<stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+</defs><rect width="108" height="108" fill="url(#felt)"/><ellipse cx="54" cy="34" rx="46" ry="30" fill="url(#lamp)"/><rect width="108" height="108" fill="url(#vig)" opacity=".8"/></svg>

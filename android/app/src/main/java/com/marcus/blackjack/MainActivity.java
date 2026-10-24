@@ -28,7 +28,7 @@ public class MainActivity extends Activity {
         super.onCreate(state);
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
         web = new WebView(this);
-        web.setBackgroundColor(Color.parseColor("#0b3d23"));
+        web.setBackgroundColor(Color.parseColor("#073d22"));
         setContentView(web);
         goFullscreen();
 

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Android 12+ system splash. Same style name as values/styles.xml so it overrides on API 31+. -->
+<resources>
+    <style name="Fullscreen" parent="android:Theme.Material.NoActionBar.Fullscreen">
+        <item name="android:windowBackground">@color/kit_felt_deep</item>
+        <item name="android:statusBarColor">@color/kit_felt_deep</item>
+        <item name="android:navigationBarColor">@color/kit_felt_deep</item>
+        <item name="android:windowSplashScreenBackground">@color/kit_felt_deep</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/splash_icon</item>
+    </style>
+</resources>
