@@ -11,4 +11,4 @@ Paste each file as ONE message, in this order, waiting for Grok to be fully idle
 Training (4-5) can go in the same session right after the first build; it doesn't block the first playable build.
 Engine size: blackjack.ts 19,539 chars + strategy.ts 9,770 chars, so it's split across 3 code messages, each under 12k characters.
 After 00b, ask Grok "show me the last 20 lines of engine.ts" to confirm it was appended verbatim.
-Publish as `casino-blackjack` → https://casino-blackjack.grok.me, which is the APK's start URL. If it publishes under another name, change `START_URL` in android/MainActivity.java and rebuild.
+Publish as `casino-blackjack` → https://marcus-casino-blackjack.grok.me, which is the APK's start URL. If it publishes under another name, change `START_URL` in android/MainActivity.java and rebuild.

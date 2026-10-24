@@ -19,7 +19,7 @@ import android.webkit.WebViewClient;
 /** Thin WebView shell around the published Grok Build app. Play money only. */
 public class MainActivity extends Activity {
     /** The ONLY place the app URL lives. Change it here and rebuild. */
-    public static final String START_URL = "https://casino-blackjack.grok.me";
+    public static final String START_URL = "https://marcus-casino-blackjack.grok.me";
 
     private WebView web;
 
